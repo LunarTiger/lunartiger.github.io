@@ -2,7 +2,7 @@
 	<h2>Please stand by while this is being configured</h2>
 	<hr />
 	<h3>About</h3>
-	<h5>Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</h5>
+	<h4>Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</h4>
 	<hr />
 	<h3>Get a Hold of Me</h3>
 	<ul>
