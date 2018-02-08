@@ -1,5 +1,6 @@
 <ul>
 	<h2>Please stand by while this is being configured</h2>
+	<hr />
 	<h3>Get ahold of me</h3>
 	<ul>
 		<li><a href="https://discord.gg/689TtFY">Discord</a></li>
