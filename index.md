@@ -1,7 +1,7 @@
 <p>
 	<h2>Please stand by while this is being configured</h2>
 	<hr />
-	<h3>Get a hold of me</h3>
+	<h3>Get a Hold of Me</h3>
 	<ul>
 		<li><a href="https://discord.gg/689TtFY">Discord</a></li>
 		<li><a href="tel:+15406926899">Phone</a>: 540-692-6899</li>
