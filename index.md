@@ -1,6 +1,4 @@
 <p>
-	<img src="https://lunartiger.github.io/home/img/me.jpg" alt="Ryan" height="315" width="315"/>
-	<hr />
 	<h3>About</h3>
 	<p><font color="#b4e754">Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</font></p>
 	<hr />
