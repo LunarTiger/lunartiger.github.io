@@ -3,7 +3,7 @@
 	<h3 id="about">About</h3>
 	<p><font color="#b4e754">Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</font></p>
 	<hr /><br>
-	<a id="contact"></a><h3>Get a Hold of Me</h3>
+	<h3 id="contact">Get a Hold of Me</h3>
 	<ul>
 		<li><a href="https://discord.gg/689TtFY" target="_blank" style="color:#0ac139">Discord</a></li><hr style="height:1px; visibility:hidden;" />
 		<li><a href="mailto:lunartiger@live.com" target="_top" style="color:#0ac139">E-mail:</a><font color="#b4e754"> lunartiger@live.com</font></li><hr style="height:1px; visibility:hidden;" />
@@ -13,7 +13,7 @@
 		<li><a href="http://steamcommunity.com/id/lunartiger" target="_blank" style="color:#0ac139">Steam</a></li>
 	</ul>
 	<hr /><br>
-	<a id="projects"></a><h3>My Projects</h3>
+	<h3 id="projects">My Projects</h3>
 	<ul>
 		<li><a href="https://lunartiger.github.io/AltspaceVR/"  style="color:#0ac139">Altspace Scripts</a></li>
 	</ul>
