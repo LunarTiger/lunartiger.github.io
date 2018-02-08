@@ -15,6 +15,6 @@
 	<hr /><br>
 	<a id="projects"></a><h3>My Projects</h3>
 	<ul>
-		<li><a href="https://lunartiger.github.io/AltspaceVR/">Altspace Scripts</a></li>
+		<li><a href="https://lunartiger.github.io/AltspaceVR/"  style="color:#0ac139">Altspace Scripts</a></li>
 	</ul>
 </p>
