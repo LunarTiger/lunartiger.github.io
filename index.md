@@ -1,5 +1,5 @@
-<h1>Please stand by while this is being configured</h1>
 <ul>
+	<h1>Please stand by while this is being configured</h1>
 	<h3>Campfire Master</h3>
 		<ul><li><a href="https://lunartiger.github.io/AltspaceVR/campfire_master.html">https://lunartiger.github.io/AltspaceVR/campfire_master.html</a></li></ul>
 	<h3>Home Portals</h3>
