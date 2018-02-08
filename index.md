@@ -1,4 +1,5 @@
 <!--<ul>-->
+<!DOCTYPE html>
 	<h2>Please stand by while this is being configured</h2>
 	<hr />
 	<h3>Get ahold of me</h3>
