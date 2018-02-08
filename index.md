@@ -1,47 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-<!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Lunar’s Homepage | This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall.</title>
-<meta property="og:title" content="Lunar’s Homepage" />
-<meta name="author" content="Ryan Fowler-Hughes" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall." />
-<meta property="og:description" content="This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall." />
-<link rel="canonical" href="https://lunartiger.github.io/home/" />
-<meta property="og:url" content="https://lunartiger.github.io/home/" />
-<meta property="og:site_name" content="Lunar’s Homepage" />
-<script type="application/ld+json">
-{"name":"Lunar’s Homepage","description":"This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall.","author":{"@type":"Person","name":"Ryan Fowler-Hughes"},"@type":"WebSite","url":"https://lunartiger.github.io/home/","image":null,"publisher":null,"headline":"Lunar’s Homepage","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-    <link rel="stylesheet" href="/home/assets/css/style.css?v=e8cbf552608610b2d0a38b3d17d617502e675cee">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Lunar's Homepage</h1>
-        <p>This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall.<br><img src="https://lunartiger.github.io/home/img/me.jpg" alt="Ryan" /></p>
-
-        
-          <p class="view"><a href="https://github.com/LunarTiger/home">View the Project on GitHub <small></small></a></p>
-        
-
-        
-
-        
-      </header>
-      <section>
-
-      <ul>
+<ul>
 	<h2>Please stand by while this is being configured</h2>
 	<h3>Get ahold of me</h3>
 	<ul>
@@ -53,19 +10,3 @@
 		<li><a href="https://lunartiger.github.io/AltspaceVR/">Altspace Scripts</a></li>
 	</ul>
 </ul>
-
-
-      </section>
-      <footer>
-        
-        <p>This project is maintained by <a href="https://github.com/LunarTiger">LunarTiger</a></p>
-        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="/home/assets/js/scale.fix.js"></script>
-
-
-  
-  </body>
-</html>
