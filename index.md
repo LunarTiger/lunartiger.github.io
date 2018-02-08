@@ -1,4 +1,5 @@
 <!--<ul>-->
+<p>
 	<h2>Please stand by while this is being configured</h2>
 	<hr />
 	<h3>Get ahold of me</h3>
@@ -10,4 +11,5 @@
 	<ul>
 		<li><a href="https://lunartiger.github.io/AltspaceVR/">Altspace Scripts</a></li>
 	</ul>
+</p>
 <!--</ul>-->
