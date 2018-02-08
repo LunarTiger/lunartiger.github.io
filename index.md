@@ -1,5 +1,5 @@
 <p>
-	<h3>Please stand by while this is being configured</h3>
+	<h2>Please stand by while this is being configured</h2>
 	<h3>About</h3>
 	<p>This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall.</p>
 	<hr />
