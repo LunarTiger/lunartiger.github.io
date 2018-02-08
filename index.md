@@ -5,8 +5,8 @@
 	<hr /><br>
 	<h3>Get a Hold of Me</h3>
 	<ul>
-		<li><a href="https://discord.gg/689TtFY" target="_blank">Discord</a></li><hr style="height:10px; visibility:hidden;" />
-		<li><a href="mailto:lunartiger@live.com" target="_top">E-mail:</a><font color="#b4e754"> lunartiger@live.com</font></li><hr style="height:10px; visibility:hidden;" />
+		<li><a href="https://discord.gg/689TtFY" target="_blank">Discord</a></li><hr style="height:5px; visibility:hidden;" />
+		<li><a href="mailto:lunartiger@live.com" target="_top">E-mail:</a><font color="#b4e754"> lunartiger@live.com</font></li><hr style="height:5px; visibility:hidden;" />
 		<li><a href="https://www.facebook.com/lunartiger" target="_blank">Facebook</a></li>
 		<li><a href="tel:+15406926899">Phone:</a><font color="#b4e754"> 540-692-6899</font></li>
 		<li><a href="https://www.snapchat.com/add/dat1gui69" target="_blank">Snapchat</a></li>
