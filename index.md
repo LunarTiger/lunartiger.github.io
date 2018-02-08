@@ -7,6 +7,7 @@
 	<h3>Get a Hold of Me</h3>
 	<ul>
 		<li><a href="https://discord.gg/689TtFY" target="_blank">Discord</a></li>
+		<li><a href="mailto:lunartiger@live.com" target="_top">E-mail</a></li>
 		<li><a href="https://www.facebook.com/lunartiger" target="_blank">Facebook</a></li>
 		<li><a href="tel:+15406926899">Phone:</a> 540-692-6899</li>
 		<li><a href="https://www.snapchat.com/add/dat1gui69" target="_blank">Snapchat</a></li>
