@@ -7,7 +7,7 @@
 	<ul>
 		<li><a href="https://discord.gg/689TtFY" target="_blank">Discord</a></li>
 		<li><a href="https://www.facebook.com/lunartiger" target="_blank">Facebook</a></li>
-		<li><a href="tel:+15406926899">Phone</a>: 540-692-6899</li>
+		<li><a href="tel:+15406926899">Phone:</a> 540-692-6899</li>
 		<li><a href="http://steamcommunity.com/id/lunartiger" target="_blank">Steam</a></li>
 	</ul>
 	<h3>My Projects</h3>
