@@ -1,4 +1,6 @@
 <p>
+	<img src="https://lunartiger.github.io/home/img/me.jpg" alt="Ryan" height="315" width="315"/>
+	<hr />
 	<h2>Please stand by while this is being configured</h2>
 	<hr />
 	<h3>About</h3>
