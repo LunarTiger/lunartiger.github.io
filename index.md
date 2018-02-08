@@ -3,6 +3,7 @@
 	<hr />
 	<h3>About</h3>
 	<p>This is the homepage of Ryan Fowler-Hughes, aka Lunar. Ryan was born on July 2, 1992 and is 5ft 10in (approx. 177 cm) tall.</p>
+	<hr />
 	<h3>Get a Hold of Me</h3>
 	<ul>
 		<li><a href="https://discord.gg/689TtFY" target="_blank">Discord</a></li>
