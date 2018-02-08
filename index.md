@@ -1,10 +1,8 @@
 <p>
 	<img src="https://lunartiger.github.io/home/img/me.jpg" alt="Ryan" height="315" width="315"/>
 	<hr />
-	<h2>Please stand by while this is being configured</h2>
-	<hr />
 	<h3>About</h3>
-	<p><font color="#0ac139">Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</font></p>
+	<p><font color="#b4e754">Hi, I'm Ryan Fowler-Hughes, aka Lunar. I was born on July 2, 1992 and am 5ft 10in (approx. 177 cm) tall.</font></p>
 	<hr />
 	<h3>Get a Hold of Me</h3>
 	<ul>
