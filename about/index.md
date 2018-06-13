@@ -15,4 +15,3 @@
     <li>Thousands of Compost Worms</li>
   </ul>
 </ul>
-<footer><p><a href="/">Home</a></p></footer>
