@@ -1,4 +1,4 @@
-<h2 id="projects">My Projects</h2>
+<h2 id="projects">Projects</h2>
   <p><a href="http://gg.gg/worms">Worms Live Stream</a></p><hr style="height:1px; visibility:hidden;" />
   <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
   <p><a href="https://account.altvr.com/worlds/954689156213113037">Altspace World</a></p><hr style="height:1px; visibility:hidden;" />

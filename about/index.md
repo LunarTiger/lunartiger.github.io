@@ -1,4 +1,4 @@
-<h2 id="about">About</h2>
+<h2 id="about">About Me</h2>
 <hr style="height:1px; visibility:hidden;" />
 <img src="/img/me.jpg" alt="Ryan" height="315" width="315"/>
 <hr style="height:1px; visibility:hidden;" />
