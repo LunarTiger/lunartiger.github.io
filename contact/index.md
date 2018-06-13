@@ -16,3 +16,4 @@
   <li>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank">@LunarTiger69</a></li><hr style="height:1px; visibility:hidden;" />
   <li>YouTube:&nbsp;&nbsp;<a href="https://www.youtube.com/user/69lunartiger" target="_blank">Ryan Fowler-Hughes</a></li>
 </ul>
+<footer><p><a href="/">Home</a></p></footer>

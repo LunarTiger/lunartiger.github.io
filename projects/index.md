@@ -8,3 +8,4 @@
   <li><a href='/Discord'>Discord Add-Ons</a></li>
 </ul>
 <div style="text-align:right"><small><a href="#top" style="text-decoration:none">To Top</a></small></div>
+<footer><p><a href="/">Home</a></p></footer>
