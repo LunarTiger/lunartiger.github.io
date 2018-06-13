@@ -5,7 +5,7 @@
 <p><a id="addin" target="_blank">Test Link</a></p>
 
 <script type="text/javascript">
-	document.getElementById('addin').href=window.location.origin+window.location.hash;
+	document.getElementById('addin').href=window.location.origin+'/'+window.location.hash;
 	if(window.location.hash=="about"){
 		window.location=window.location.origin+'/about';
 	}
