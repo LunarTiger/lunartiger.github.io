@@ -1,4 +1,4 @@
-<img src="https://lunartiger.github.io/img/me.jpg" alt="Ryan" height="315" width="315"/>
+<img src="/img/me.jpg" alt="Ryan" height="315" width="315"/>
 <hr style="height:1px; visibility:hidden;" />
 <h2 id="about">About</h2>
 <ul>
