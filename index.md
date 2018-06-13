@@ -14,4 +14,7 @@
 	if(window.location.hash=="#projects"){
 		window.location=window.location.origin+'/projects';
 	}
+	else{
+		document.getElementById('main_content').innerHTML += '<br>Some new content!';
+	}
 </script>
