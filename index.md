@@ -1,1 +1,1 @@
-<p style="text-align:center"><img src="/img/me.jpg" alt="Ryan" height="315" width="315"/>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>
+<p style="text-align:center"><img src="/img/me.jpg" alt="Ryan" height="315" width="315"/><br>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>
