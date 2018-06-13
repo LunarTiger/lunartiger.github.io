@@ -20,11 +20,11 @@
 	}
 	else{
 		var content = document.getElementById('homepage');
-		content.document.open();
+		//content.document.open();
 		content.document.write("<h2 id='home'>Home</h2>");
 		content.document.write("<hr style='height:1px; visibility:hidden;' />");
 		content.document.write("<img src='/img/me.jpg' alt='Ryan' height='315' width='315'/>");
 		content.document.write("<p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>");
-		content.document.close()
+		//content.document.close()
 	}
 </script>
