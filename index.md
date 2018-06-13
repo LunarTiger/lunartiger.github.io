@@ -15,4 +15,4 @@
 		document.getElementById('main_content').innerHTML += "<p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>";
 	}
 </script>
-<a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/LunarTiger69?ref_src=twsrc%5Etfw">Tweets by LunarTiger69</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="315" data-height="500" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/LunarTiger69?ref_src=twsrc%5Etfw">Tweets by LunarTiger69</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
