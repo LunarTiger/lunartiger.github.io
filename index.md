@@ -1,13 +1,11 @@
 <script type="text/javascript">
-	if(window.location.hash=="#about"){
-		window.location=window.location.origin+'/about';
-	}
-	else if(window.location.hash=="#contact"){
-		window.location=window.location.origin+'/contact';
-	}
-	else if(window.location.hash=="#projects"){
-		window.location=window.location.origin+'/projects';
-	}
+	if(window.location.hash=="#about"){window.location=window.location.origin+'/about';}
+	else if(window.location.hash=="#althub"){window.location=window.location.origin+'/althub';}
+	else if(window.location.hash=="#contact"){window.location=window.location.origin+'/contact';}
+	else if(window.location.hash=="#discord"){window.location=window.location.origin+'/Discord';}
+	else if(window.location.hash=="#files"){window.location=window.location.origin+'http://lunar.zapto.org';}
+	else if(window.location.hash=="#world"){window.location=window.location.origin+'https://account.altvr.com/worlds/954689156213113037';}
+	else if(window.location.hash=="#projects"){window.location=window.location.origin+'/projects';}
 	else{
 		document.getElementById('main_content').innerHTML += "<h2 id='home'>Home</h2>";
 		document.getElementById('main_content').innerHTML += "<hr style='height:1px; visibility:hidden;' />";
