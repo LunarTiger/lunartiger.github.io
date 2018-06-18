@@ -5,6 +5,7 @@
 	else if(window.location.hash=="#discord"){window.location=window.location.origin+'/Discord';}
 	else if(window.location.hash=="#files"){window.location='http://lunar.zapto.org';}
 	else if(window.location.hash=="#world"){window.location='https://account.altvr.com/worlds/954689156213113037';}
+	else if(window.location.hash=="#worms"){window.location='https://gg.gg/worms';}
 	else if(window.location.hash=="#projects"){window.location=window.location.origin+'/projects';}
 	else{
 		document.getElementById('main_content').innerHTML += "<h2 id='home'>Home</h2>";
