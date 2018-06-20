@@ -1,11 +1,7 @@
 <script type="text/javascript">
 	if(window.location.hash=="#files"){window.location='http://lunar.zapto.org';}
 	else if(window.location.hash=="#world"){window.location='https://account.altvr.com/worlds/954689156213113037';}
-	else if(window.location.hash){
-		var x = window.location.hash;
-		var redir = x.substr(1);
-		window.location=window.location.origin+'/'+redir;
-	}
+	else if(window.location.hash){window.location=window.location.origin+'/'+window.location.hash.substr(1);}
 	else{
 		document.getElementById('main_content').innerHTML += "<h2>Home</h2>";
 		document.getElementById('main_content').innerHTML += "<hr style='height:1px; visibility:hidden;' />";
