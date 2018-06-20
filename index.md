@@ -7,7 +7,7 @@
 		window.location=window.location.origin+'/'+redir;
 	}
 	else{
-		document.getElementById('main_content').innerHTML += "<h2 id='home'>Home</h2>";
+		document.getElementById('main_content').innerHTML += "<h2>Home</h2>";
 		document.getElementById('main_content').innerHTML += "<hr style='height:1px; visibility:hidden;' />";
 		document.getElementById('main_content').innerHTML += "<img src='/img/me.jpg' alt='Ryan' height='315' width='315'/>";
 		document.getElementById('main_content').innerHTML += "<p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>";
