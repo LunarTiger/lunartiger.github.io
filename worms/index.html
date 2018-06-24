@@ -52,6 +52,7 @@
 		state.on('value', (function(snapshot) {
 			var stateVal = snapshot.val();
 			console.log(stateVal);
+			var id = database.ref('id');
 			id.on('value', (function(snapshot) {
 				var idVal = snapshot.val();
 				console.log(idVal)
