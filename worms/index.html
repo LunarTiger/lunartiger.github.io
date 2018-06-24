@@ -23,6 +23,36 @@
 		<title>Worms</title>
 		<meta name="Worms" content="Worms">
 	</head>
+		<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			databaseURL: "https://worms-68137.firebaseio.com",
+		};
+		firebase.initializeApp(config);
+		var database = firebase.database();
+		var state = database.ref('state');
+		state.on('value', (function(snapshot) {
+			var stateVal = snapshot.val();
+			console.log(stateVal);
+			var id = database.ref('id');
+			id.on('value', (function(snapshot) {
+				var idVal = snapshot.val();
+				console.log(idVal);
+				if(!stateVal){
+					document.getElementById('wormsembed').href = "https://lunartiger.github.io/wormsdown";
+					document.getElementById('wormschat').href = "https://lunartiger.github.io/chatdown";
+					document.getElementById('viewworms').href = "https://lunartiger.github.io/worms";
+				}
+				else{
+					document.getElementById('wormsembed').href = "https://www.youtube.com/embed/"+idVal;
+					document.getElementById('wormschat').href = "https://www.youtube.com/live_chat?embed_domain=lunartiger.github.io&v="+idVal;
+					document.getElementById('viewworms').href = "https://www.youtube.com/watch?v="+idVal;
+				}
+			}));
+		}));
+	</script>
 	<body>
 		<h1 id='top'>Worms Live Stream</h1>
 		<hr />
@@ -39,34 +69,4 @@
 			</tr>
 		</table>
 	</footer>
-	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
-	<script>
-		// Initialize Firebase
-		var config = {
-			databaseURL: "https://worms-68137.firebaseio.com",
-		};
-		firebase.initializeApp(config);
-		var database = firebase.database();
-		var state = database.ref('state');
-		state.on('value', (function(snapshot) {
-			var stateVal = snapshot.val();
-			console.log(stateVal);
-			var id = database.ref('id');
-			id.on('value', (function(snapshot) {
-				var idVal = snapshot.val();
-				console.log(idVal)
-				if(!stateVal) {
-					document.getElementById('wormsembed').href = "https://lunartiger.github.io/wormsdown";
-					document.getElementById('wormschat').href = "https://lunartiger.github.io/chatdown";
-					document.getElementById('viewworms').href = "https://lunartiger.github.io/worms";
-				}
-				else{
-					document.getElementById('wormsembed').href = "https://www.youtube.com/embed/"+idVal;
-					document.getElementById('wormschat').href = "https://www.youtube.com/live_chat?embed_domain=lunartiger.github.io&v="+idVal;
-					document.getElementById('viewworms').href = "https://www.youtube.com/watch?v="+idVal;
-				}
-			}));
-		}));
-	</script>
 </html>
