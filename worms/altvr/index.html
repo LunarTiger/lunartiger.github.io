@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<meta name="robots" content="noindex">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style>
+			body {text-align:center;background-color: #000000;color: #00be00;}
+			footer {left: 0;bottom: 0;width: 100%;background-color: #000000;color: #00ff00;border-top: 1px dashed #006900;}
+			button {background-color: #000000;color: #00FF00;padding: 10px;border-radius: 10px;}
+			a:link {color: #00be00;text-decoration:none;}
+			a:visited {color: #00be00;text-decoration:none;}
+			a:hover {color: #006900;text-decoration:underline;}
+			a:active {color: #006900;text-decoration:underline;}
+			h1 {color: #006900;}
+			h2 {color: #00ff00;}
+			h3 {color: #00ff00;}
+			h6 {color: #00ff00;}
+			table {border: 0px solid #00be00;margin-left:auto;margin-right:auto;}
+			th {padding: 10px;border: 2px solid #006900;text-align:center}
+			hr {border-top: 1px dashed #006900;border-bottom: 0;border-left: 0;border-right: 0;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Worms</title>
+		<meta name="Worms" content="Worms">
+	</head>
+	<body>
+		<h1 id='top'>Worms Live Stream</h1>
+		<hr />
+		<iframe id="wormsembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<br>
+	</body>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			databaseURL: "https://worms-68137.firebaseio.com",
+		};
+		firebase.initializeApp(config);
+		var database = firebase.database();
+		var state = database.ref('state');
+		state.on('value', (function(snapshot) {
+			var stateVal = snapshot.val();
+			var id = database.ref('id');
+			id.on('value', (function(snapshot) {
+				var idVal = snapshot.val();
+				if(!stateVal){
+					document.getElementById('wormsembed').src = "https://lunartiger.github.io/wormsdown";
+					document.getElementById('wormsembed').style = "max-width:100%;max-height:100%;height:480px;width:854px;border: 1px dashed #006900";
+				}
+				else{
+					window.location = "https://www.youtube.com/watch?v="+idVal;
+				}
+			}));
+		}));
+	</script>
+</html>
