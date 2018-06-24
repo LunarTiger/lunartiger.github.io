@@ -51,8 +51,10 @@
 		var state = database.ref('state');
 		state.on('value', (function(snapshot) {
 			var stateVal = snapshot.val();
+			console.log(stateVal);
 			id.on('value', (function(snapshot) {
 				var idVal = snapshot.val();
+				console.log(idVal)
 				if(!stateVal) {
 					document.getElementById('wormsembed').href = "https://lunartiger.github.io/wormsdown";
 					document.getElementById('wormschat').href = "https://lunartiger.github.io/chatdown";
