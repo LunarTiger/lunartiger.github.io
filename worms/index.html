@@ -23,7 +23,23 @@
 		<title>Worms</title>
 		<meta name="Worms" content="Worms">
 	</head>
-		<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+	<body id='body'>
+		<h1 id='top'>Worms Live Stream</h1>
+		<hr />
+		<iframe id="wormsembed" frameborder="0" allow="autoplay; encrypted-media" style="max-width:100%;max-height:100%;height:480px;width:854px;" allowfullscreen></iframe>
+		<br>
+		<iframe id="wormschat" frameborder="0" style="max-width:100%;height:480px;width:480px;"></iframe>
+	</body>
+	<footer>
+		<table>
+			<tr>
+				<th><a href="/">Home</a></th>
+				<th style='width: 69%;border: 0px;'></th>
+				<th><a id="viewworms">View on YouTube</a></th>
+			</tr>
+		</table>
+	</footer>
+	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 	<script>
 		// Initialize Firebase
@@ -41,32 +57,16 @@
 				var idVal = snapshot.val();
 				console.log(idVal);
 				if(!stateVal){
-					document.getElementById('wormsembed').href = "https://lunartiger.github.io/wormsdown";
-					document.getElementById('wormschat').href = "https://lunartiger.github.io/chatdown";
+					document.getElementById('body').src = "<iframe https://lunartiger.github.io/wormsdown";
+					document.getElementById('wormschat').src = "https://lunartiger.github.io/chatdown";
 					document.getElementById('viewworms').href = "https://lunartiger.github.io/worms";
 				}
 				else{
-					document.getElementById('wormsembed').href = "https://www.youtube.com/embed/"+idVal;
-					document.getElementById('wormschat').href = "https://www.youtube.com/live_chat?embed_domain=lunartiger.github.io&v="+idVal;
+					document.getElementById('wormsembed').src = "https://www.youtube.com/embed/"+idVal;
+					document.getElementById('wormschat').src = "https://www.youtube.com/live_chat?embed_domain=lunartiger.github.io&v="+idVal;
 					document.getElementById('viewworms').href = "https://www.youtube.com/watch?v="+idVal;
 				}
 			}));
 		}));
 	</script>
-	<body>
-		<h1 id='top'>Worms Live Stream</h1>
-		<hr />
-		<iframe id="wormsembed" frameborder="0" allow="autoplay; encrypted-media" style="max-width:100%;max-height:100%;height:480px;width:854px;" allowfullscreen></iframe>
-		<br>
-		<iframe id="wormschat" frameborder="0" style="max-width:100%;height:480px;width:480px;"></iframe>
-	</body>
-	<footer>
-		<table>
-			<tr>
-				<th><a href="/">Home</a></th>
-				<th style='width: 69%;border: 0px;'></th>
-				<th><a id="viewworms">View on YouTube</a></th>
-			</tr>
-		</table>
-	</footer>
 </html>
