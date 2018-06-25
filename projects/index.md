@@ -25,11 +25,11 @@
 			if(!stateVal){
 				document.getElementById('wormsembed').srcdoc = "<html><body style='text-align:center;background-color:#000000;color:#00be00;'><h1 style='color: #00ff00;'>Worms Temporarily Offline</h1></body></html>";
 				document.getElementById('wormsembed').src = "https://lunartiger.github.io/wormsdown";
-				document.getElementById('wormsembed').style = "max-width:100%;height:320px;width:570px;border: 1px dashed #006900";
+				document.getElementById('wormsembed').style = "max-width:100%;height:320px;width:570px;border: 1px dashed #006900;";
 			}
 			else{
 				document.getElementById('wormsembed').src = "https://www.youtube.com/embed/"+idVal;
-				document.getElementById('wormsembed').style = "max-width:100%;height:320px;width:570px;border: 0px";
+				document.getElementById('wormsembed').style = "max-width:100%;height:320px;width:570px;border: 0px;";
 			}
 		}));
 	}));
