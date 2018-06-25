@@ -1,6 +1,6 @@
 <h2 id="projects">Projects</h2>
 <p><a href="/worms">Worms Live Stream</a></p>
-<iframe id="wormsembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><hr style="height:1px; visibility:hidden;" />
+<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen></iframe><hr style="height:1px; visibility:hidden;" />
 <p><a href="/althub">Altspace Teleport Hub</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="https://account.altvr.com/worlds/954689156213113037">Altspace World</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
@@ -23,6 +23,7 @@
 		id.on('value', (function(snapshot) {
 			var idVal = snapshot.val();
 			if(!stateVal){
+				document.getElementById('wormsembed').srcdoc = "<html><body style='text-align:center;background-color:#000000;color:#00be00;'><h1 style='color: #00ff00;'>Worms Temporarily Offline</h1></body></html>";
 				document.getElementById('wormsembed').src = "https://lunartiger.github.io/wormsdown";
 				document.getElementById('wormsembed').style = "max-width:100%;height:320px;width:570px;border: 1px dashed #006900";
 			}
