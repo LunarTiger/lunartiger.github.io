@@ -10,5 +10,5 @@
 <br>
 <p style="text-decoration: underline">Pets</p>
 <p>Dog's Name:&nbsp;&nbsp;Max</p>
-<p>Fourteen Chickens</p>
+<p>Thirteen Chickens</p>
 <p>Thousands of Compost Worms</p>
