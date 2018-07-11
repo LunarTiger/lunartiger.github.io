@@ -1,6 +1,6 @@
 <h2 id="contact">Contact Me</h2>
 <p id="discord">Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank">Lunar#8154</a></p>
-<!--<p id="discord">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
+<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <p id="email">E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top">lunartiger@live.com</a></p>
 <p id="github">GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank">LunarTiger</a></p>
 <p id="google">Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank">Ryan Fowler-Hughes</a></p>
