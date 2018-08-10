@@ -9,6 +9,6 @@
 <p>Height:&nbsp;&nbsp;5ft 10in (approx. 177 cm)</p>
 <br>
 <p style="text-decoration: underline">Pets</p>
-<p>Dog's Name:&nbsp;&nbsp;Max</p>
+<p>Dog's Names:&nbsp;&nbsp;Max, Faith, and Joy</p>
 <p>Thirteen Chickens</p>
 <p>Thousands of Compost Worms</p>
