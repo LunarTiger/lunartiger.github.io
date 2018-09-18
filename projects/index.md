@@ -8,7 +8,8 @@
 <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
 <p id="fileserver"><a href='http://lunar.zapto.org'>File Server</a></p>
-<button id="checkhost">Check File Server Status</button> <hr style="height:1px; visibility:hidden;" />
+<button id="checkhost">Check File Server Status</button>
+<hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
 
 <script type='text/javascript'>
