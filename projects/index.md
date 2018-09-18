@@ -32,7 +32,7 @@
 	img.src = url+"/favicon.ico";
 	}
 
-	document.getElementById('checkhost') = function() {
+	document.getElementById('fileserver') = function() {
 		isSiteOnline("http://lunar.zapto.org",function(result){
 			var msg = result ? "<a href='http://lunar.zapto.org'>File Server</a>" : "File Server is down :(";
 			document.getElementById('fileserver').text = msg;
