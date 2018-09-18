@@ -22,7 +22,7 @@
 			console.log(this.status);
 		};
 	};
-	xhttp.open("POST", "checkPort.php", true);
+	xhttp.open("GET", "/?t=" + Math.random(), true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	if (PORT == 3700){
 		xhttp.send("HOST=" + HOST + "&PORT=" + PORT);
