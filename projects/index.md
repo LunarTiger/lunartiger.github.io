@@ -16,12 +16,10 @@
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";
-			pobj.removeAttr("Class");
 		};
 		if (this.readyState == 4 && this.status != 200) {
 			document.getElementById('fileserver').text = "File Server is down :(";
 			console.log(this.status);
-			pobj.removeAttr("Class");
 		};
 	};
 	xhttp.open("POST", "checkPort.php", true);
