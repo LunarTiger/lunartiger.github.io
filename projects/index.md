@@ -14,36 +14,36 @@
 
 <script type='text/javascript'>
 	function isSiteOnline(url,callback) {
-        // try to load favicon
-        var timer = setTimeout(function(){
-        // timeout after 5 seconds
-        callback(false);
-    },5000)
+		// try to load favicon
+		var timer = setTimeout(function(){
+			// timeout after 5 seconds
+			callback(false);
+		},5000)
 
-    var img = document.createElement("img");
-    img.onload = function() {
-        clearTimeout(timer);
-        callback(true);
-    }
+		var img = document.createElement("img");
+		img.onload = function() {
+			clearTimeout(timer);
+			callback(true);
+		}
 
-    img.onerror = function() {
-        clearTimeout(timer);
-        callback(false);
-    }
-    // add timestamp to bust the cache
-    img.src = url+"/favicon.ico?"+(new Date().getTime());
-    }
+		img.onerror = function() {
+			clearTimeout(timer);
+			callback(false);
+		}
+		// add timestamp to bust the cache
+		img.src = url+"/favicon.ico?"+(new Date().getTime());
+	}
 
-    document.getElementById('checkhost').onclick = function() {
-    isSiteOnline("http://lunar.zapto.org",function(result){
-        var msg = result ? "Site is online" : "Site is offline";
-        alert(msg);
-
-    //isSiteOnline("http://lunar.zapto.org",function(found){
-    console.log(found);
-    //    if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>"}
-     //   else{document.getElementById('fileserver').text = "File Server is down :("}
-    })
+	document.getElementById('checkhost').onclick = function() {
+		isSiteOnline("http://lunar.zapto.org",function(result){
+			var msg = result ? "Site is online" : "Site is offline";
+			alert(msg);
+			console.log(found);
+		})
+	}
+//isSiteOnline("http://lunar.zapto.org",function(found){
+//	if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>"}
+//	else{document.getElementById('fileserver').text = "File Server is down :("}
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
