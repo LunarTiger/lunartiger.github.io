@@ -33,8 +33,8 @@
 	}
 
 	isSiteOnline("http://lunar.zapto.org",function(found){
-		if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>"}
-		else{document.getElementById('fileserver').text = "File Server is down :("}
+		if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";}
+		else{document.getElementById('fileserver').text = "File Server is down :(";}
 	})
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
