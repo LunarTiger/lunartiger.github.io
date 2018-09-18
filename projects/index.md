@@ -32,12 +32,10 @@
 	img.src = url+"/favicon.ico";
 	}
 
-	document.getElementById('fileserver') = function() {
-		isSiteOnline("http://lunar.zapto.org",function(result){
-			var msg = result ? "<a href='http://lunar.zapto.org'>File Server</a>" : "File Server is down :(";
-			document.getElementById('fileserver').text = msg;
-		})
-	}
+	isSiteOnline("http://lunar.zapto.org",function(result){
+		var msg = result ? "<a href='http://lunar.zapto.org'>File Server</a>" : "File Server is down :(";
+		document.getElementById('fileserver').text = msg;
+	})
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
