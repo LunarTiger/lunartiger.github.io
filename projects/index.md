@@ -7,7 +7,7 @@
 <p><a href="https://account.altvr.com/worlds/954689156213113037">Altspace World</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
-<p id="fileserver">Checking Status . . .</p><hr style="height:1px; visibility:hidden;" />
+<p id="fileserver">Checking status of lunar.zapto.org</p><hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
 
 <script type='text/javascript'>
