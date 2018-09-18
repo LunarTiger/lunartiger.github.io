@@ -7,10 +7,31 @@
 <p><a href="https://account.altvr.com/worlds/954689156213113037">Altspace World</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
-<!--<p><a href='http://lunar.zapto.org'>File Server</a> - may be<br>down unexpectedly</p><hr style="height:1px; visibility:hidden;" />-->
-<p class="check-hub"><kbd data-port="80">lunar.zapto.org</kbd></p>
+<p id="fileserver">Checking Status . . .</p><hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
-<script async src="/check-port.js"></script>
+<script>
+	var HOST = "lunar.zapto.org";
+	var PORT = "80";
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";
+			pobj.removeAttr("Class");
+		};
+		if (this.readyState == 4 && this.status != 200) {
+			document.getElementById('fileserver').text = "File Server is down :(";
+			console.log(this.status);
+			pobj.removeAttr("Class");
+		};
+	};
+	xhttp.open("POST", "checkPort.php", true);
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	if (PORT == 3700){
+		xhttp.send("HOST=" + HOST + "&PORT=" + PORT);
+	} else {
+		xhttp.send("HOST=" + HOST + "&PORT=" + PORT + "&DIFF=true");
+	};
+</script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script>
