@@ -9,7 +9,7 @@
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
 <p id="fileserver">Checking Status . . .</p><hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
-<button id="checkhost" style="display: none;"></button>
+<button id="checkhost">Check Server</button>
 
 <script type='text/javascript'>
 	document.getElementById('checkhost').click();
@@ -36,8 +36,8 @@
 
 	document.getElementById('checkhost').onclick = function() {
 		isSiteOnline("http://lunar.zapto.org",function(result){
-			if(result) {document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";}
-			else {document.getElementById('fileserver').text = "Server Offline :(";}
+			if(result) {document.getElementById('fileserver').innerHTML = "<a href='http://lunar.zapto.org'>File Server</a>";}
+			else {document.getElementById('fileserver').innerHTML = "Server Offline :(";}
 			//var msg = result ? "Server is online :)" : "Server is offline :(";
 			//alert(msg);
 		})
