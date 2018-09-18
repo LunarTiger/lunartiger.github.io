@@ -9,26 +9,35 @@
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
 <p id="fileserver">Checking Status . . .</p><hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
-<script>
-	var HOST = "lunar.zapto.org";
-	var PORT = "80";
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";
-		};
-		if (this.readyState == 4 && this.status != 200) {
-			document.getElementById('fileserver').text = "File Server is down :(";
-			console.log(this.status);
-		};
-	};
-	xhttp.open("POST", "/checkPort.php", true);
-	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	if (PORT == 3700){
-		xhttp.send("HOST=" + HOST + "&PORT=" + PORT);
-	} else {
-		xhttp.send("HOST=" + HOST + "&PORT=" + PORT + "&DIFF=true");
-	};
+
+<script type='text/javascript'>
+	function isSiteOnline(url,callback) {
+		// try to load favicon
+		var timer = setTimeout(function(){
+		// timeout after 5 seconds
+		callback(false);
+	},5000)
+
+	var img = document.createElement("img");
+	img.onload = function() {
+		clearTimeout(timer);
+		callback(true);
+	}
+
+	img.onerror = function() {
+		clearTimeout(timer);
+		callback(false);
+	}
+
+	img.src = url+"/favicon.ico";
+	}
+
+	document.getElementById('checkhost').onclick = function() {
+		isSiteOnline("http://lunar.zapto.org",function(result){
+			var msg = result ? "<a href='http://lunar.zapto.org'>File Server</a>" : "File Server is down :(";
+			document.getElementById('fileserver').text = msg;
+		})
+	}
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
