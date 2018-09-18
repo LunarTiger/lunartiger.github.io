@@ -39,7 +39,7 @@
         var msg = result ? "Site is online" : "Site is offline";
         alert(msg);
 
-    isSiteOnline("http://lunar.zapto.org",function(found){
+    //isSiteOnline("http://lunar.zapto.org",function(found){
     console.log(found);
     //    if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>"}
      //   else{document.getElementById('fileserver').text = "File Server is down :("}
