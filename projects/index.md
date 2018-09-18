@@ -7,35 +7,42 @@
 <p><a href="https://account.altvr.com/worlds/954689156213113037">Altspace World</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="/AltspaceVR/">Altspace Scripts</a></p><hr style="height:1px; visibility:hidden;" />
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p><hr style="height:1px; visibility:hidden;" />
-<p id="fileserver">Checking Status . . .</p><hr style="height:1px; visibility:hidden;" />
+<p id="fileserver"><a href='http://lunar.zapto.org'>File Server</a></p>
+<button id="checkhost">Check File Server Status</button><hr style="height:1px; visibility:hidden;" />
 <p><a href='/Discord'>Discord Add-Ons</a></p>
 
 <script type='text/javascript'>
 	function isSiteOnline(url,callback) {
-		// try to load favicon
-		var timer = setTimeout(function(){
-		// timeout after 5 seconds
-		callback(false);
-	},5000)
+        // try to load favicon
+        var timer = setTimeout(function(){
+        // timeout after 5 seconds
+        callback(false);
+    },5000)
 
-	var img = document.createElement("img");
-	img.onload = function() {
-		clearTimeout(timer);
-		callback(true);
-	}
+    var img = document.createElement("img");
+    img.onload = function() {
+        clearTimeout(timer);
+        callback(true);
+    }
 
-	img.onerror = function() {
-		clearTimeout(timer);
-		callback(false);
-	}
+    img.onerror = function() {
+        clearTimeout(timer);
+        callback(false);
+    }
+    // add timestamp to bust the cache
+    img.src = url+"/favicon.ico?"+(new Date().getTime());
+    }
 
-	img.src = url+"/favicon.ico";
-	}
+    document.getElementById('checkhost').onclick = function() {
+    isSiteOnline("http://lunar.zapto.org",function(result){
+        var msg = result ? "Site is online" : "Site is offline";
+        alert(msg);
 
-	isSiteOnline("http://lunar.zapto.org",function(found){
-		if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>";}
-		else{document.getElementById('fileserver').text = "File Server is down :(";}
-	})
+    isSiteOnline("http://lunar.zapto.org",function(found){
+    console.log(found);
+    //    if(found){document.getElementById('fileserver').text = "<a href='http://lunar.zapto.org'>File Server</a>"}
+     //   else{document.getElementById('fileserver').text = "File Server is down :("}
+    })
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
