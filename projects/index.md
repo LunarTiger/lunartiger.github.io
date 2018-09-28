@@ -34,7 +34,7 @@
 
 	isSiteOnline("http://lunar.zapto.org",function(result){
 		if(result) {document.getElementById('fileserver').innerHTML = "<a href='http://lunar.zapto.org'>File Server</a>";}
-		else {document.getElementById('fileserver').innerHTML = "lunar.zapto.org is offline :(";}
+		else {document.getElementById('fileserver').innerHTML = "lunar.zapto.org is offline :(<br>But you can check out <a href='/fs-mirror'>this mirror</a>";}
 	})
 </script>
 <!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
