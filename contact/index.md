@@ -6,6 +6,7 @@
 <p id="google">Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank">Ryan Fowler-Hughes</a></p>
 <p id="icq">ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank">726 972 398</a></p>
 <p id="instagram">Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank">lunartiger69</a></p>
+<p id="kik">Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank">lunartiger</a></p>
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
