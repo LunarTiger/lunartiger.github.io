@@ -16,7 +16,8 @@
 <h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
 <p id="battlenet">Battle.net:&nbsp;&nbsp;<a href="https://www.blizzard.com/apps/battle.net/desktop" target="_blank">LunarTiger69#1995</a></p>
-<br><h3>Other:</h3>
+<br>
+<h3>Other:</h3>
 <p id="email">E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top">lunartiger@live.com</a></p>
 <p id="messenger">Facebook Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank">lunartiger</a></p>
 <p id="github">GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank">LunarTiger</a></p>
