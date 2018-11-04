@@ -10,36 +10,29 @@ body {
 /* unvisited link */
 a:link {
     color: #0ac139;
+    text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
     color: #0ac139;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: #0ac139;
+    text-decoration: underline;
 }
 
 /* selected link */
 a:active {
     color: #0ac139;
-}
-
-a:link {
     text-decoration: underline;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
+a {
+    color: #0ac139;
     text-decoration: underline;
 }
 
@@ -65,9 +58,4 @@ table {
 
 ul {
     list-style-position: inside;
-}
-
-u {
-    text-decoration: underline;
-    color: #0ac139;
 }

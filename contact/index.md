@@ -1,6 +1,6 @@
 <h2 id="contact">Contact Me</h2>
 <h3>Preferred Methods:</h3>
-<p id="wire">Wire:&nbsp;&nbsp;<u>@lunartiger</u></p>
+<p id="wire">Wire:&nbsp;&nbsp;<a href="https://wire.com/download/" target="_blank">@lunartiger</a></p>
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <p id="telegram">Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank">@LunarTiger</a></p>
 <p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
@@ -15,7 +15,7 @@
 <br>
 <h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
-<p id="battlenet">Battle.net:&nbsp;&nbsp;<u>LunarTiger69#1995</u></p>
+<p id="battlenet">Battle.net:&nbsp;&nbsp;<a>LunarTiger69#1995</a></p>
 <br>
 <h3>Other:</h3>
 <p id="email">E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top">lunartiger@live.com</a></p>
