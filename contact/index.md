@@ -13,7 +13,7 @@
 <p id="youtube">YouTube:&nbsp;&nbsp;<a href="https://www.youtube.com/user/69lunartiger" target="_blank">Ryan Fowler-Hughes</a></p>
 <h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
-<p id="battlenet">Battle.net:&nbsp;&nbsp;<a>LunarTiger69#1992</a></p>
+<p id="battlenet">Battle.net:&nbsp;&nbsp;<a href="">LunarTiger69#1992</a></p>
 <h3>Other:</h3>
 <p id="email">E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top">lunartiger@live.com</a></p>
 <p id="github">GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank">LunarTiger</a></p>
