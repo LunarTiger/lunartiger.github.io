@@ -6,12 +6,14 @@
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
 <p id="telegram">Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank">@LunarTiger</a></p>
-<br><h3>Social Accounts:</h3>
+<br>
+<h3>Social Accounts:</h3>
 <p id="instagram">Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank">lunartiger69</a></p>
 <p id="twitch">Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank">LunarTiger69</a></p>
 <p id="twitter">Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank">@LunarTiger69</a></p>
 <p id="youtube">YouTube:&nbsp;&nbsp;<a href="https://www.youtube.com/user/69lunartiger" target="_blank">Ryan Fowler-Hughes</a></p>
-<br><h3>Gaming:</h3>
+<br>
+<h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
 <p id="battlenet">Battle.net:&nbsp;&nbsp;<a href="https://www.blizzard.com/apps/battle.net/desktop" target="_blank">LunarTiger69#1995</a></p>
 <br><h3>Other:</h3>
