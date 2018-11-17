@@ -15,6 +15,7 @@
 <br>
 <h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
+<p id="psn">PSN:&nbsp;&nbsp;<a>lunartiger69</a></p>
 <p id="battlenet">Battle.net:&nbsp;&nbsp;<a>LunarTiger69#1995</a></p>
 <br>
 <h3>Other:</h3>
