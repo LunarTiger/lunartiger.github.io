@@ -133,14 +133,14 @@ ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: scroll;
+    overflow: hidden;
     background-color: #000;
 }
 
 /* navbar */
 li.navbar {
     border-right: 1px dashed #006900;
-    float: left;
+    float: center;
 }
 
 li.navbar:last-child {
