@@ -14,12 +14,12 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <hr />
-          <ul class="navbar">
-            <li class="navbar"><a href="{{ site.github.url }}">Home</a></li>
-            <li class="navbar"><a href="{{ site.github.url }}/about">About Me</a></li>
-            <li class="navbar"><a href="{{ site.github.url }}/contact">Contact Me</a></li>
-            <li class="navbar"><a href="{{ site.github.url }}/projects">Projects</a></li>
-          </ul>
+        <nav>
+          <button><a href="{{ site.github.url }}">Home</a></button>
+          <button><a href="{{ site.github.url }}/about">About Me</a></button>
+          <button><a href="{{ site.github.url }}/contact">Contact Me</a></button>
+          <button><a href="{{ site.github.url }}/projects">Projects</a></button>
+        </nav>
         <hr />
 
         <!--<section id="downloads">
