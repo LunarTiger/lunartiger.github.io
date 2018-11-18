@@ -12,13 +12,13 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1>{{ site.title | default: s9ite.github.repository_name }}</h1>
         <hr />
         <nav>
-          <button><a style="text-decoration: none;" href="{{ site.github.url }}">Home</a></button>
-          <button><a style="text-decoration: none;" href="{{ site.github.url }}/about">About Me</a></button>
-          <button><a style="text-decoration: none;" href="{{ site.github.url }}/contact">Contact Me</a></button>
-          <button><a style="text-decoration: none;" href="{{ site.github.url }}/projects">Projects</a></button>
+          <a href="{{ site.github.url }}"><button>Home</button></a>
+          <a href="{{ site.github.url }}/about"><button>About Me</button></a>
+          <a style="text-decoration: none;" href="{{ site.github.url }}/contact"><button>Contact Me</button></a>
+          <a style="text-decoration: none;" href="{{ site.github.url }}/projects"><button>Projects</button></a>
         </nav>
         <hr />
 
