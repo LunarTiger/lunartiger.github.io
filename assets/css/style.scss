@@ -73,18 +73,18 @@ h6 {
     color: #00ff00;
 }
 
-hr { 
-    border-top: 1px dashed #006900;
-    border-bottom: 1px dashed #006900;
-    border-left: 1px dashed #006900;
-    border-right: 1px dashed #006900;
+hr {
+    border-top: 2px dashed #006900;
+    border-bottom: 0px dashed #006900;
+    border-left: 0px dashed #006900;
+    border-right: 0px dashed #006900;
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    border-style: inline;
-    border-width: 1px;
+    border-style: dashed none none none;
+    border-width: 2px;
 }
 
 table {
