@@ -1,11 +1,15 @@
 ---
 ---
 
+@font-face {
+    font-family: ComicSans;
+    src: url(comic.ttf);
+}
+
 @import "{{ site.theme }}";
 
-@font-face {font-family: ComicSans;src: url(comic.ttf);}
-
 body {
+    font-family: ComicSans;
     text-align:center;
     background-color: #000000;
     color: #b3ef56;
