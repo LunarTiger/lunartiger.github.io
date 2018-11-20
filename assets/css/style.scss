@@ -114,8 +114,19 @@ th {
     border: none;
 }
 
-ul {
-    list-style-position: inside;
+ul.none {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.space{
+    margin-top: 10px;
+    border:1px solid grey;
+}
+
+li.space:first-child {
+    margin-top:0;
 }
 
 button {
