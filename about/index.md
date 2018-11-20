@@ -1,5 +1,7 @@
 <h2 id="about">About Me</h2>
 <hr style="height:1px; visibility:hidden;" />
+<p>McDonald's Employee<br>Hobbyist Developer<br>Skeptical Athiest<br>Chaotic Neutral</p>
+<hr style="height:1px; visibility:hidden;" />
 <img src="/img/me.jpg" alt="Ryan" height="315" width="315"/>
 <hr style="height:1px; visibility:hidden;" />
 <p>Name:&nbsp;&nbsp;Ryan Fowler-Hughes</p>
