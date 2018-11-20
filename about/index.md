@@ -8,7 +8,7 @@
 <p>Birthday:&nbsp;&nbsp;July 2, 1992</p>
 <p>Height:&nbsp;&nbsp;5ft 10in (approx. 177 cm)</p>
 <br>
-<p style="text-decoration: underline">Pets</p>
+<h3 style="text-decoration: underline">Pets</h3>
 <p>Dogs' Names:&nbsp;&nbsp;Max, Faith, and Joy</p>
 <p>Thirteen Chickens</p>
 <p>Thousands of Compost Worms</p>
