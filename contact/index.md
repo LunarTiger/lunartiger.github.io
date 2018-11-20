@@ -1,4 +1,5 @@
 <h2 id="contact">Contact Me</h2>
+<br>
 <h3>Preferred Methods:</h3>
 <p id="wire">Wire:&nbsp;&nbsp;<a href="https://wire.com/download/" target="_blank">@lunartiger</a></p>
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
