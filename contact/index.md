@@ -1,7 +1,7 @@
 <h2 id="contact">Contact Me</h2>
 <br>
 <h3>Preferred Methods:</h3>
-<p id="wire">Wire:&nbsp;&nbsp;<a href="https://wire.com/download/" target="_blank">@lunartiger</a></p>
+<p id="wickr">Wickr:&nbsp;&nbsp;<a>lunartiger</a></p>
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
 <p id="discord">Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank">Lunar#6969</a></p>
@@ -27,3 +27,4 @@
 <p id="icq">ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank">726 972 398</a></p>
 <p id="kik">Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank">lunartiger</a></p>
 <p id="telegram">Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank">@LunarTiger</a></p>
+<p id="wire">Wire:&nbsp;&nbsp;<a>@lunartiger</a></p>
