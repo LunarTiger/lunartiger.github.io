@@ -1,7 +1,7 @@
 <h2 id="contact">Contact Me</h2>
 <br>
 <h3>Preferred Methods:</h3>
-<p id="wickr">Wickr:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45">lunartiger</a></p>
+<p id="wickr">Wickr:&nbsp;&nbsp;<a>lunartiger</a></p>
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
 <p id="discord">Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank">Lunar#6969</a></p>
