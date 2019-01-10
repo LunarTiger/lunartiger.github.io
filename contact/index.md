@@ -26,5 +26,6 @@
 <p id="google">Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank">Ryan Fowler-Hughes</a></p>
 <p id="icq">ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank">726 972 398</a></p>
 <p id="kik">Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank">lunartiger</a></p>
+<p id="spotify">Spotify:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45">Ryan Fowler-Hughes</a></p>
 <p id="telegram">Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank">@LunarTiger</a></p>
 <p id="wire">Wire:&nbsp;&nbsp;<a>@lunartiger</a></p>
