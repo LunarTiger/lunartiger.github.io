@@ -1,7 +1,7 @@
 <h2 id="projects">Projects</h2>
 <br>
 <p><a href="/ovrtoggle">Oculus VR Toggle</a></p>
-<p><a href="/noad">Add Free Hosts File</a></p>
+<p><a href="/noad">Ad Free Hosts File</a></p>
 <p><a href="/hypatia">Hypatia Hints</a></p>
 <p id="fileserver">Checking status of lunar.zapto.org</p>
 <br>
