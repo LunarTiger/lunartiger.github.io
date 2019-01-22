@@ -2,7 +2,6 @@
 <br>
 <p><a href="/ovrtoggle">Oculus VR Toggle</a></p>
 <p><a href="/noad">Ad Free Hosts File</a></p>
-<p><a href="/hypatia">Hypatia Hints</a></p>
 <p id="fileserver">Checking status of lunar.zapto.org</p>
 <br>
 <h3>Altspace</h3>
@@ -13,6 +12,7 @@
 <h3>Other</h3>
 <p><a href='/Discord'>Discord Add-Ons</a></p>
 <p><a href="https://lunartiger69.imgur.com/" target="_blank">imgur albums</a></p>
+<p><a href="/hypatia">Hypatia Hints</a></p>
 <!--<p><a href="/worms">Worms Live Stream</a></p>
 <iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen></iframe><hr style="height:1px; visibility:hidden;" />-->
 
