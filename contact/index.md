@@ -2,9 +2,9 @@
 <br>
 <h3>Preferred Methods:</h3>
 <p id="telegram">Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank">@LunarTiger</a></p>
-<p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
-<p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
 <p id="discord">Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank">Lunar#6969</a></p>
+<p id="snapchat">Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank">dat1gui69</a></p>
+<p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <br>
 <h3>Social Accounts:</h3>
