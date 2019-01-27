@@ -32,3 +32,4 @@
 <p id="whatsapp">WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank">Lunar</a></p>
 <p id="wickr">Wickr:&nbsp;&nbsp;<a>lunartiger</a></p>
 <p id="wire">Wire:&nbsp;&nbsp;<a>@lunartiger</a></p>
+<hr style='height:100%; visibility:hidden;' />
