@@ -7,7 +7,7 @@
 <p id="phone">Phone:&nbsp;&nbsp;<a href="tel:+15406926899">540-692-6899</a></p>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <br>
-<h3>Social Accounts:</h3>
+<h3>Social:</h3>
 <p id="instagram">Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank">lunartiger69</a></p>
 <p id="twitch">Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank">LunarTiger69</a></p>
 <p id="twitter">Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank">@LunarTiger69</a></p>
