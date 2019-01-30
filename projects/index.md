@@ -2,6 +2,7 @@
 <br>
 <p><a href="/ovrtoggle">Oculus VR Toggle</a></p>
 <p><a href="/noad">Ad Free Hosts File</a></p>
+<p><a href='/lar'>Lovense API Redirect</a></p>
 <p><a href='/fs-up'>File Server</a></p>
 <br>
 <h3>Altspace</h3>
