@@ -16,22 +16,19 @@
 <h3>Gaming:</h3>
 <p id="steam">Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank">lunartiger</a></p>
 <p id="xbox">Xbox Gamertag:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank">lunartiger69</a></p>
-<p id="psn">PSN:&nbsp;&nbsp;<a>lunartiger69</a></p>
-<p id="battlenet">Battle.net:&nbsp;&nbsp;<a>LunarTiger69#1995</a></p>
+<p id="psn">PSN:&nbsp;&nbsp;<span style="color:#0ac139;">lunartiger69</span></p>
+<p id="battlenet">Battle.net:&nbsp;&nbsp;<span style="color:#0ac139;">LunarTiger69#1995</span></p>
 <br>
 <h3>Messaging:</h3>
-<p id="messenger">Facebook Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank">lunartiger</a></p>
 <p id="icq">ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank">726 972 398</a></p>
 <p id="marcopolo">Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank">Ryan F</a></p>
-<p id="kik">Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank">lunartiger</a></p>
-<p id="whatsapp">WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank">Lunar</a></p>
-<p id="wickr">Wickr:&nbsp;&nbsp;<a>lunartiger</a></p>
-<p id="wire">Wire:&nbsp;&nbsp;<a>@lunartiger</a></p>
+<p><a href="https://m.me/lunartiger" target="_blank" id="messenger">Messenger</a>, <a href="https://kik.me/lunartiger" target="_blank" id="kik">Kik</a>, <a href="https://wa.me/15406926899" target="_blank" id="whatsapp">WhatsApp</a>:&nbsp;&nbsp;lunartiger</p>
+<p id="wickr">Wickr:&nbsp;&nbsp;<span style="color:#0ac139;">lunartiger</span></p>
+<p id="wire">Wire:&nbsp;&nbsp;<span style="color:#0ac139;">@lunartiger</span></p>
 <br>
 <h3>Other:</h3>
 <p id="email">E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top">lunartiger@live.com</a></p>
-<p id="facebook">Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank">Ryan Fowler-Hughes</a></p>
 <p id="github">GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank">LunarTiger</a></p>
-<p id="google">Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank">Ryan Fowler-Hughes</a></p>
 <p id="spotify">Spotify:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45">Ryan Fowler-Hughes</a></p>
+<p><a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook">Facebook</a>, <a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google">Google+</a>:&nbsp;&nbsp;Ryan Fowler-Hughes</p>
 <hr style='height:100vh; visibility:hidden;' />
