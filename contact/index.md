@@ -33,6 +33,13 @@
 <p><a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook">Facebook</a><span style="color:#0ac139;">,</span> <a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google">Google+</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;Ryan Fowler-Hughes</p>
 <hr style='height:100vh; visibility:hidden;' />
 <script>
+if(window.location.hash){
+	var director = document.getElementsById(window.location.hash.substr(1));
+	if (director != null && typeof director !== "undefined") {
+		var content = this.parentElement;
+		content.style.maxHeight = content.scrollHeight + "px";
+	}
+}
 var coll = document.getElementsByClassName("collapsible");
 var i;
 for (i = 0; i < coll.length; i++) {
