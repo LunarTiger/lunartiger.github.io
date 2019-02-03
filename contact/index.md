@@ -36,8 +36,7 @@
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== "undefined") {
-		var content = this.parentElement.parentElement;
-		content.style.maxHeight = content.scrollHeight + "px";
+		document.getElementById("director").parentElement.parentElement.content.style.maxHeight = content.scrollHeight + "px";
 	}
 }
 var coll = document.getElementsByClassName("collapsible");
