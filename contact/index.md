@@ -43,19 +43,8 @@
 	<p>Spotify:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
 	<p>YouTube:&nbsp;&nbsp;<a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube" data-parent="other">Ryan Fowler-Hughes</a></p>
 </div>
+<script src="/assets/js/collapsible.js"></script>
 <script>
-//set up collapsible elements
-var coll = document.getElementsByClassName("collapsible");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = document.getElementById(this.dataset.child)
-    if (content.style.maxHeight) {content.style.maxHeight = null;}
-    else {content.style.maxHeight = content.scrollHeight + "px";} 
-  });
-}
-//open relivant element like magic
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== undefined) {
