@@ -28,7 +28,6 @@
 	<p>Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank" id="messenger">lunartiger</a></p>
 	<p>Kik&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik">lunartiger</a></p>
 	<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp">lunartiger</a></p>
-&nbsp;&nbsp;lunartiger</p>
 	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr">lunartiger</span></p>
 	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire">@lunartiger</span></p>
 </div>
@@ -43,7 +42,7 @@
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== "undefined") {
-		document.getElementById("director").parentElement.parentElement.style.maxHeight = content.scrollHeight + "px";
+		document.getElementById(director).parentElement.parentElement.style.maxHeight = content.scrollHeight + "px";
 	}
 }
 </script>
