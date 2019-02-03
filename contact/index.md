@@ -6,7 +6,6 @@
 <p><a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat">Snapchat</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;dat1gui69</p>
 <p><a href="tel:+15406926899" id="phone">Phone</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;540-692-6899</p>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
-<br>
 <button class="collapsible">Social</button>
 <div class="innertext">
 <p><a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram">Instagram</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;lunartiger69</p>
@@ -36,7 +35,6 @@
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
-
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
