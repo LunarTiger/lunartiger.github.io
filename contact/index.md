@@ -42,7 +42,8 @@
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== "undefined") {
-		director.parentElement.parentElement.maxHeight = director.parentElement.parentElement.scrollHeight + "px";
+		var contents = director.parentElement.parentElement;
+		contents.style.maxHeight = contents.scrollHeight + "px";
 	}
 }
 </script>
