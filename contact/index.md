@@ -1,11 +1,12 @@
 <h2 id="contact">Contact Me</h2>
-<div class="innertext">
+<br>
 <button class="collapsible" id="preferred">Preferred Methods</button>
-<h3>Preferred Methods:</h3>
+<div class="innertext">
 <p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram">@LunarTiger</a></p>
 <p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord">Lunar#6969</a></p>
 <p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat">dat1gui69</a></p>
 <p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone">540-692-6899</a></p>
+</div>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <button class="collapsible" id="social">Social</button>
 <div class="innertext">
