@@ -1,12 +1,13 @@
 <h2 id="contact">Contact Me</h2>
-<br>
+<div class="innertext">
+<button class="collapsible" id="preferred">Preferred Methods</button>
 <h3>Preferred Methods:</h3>
 <p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram">@LunarTiger</a></p>
 <p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord">Lunar#6969</a></p>
 <p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat">dat1gui69</a></p>
 <p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone">540-692-6899</a></p>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
-<button class="collapsible">Social</button>
+<button class="collapsible" id="social">Social</button>
 <div class="innertext">
 	<p>Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram">lunartiger69</a></p>
 	<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch">LunarTiger69</a></p>
@@ -14,14 +15,14 @@
 	<p>Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook">Ryan Fowler-Hughes</a></p>
 	<p>Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google">Ryan Fowler-Hughes</a></p>
 </div>
-<button class="collapsible">Gaming</button>
+<button class="collapsible" id="gaming">Gaming</button>
 <div class="innertext">
 	<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam">lunartiger</a></p>
 	<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox">lunartiger69</a></p>
 	<p>PSN:&nbsp;&nbsp;<span style="color:#0ac139;" id="psn">lunartiger69</span></p>
 	<p>Battle.net:&nbsp;&nbsp;<span style="color:#0ac139;" id="battlenet">LunarTiger69#1995</span></p>
 </div>
-<button class="collapsible">Messaging</button>
+<button class="collapsible" id="messaging">Messaging</button>
 <div class="innertext">
 	<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq">726 972 398</a></p>
 	<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo">Ryan F</a></p>
@@ -31,7 +32,7 @@
 	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr">lunartiger</span></p>
 	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire">@lunartiger</span></p>
 </div>
-<button class="collapsible">Other</button>
+<button class="collapsible" id="other">Other</button>
 <div class="innertext">
 	<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top" id="email">lunartiger@live.com</a></p>
 	<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github">LunarTiger</a></p>
@@ -61,4 +62,5 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+document.getElementById('preferred').click();
 </script>
