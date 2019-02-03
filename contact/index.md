@@ -6,7 +6,6 @@
 <p><a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat">Snapchat</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;dat1gui69</p>
 <p><a href="tel:+15406926899" id="phone">Phone</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;540-692-6899</p>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
-<p>
 <button class="collapsible">Social</button>
 <div class="innertext">
 <p><a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram">Instagram</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;lunartiger69</p>
@@ -14,7 +13,6 @@
 <p><a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter">Twitter</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;@LunarTiger69</p>
 <p><a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube">YouTube</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;Ryan Fowler-Hughes</p>
 </div>
-</p>
 <h3>Gaming:</h3>
 <p><a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam">Steam</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;lunartiger</p>
 <p><a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox">Xbox</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;lunartiger69</p>
@@ -40,7 +38,7 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    var content = this.this.parentElement.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
