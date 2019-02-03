@@ -169,27 +169,35 @@ nav button:hover {
     border-radius: 10px;
 }
 
-nav a {
+nav ul li a {
+    display: block;
+    color: #00be00;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 /* unvisited link */
-nav a:link {
+nav ul li a:link {
+    display: block;
+    color: #00be00;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 /* visited link */
-nav a:visited {
+nav ul li a:visited {
+    display: block;
+    color: #00be00;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
-nav a:hover {
-    text-decoration: none;
-}
-
-/* selected link */
-nav a:active {
+nav ul li a:hover {
+    background-color: #003300;
     text-decoration: none;
 }
 
