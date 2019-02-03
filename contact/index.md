@@ -1,6 +1,6 @@
 <h2 id="contact">Contact Me</h2>
 <br>
-<button class="collapsible" id="preferred">Preferred Methods</button>
+<button class="collapsible" id="preferred" data-parent="preferred">Preferred Methods</button>
 <div class="innertext">
 <p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="preferred">@LunarTiger</a></p>
 <p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="preferred">Lunar#6969</a></p>
@@ -8,21 +8,21 @@
 <p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="preferred">540-692-6899</a></p>
 </div>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
-<button class="collapsible" id="social">Social</button>
+<button class="collapsible" id="social" data-parent="social">Social</button>
 <div class="innertext">
 	<p>Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
 	<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 	<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
 	<p>Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook" data-parent="social">Ryan Fowler-Hughes</a></p>
 </div>
-<button class="collapsible" id="gaming">Gaming</button>
+<button class="collapsible" id="gaming" data-parent="gaming">Gaming</button>
 <div class="innertext">
 	<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 	<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>
 	<p>PSN:&nbsp;&nbsp;<span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>
 	<p>Battle.net:&nbsp;&nbsp;<span style="color:#0ac139;" id="battlenet" data-parent="gaming">LunarTiger69#1995</span></p>
 </div>
-<button class="collapsible" id="messaging">Messaging</button>
+<button class="collapsible" id="messaging" data-parent="messaging">Messaging</button>
 <div class="innertext">
 	<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq" data-parent="messaging">726 972 398</a></p>
 	<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
@@ -32,7 +32,7 @@
 	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="messaging">lunartiger</span></p>
 	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="messaging">@lunartiger</span></p>
 </div>
-<button class="collapsible" id="other">Other</button>
+<button class="collapsible" id="other" data-parent="other">Other</button>
 <div class="innertext">
 	<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top" id="email" data-parent="other">lunartiger@live.com</a></p>
 	<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
