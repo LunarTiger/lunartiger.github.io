@@ -55,9 +55,9 @@ for (i = 0; i < coll.length; i++) {
 //open relivant element like magic
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
-	if (director != null && typeof director !== "undefined") {
+	if (director != null && typeof director !== undefined) {
 		var clickButton = document.getElementById(director.dataset.parent)
-		if (clickButton != null && typeof clickButton !== "undefined") {clickButton.click()}
+		if (clickButton != null && typeof clickButton !== undefined) {clickButton.click()}
 		else {document.getElementById('preferred').click();}
 	}
 }
