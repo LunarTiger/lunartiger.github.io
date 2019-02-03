@@ -8,7 +8,7 @@
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 <br>
 <button class="collapsible">Social</button>
-<div class="content">
+<div class="innertext">
 <p><a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram">Instagram</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;lunartiger69</p>
 <p><a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch">Twitch</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;LunarTiger69</p>
 <p><a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter">Twitter</a><span style="color:#0ac139;">:</span>&nbsp;&nbsp;@LunarTiger69</p>
