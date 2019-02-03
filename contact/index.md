@@ -12,7 +12,7 @@
 	<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch">LunarTiger69</a></p>
 	<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter">@LunarTiger69</a></p>
 	<p>Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook">Ryan Fowler-Hughes</a></p>
-	<p>Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google">Ryan Fowler-Hughes</p>
+	<p>Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google">Ryan Fowler-Hughes</a></p>
 </div>
 <button class="collapsible">Gaming</button>
 <div class="innertext">
