@@ -14,7 +14,6 @@
 	<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 	<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
 	<p>Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook" data-parent="social">Ryan Fowler-Hughes</a></p>
-	<p>Google+:&nbsp;&nbsp;<a href="https://plus.google.com/+RyanFowlerHughes" target="_blank" id="google" data-parent="social">Ryan Fowler-Hughes</a></p>
 </div>
 <button class="collapsible" id="gaming">Gaming</button>
 <div class="innertext">
@@ -28,7 +27,7 @@
 	<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq" data-parent="messaging">726 972 398</a></p>
 	<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
 	<p>Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank" id="messenger" data-parent="messaging">lunartiger</a></p>
-	<p>Kik&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
+	<p>Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
 	<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp" data-parent="messaging">lunartiger</a></p>
 	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="messaging">lunartiger</span></p>
 	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="messaging">@lunartiger</span></p>
