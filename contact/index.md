@@ -22,7 +22,6 @@
 </div>
 <button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 <div id="social-child" class="innertext" data-parent="social">
-	<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="social">Lunar#6969</a></p>
 	<p>Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
 	<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 	<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
@@ -30,6 +29,7 @@
 </div>
 <button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 <div id="gaming-child" class="innertext" data-parent="gaming">
+	<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="social">Lunar#6969</a></p>
 	<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 	<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>
 	<p>PSN:&nbsp;&nbsp;<span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>
