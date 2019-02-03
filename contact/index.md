@@ -34,7 +34,7 @@
 <hr style='height:100vh; visibility:hidden;' />
 <script>
 if(window.location.hash){
-	var director = document.getElementsById(window.location.hash.substr(1));
+	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== "undefined") {
 		var content = this.parentElement;
 		content.style.maxHeight = content.scrollHeight + "px";
