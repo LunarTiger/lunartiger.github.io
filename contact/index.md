@@ -48,18 +48,17 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.parentElement.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
+    if (content.style.maxHeight) {content.style.maxHeight = null;}
+    else {content.style.maxHeight = content.scrollHeight + "px";} 
   });
 }
 //open relivant element like magic
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== "undefined") {
-		document.getElementById(director.dataset.parent).click()
+		var clickButton = document.getElementById(director.dataset.parent)
+		if (director != null && typeof director !== "undefined") {clickButton.click()}
+		else {document.getElementById('preferred').click();}
 	}
 }
 else {document.getElementById('preferred').click();}
