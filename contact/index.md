@@ -58,7 +58,6 @@ if(window.location.hash){
 	if (director != null && typeof director !== undefined) {
 		var clickButton = document.getElementById(director.dataset.parent)
 		if (clickButton != null && typeof clickButton !== undefined) {clickButton.click()}
-		else {document.getElementById('preferred').click();}
 	}
 }
 else {document.getElementById('preferred').click();}
