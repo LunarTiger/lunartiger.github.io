@@ -4,7 +4,7 @@
 <div id="preferred-child" class="innertext" data-parent="preferred">
 	<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="preferred">@LunarTiger</a></p>
 	<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="preferred">dat1gui69</a></p>
-	<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="social">Lunar#6969</a></p>
+	<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="preferred">Lunar#6969</a></p>
 	<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="preferred">540-692-6899</a></p>
 </div>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
