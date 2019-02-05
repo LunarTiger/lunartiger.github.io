@@ -264,3 +264,12 @@ nav ul li a:hover {
     background-color: #000;
     text-align: left;
 }
+
+.innertextcenter {
+    padding: 0 15%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000;
+    text-align: center;
+}
