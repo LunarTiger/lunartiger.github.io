@@ -4,7 +4,6 @@
 <p><a href="/noad">Ad Free Hosts File</a></p>
 <p><a href='/lar'>Lovense API Redirect</a></p>
 <p><a href='/fs-up'>File Server</a></p>
-<br>
 <button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 <div id="altvr-child" class="innertextcenter" data-parent="altvr">
 	<p><a href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
