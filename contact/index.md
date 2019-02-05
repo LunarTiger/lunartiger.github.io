@@ -8,6 +8,13 @@
 	<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="preferred">540-692-6899</a></p>
 </div>
 <!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
+<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
+<div id="secure-child" class="innertext" data-parent="secure">
+	<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
+	<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp" data-parent="secure">lunartiger</a></p>
+	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
+	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
+</div>
 <button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 <div id="messaging-child" class="innertext" data-parent="messaging">
 	<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq" data-parent="messaging">726 972 398</a></p>
@@ -15,10 +22,6 @@
 	<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
 	<p>Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank" id="messenger" data-parent="messaging">lunartiger</a></p>
 	<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="messaging">dat1gui69</a></p>
-	<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="messaging">@LunarTiger</a></p>
-	<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp" data-parent="messaging">lunartiger</a></p>
-	<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="messaging">lunartiger</span></p>
-	<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="messaging">@lunartiger</span></p>
 </div>
 <button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 <div id="social-child" class="innertext" data-parent="social">
@@ -49,8 +52,7 @@ if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
 	if (director != null && typeof director !== undefined) {
 		var clickButton = document.getElementById(director.dataset.parent);
-		if (clickButton != null && typeof clickButton !== undefined) {clickButton.click()}
+		if (clickButton != null && typeof clickButton !== undefined) {clickButton.click();}
 	}
-}
-else {document.getElementById('preferred').click();}
+} else {document.getElementById('preferred').click();}
 </script>
