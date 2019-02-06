@@ -228,12 +228,14 @@ nav ul li a:hover {
     background: transparent;
 }
 
+/* collapsible layout */
+
 .collapsible {
     background-color: #006900;
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 75%;
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -257,19 +259,30 @@ nav ul li a:hover {
 }
 
 .innertext {
-    padding: 0 15%;
+    padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #000;
+    background-color: #020;
     text-align: left;
 }
 
 .innertextcenter {
-    padding: 0 15%;
+    padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #000;
+    background-color: #020;
     text-align: center;
 }
+
+.encase {
+    border-width: 0;
+    width: 75%;
+    height:auto;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*------------------------------------*/

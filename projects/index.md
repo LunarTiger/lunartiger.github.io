@@ -4,17 +4,19 @@
 <p><a href="/noad">Ad Free Hosts File</a></p>
 <p><a href='/lar'>Lovense API Redirect</a></p>
 <p><a href='/fs-up'>File Server</a></p>
-<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
-<div id="altvr-child" class="innertextcenter" data-parent="altvr">
-	<p><a href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
-	<p><a href="/AltspaceVR/" data-parent="altvr">Altspace Scripts</a></p>
-	<p><a href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace World</a></p>
-</div>
-<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
-<div id="other-child" class="innertextcenter" data-parent="other">
-	<p><a href='/Discord' data-parent="other">Discord Add-Ons</a></p>
-	<p><a href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
-	<p><a href="/hypatia" data-parent="other">Hypatia Hints</a></p>
+<div class="encase">
+	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
+	<div id="altvr-child" class="innertextcenter" data-parent="altvr">
+		<p><a href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
+		<p><a href="/AltspaceVR/" data-parent="altvr">Altspace Scripts</a></p>
+		<p><a href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace World</a></p>
+	</div>
+	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
+	<div id="other-child" class="innertextcenter" data-parent="other">
+		<p><a href='/Discord' data-parent="other">Discord Add-Ons</a></p>
+		<p><a href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
+		<p><a href="/hypatia" data-parent="other">Hypatia Hints</a></p>
+	</div>
 </div>
 <!--<p><a href="/worms">Worms Live Stream</a></p>
 <iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen></iframe><hr style="height:1px; visibility:hidden;" />
