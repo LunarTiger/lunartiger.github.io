@@ -13,6 +13,7 @@
 		<p>Birthday:&nbsp;&nbsp;July 2, 1992</p>
 		<p>Height:&nbsp;&nbsp;5ft 10in (approx. 177 cm)</p>
 	</div>
+	<br>
 	<button class="collapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
 	<div id="pet-child" class="innertext" data-parent="pet">
 		<p>Dogs' Names:&nbsp;&nbsp;Max, Faith, and Joy</p>
