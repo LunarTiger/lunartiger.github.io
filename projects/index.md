@@ -12,7 +12,6 @@
 		<p><a href="/AltspaceVR/" data-parent="altvr">Altspace Scripts</a></p>
 		<p><a href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace World</a></p>
 	</div>
-	<br>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertextcenter" data-parent="other">
 		<br>
