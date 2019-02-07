@@ -8,13 +8,8 @@ for (i = 0; i < coll.length; i++) {
     else {content.style.maxHeight = content.scrollHeight + "px";} 
   });
 }
-var default_open = document.getElementById('openme').click();
 var can_open = true;
-if (default_open != null && typeof default_open != undefined) {can_open = false;}
-if(window.location.hash){
-	var director = document.getElementById(window.location.hash.substr(1));
-	if (director != null && typeof director != undefined) {
-		var clickButton = document.getElementById(director.dataset.parent);
-		if (clickButton != null && typeof clickButton != undefined) {clickButton.click();}
-	} else {if (can_open) {default_open.click();}}
-} else {if (can_open) {default_open.click();}}
+try {var default_open = document.getElementById('openme').click();}
+catch(pe0) {can_open = false;}
+try {document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();}
+catch(pe1) {if (can_open) {default_open.click();}
