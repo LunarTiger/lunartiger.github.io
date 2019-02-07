@@ -28,7 +28,6 @@
 	</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 	<div id="social-child" class="innertext" data-parent="social">
-		<br>
 		<p>Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
 		<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 		<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
@@ -36,7 +35,6 @@
 	</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 	<div id="gaming-child" class="innertext" data-parent="gaming">
-		<br>
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="gaming">Lunar#6969</a></p>
 		<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 		<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>
@@ -45,7 +43,6 @@
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext" data-parent="other">
-		<br>
 		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="other">540-692-6899</a></p>
 		<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top" id="email" data-parent="other">lunartiger@live.com</a></p>
 		<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
