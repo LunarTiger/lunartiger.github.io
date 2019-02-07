@@ -10,4 +10,4 @@ for (i = 0; i < coll.length; i++) {
 }
 var default_open = document.getElementById('openme');
 try {document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();}
-catch() {if (default_open) {default_open.click();}}
+catch(n) {if (default_open) {default_open.click();}}
