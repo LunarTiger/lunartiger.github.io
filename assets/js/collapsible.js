@@ -8,8 +8,6 @@ for (i = 0; i < coll.length; i++) {
     else {content.style.maxHeight = content.scrollHeight + "px";} 
   });
 }
-var can_open = true;
-try {var default_open = document.getElementById('openme');}
-catch(pe0) {can_open = false;}
+var default_open = document.getElementById('openme');
 try {document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();}
-catch(pe1) {if (can_open) {default_open.click();}}
+catch() {if (default_open) {default_open.click();}}
