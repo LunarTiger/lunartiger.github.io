@@ -1,13 +1,13 @@
 <h2 id="contact">Contact Me</h2>
 <br>
 <div class="encase">
-	<button class="collapsible" id="preferred" data-parent="preferred" data-child="preferred-child">Preferred Methods</button>
-	<div id="preferred-child" class="innertext" data-parent="preferred">
+	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Preferred Methods</button>
+	<div id="openme-child" class="innertext" data-parent="openme">
 		<br>
-		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="preferred">@LunarTiger</a></p>
-		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="preferred">dat1gui69</a></p>
-		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="preferred">Lunar#6969</a></p>
-		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="preferred">540-692-6899</a></p>
+		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="openme">@LunarTiger</a></p>
+		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="openme">dat1gui69</a></p>
+		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="openme">Lunar#6969</a></p>
+		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="openme">540-692-6899</a></p>
 	</div>	<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
@@ -57,9 +57,12 @@
 <script>
 if(window.location.hash){
 	var director = document.getElementById(window.location.hash.substr(1));
-	if (director != null && typeof director !== undefined) {
+	if (director != null && typeof director != undefined) {
 		var clickButton = document.getElementById(director.dataset.parent);
-		if (clickButton != null && typeof clickButton !== undefined) {clickButton.click();}
+		if (clickButton != null && typeof clickButton != undefined) {clickButton.click();}
 	}
-} else {document.getElementById('preferred').click();}
+} else {
+	var default_open = document.getElementById('openme').click();
+	if (default_open != null && typeof default_open != undefined) {default_open.click();}
+}
 </script>
