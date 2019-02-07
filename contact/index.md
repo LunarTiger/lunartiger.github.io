@@ -1,8 +1,8 @@
 <h2 id="contact">Contact Me</h2>
 <br>
 <div class="encase">
-	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Preferred Methods</button>
-	<div id="openme-child" class="innertext" data-parent="openme">
+	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
+	<div id="preferred" class="innertext" data-parent="openme">
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="openme">@LunarTiger</a></p>
 		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="openme">dat1gui69</a></p>
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="openme">Lunar#6969</a></p>
