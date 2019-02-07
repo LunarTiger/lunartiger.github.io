@@ -9,7 +9,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 var can_open = true;
-try {var default_open = document.getElementById('openme').click();}
+try {var default_open = document.getElementById('openme');}
 catch(pe0) {can_open = false;}
 try {document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();}
 catch(pe1) {if (can_open) {default_open.click();}}
