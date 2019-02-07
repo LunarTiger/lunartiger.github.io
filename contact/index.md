@@ -3,7 +3,6 @@
 <div class="encase">
 	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Preferred Methods</button>
 	<div id="openme-child" class="innertext" data-parent="openme">
-		<br>
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="openme">@LunarTiger</a></p>
 		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="openme">dat1gui69</a></p>
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="openme">Lunar#6969</a></p>
@@ -11,7 +10,6 @@
 	</div>	<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
-		<br>
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
 		<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp" data-parent="secure">lunartiger</a></p>
 		<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
@@ -19,7 +17,6 @@
 	</div>
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 	<div id="messaging-child" class="innertext" data-parent="messaging">
-		<br>
 		<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq" data-parent="messaging">726 972 398</a></p>
 		<p>Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
 		<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
