@@ -54,15 +54,3 @@
 	</div>
 </div>
 <script src="/assets/js/collapsible.js"></script>
-<script>
-if(window.location.hash){
-	var director = document.getElementById(window.location.hash.substr(1));
-	if (director != null && typeof director != undefined) {
-		var clickButton = document.getElementById(director.dataset.parent);
-		if (clickButton != null && typeof clickButton != undefined) {clickButton.click();}
-	}
-} else {
-	var default_open = document.getElementById('openme').click();
-	if (default_open != null && typeof default_open != undefined) {default_open.click();}
-}
-</script>

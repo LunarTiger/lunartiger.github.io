@@ -8,3 +8,13 @@ for (i = 0; i < coll.length; i++) {
     else {content.style.maxHeight = content.scrollHeight + "px";} 
   });
 }
+if(window.location.hash){
+	var director = document.getElementById(window.location.hash.substr(1));
+	if (director != null && typeof director != undefined) {
+		var clickButton = document.getElementById(director.dataset.parent);
+		if (clickButton != null && typeof clickButton != undefined) {clickButton.click();}
+	}
+} else {
+	var default_open = document.getElementById('openme').click();
+	if (default_open != null && typeof default_open != undefined) {default_open.click();}
+}
