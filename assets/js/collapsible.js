@@ -13,7 +13,7 @@ if (coll) {
 }
 try {
 	document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();
-}catch(n) {
+} catch(n) {
 	if (default_open) {
 		default_open.click();
 	}
