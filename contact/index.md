@@ -34,11 +34,11 @@
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 	<div id="gaming-child" class="innertext" data-parent="gaming">
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="gaming">Lunar#6969</a></p>
+		<p>Origin:&nbsp;&nbsp;<a href="https://www.origin.com/usa/en-us/profile/user/Us_m7_zkAXm4u_A4yP5DQA--/achievements" target="_blank" id="origin" data-parent="gaming">LunarTiger69</a></p>
 		<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 		<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>
 		<p>PSN:&nbsp;&nbsp;<span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>
 		<p>Battle.net:&nbsp;&nbsp;<span style="color:#0ac139;" id="battlenet" data-parent="gaming">LunarTiger69#1995</span></p>
-		<p>Origin:&nbsp;&nbsp;<span style="color:#0ac139;" id="origin" data-parent="gaming">LunarTiger69</span></p>
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext" data-parent="other">
