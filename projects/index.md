@@ -5,6 +5,11 @@
 <p><a href='/lar'>Lovense API Redirect</a></p>
 <p><a href='/fs-up'>File Server</a></p>
 <div class="encase">
+	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Baby Shark</button>
+	<div id="openme-child" class="innertext center" data-parent="openme">
+		<p><a id="babyshark" href='/babyshark' data-parent="openme">Baby Shark</a></p>
+		<p><a id="babyshark-source" href='/babyshark/babyshark.js'>babyshark.js</a></p>
+	</div>
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
 		<p><a href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
