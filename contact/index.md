@@ -18,7 +18,6 @@
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 	<div id="messaging-child" class="innertext" data-parent="messaging">
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">Lunar#6969</a></p>
-		<p>ICQ:&nbsp;&nbsp;<a href="https://icq.com/people/726972398" target="_blank" id="icq" data-parent="messaging">726 972 398</a></p>
 		<p>Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
 		<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
 		<p>Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank" id="messenger" data-parent="messaging">lunartiger</a></p>
