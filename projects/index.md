@@ -3,6 +3,7 @@
 <p><a href="/ovrtoggle">Oculus VR Toggle</a></p>
 <p><a href="/noad">Ad Free Hosts File</a></p>
 <p><a href='/lar'>Lovense API Redirect</a></p>
+<p><a href='/fs-up'>File Server</a></p>
 <div class="encase">
 	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Baby Shark</button>
 	<div id="openme-child" class="innertext center" data-parent="openme">
@@ -23,7 +24,6 @@
 	<button class="collapsible" id="depreciated" data-parent="depreciated" data-child="depreciated-child">Depriciated</button>
 	<div id="depreciated-child" class="innertext center" data-parent="depreciated">
 		<p><a href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
-		<p><a href='/fs-up'>File Server</a></p>
 		<p><a href="/worms" data-parent="depreciated">Worms Live Stream</a></p>
 		<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>
 	</div>
