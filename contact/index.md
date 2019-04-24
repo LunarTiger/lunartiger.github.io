@@ -11,7 +11,6 @@
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
-		<p>WhatsApp:&nbsp;&nbsp;<a href="https://wa.me/15406926899" target="_blank" id="whatsapp" data-parent="secure">lunartiger</a></p>
 		<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
 		<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
 	</div>
