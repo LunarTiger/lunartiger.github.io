@@ -19,7 +19,6 @@
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">Lunar#6969</a></p>
 		<p>Kik:&nbsp;&nbsp;<a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
 		<p>Marco Polo:&nbsp;&nbsp;<a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
-		<p>Messenger:&nbsp;&nbsp;<a href="https://m.me/lunartiger" target="_blank" id="messenger" data-parent="messaging">lunartiger</a></p>
 		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="messaging">dat1gui69</a></p>
 	</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
@@ -28,7 +27,6 @@
 		<p>Reddit:&nbsp;&nbsp;<a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
 		<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 		<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
-		<p>Facebook:&nbsp;&nbsp;<a href="https://www.facebook.com/lunartiger" target="_blank" id="facebook" data-parent="social">Ryan Fowler-Hughes</a></p>
 	</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 	<div id="gaming-child" class="innertext" data-parent="gaming">
