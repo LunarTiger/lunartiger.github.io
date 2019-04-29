@@ -10,6 +10,7 @@
 	</div>	<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
+		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="secure">5406926899</span></p>
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
 		<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
 		<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
