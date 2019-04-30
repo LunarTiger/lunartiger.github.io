@@ -3,14 +3,14 @@
 <div class="encase">
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 	<div id="preferred" class="innertext" data-parent="openme">
-		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="openme">@LunarTiger</a></p>
+		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="openme">15406926899</span></p>
 		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="openme">dat1gui69</a></p>
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="openme">Lunar#6969</a></p>
-		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="openme">540-692-6899</a></p>
+		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="openme">1-540-692-6899</a></p>
 	</div>	<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
-		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="secure">5406926899</span></p>
+		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="secure">15406926899</span></p>
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
 		<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
 		<p>Wire:&nbsp;&nbsp;<span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
@@ -40,7 +40,7 @@
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext" data-parent="other">
-		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="other">540-692-6899</a></p>
+		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="other">1-540-692-6899</a></p>
 		<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top" id="email" data-parent="other">lunartiger@live.com</a></p>
 		<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
 		<p>Spotify:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
