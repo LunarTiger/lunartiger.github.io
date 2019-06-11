@@ -24,10 +24,11 @@
 	<div id="depreciated-child" class="innertext center" data-parent="depreciated">
 		<p><a href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
 		<p><a href="/worms" data-parent="depreciated">Worms Live Stream</a></p>
-		<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>
+		<!--<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>-->
 	</div>
 </div>
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+<script src="/assets/js/collapsible.js"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script>
 	// Initialize Firebase
@@ -50,5 +51,4 @@
 			}
 		}));
 	}));
-</script>
-<script src="/assets/js/collapsible.js"></script>
+</script>-->
