@@ -4,16 +4,16 @@
 <p><a href='/lar'>Lovense API Redirect</a></p>
 <p><a href='/fs-up'>File Server</a></p>
 <div class="encase">
-	<button class="collapsible" id="openme" data-parent="openme" data-child="openme-child">Baby Shark</button>
-	<div id="openme-child" class="innertext center" data-parent="openme">
-		<p><a id="babyshark" href='/babyshark' data-parent="openme">Baby Shark</a></p>
-		<p><a id="babyshark-source" href='/babyshark/babyshark.js'>babyshark.js</a></p>
+	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
+	<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
+		<p><a id="babyshark" href='/babyshark' data-parent="baby-shark">Baby Shark</a></p>
+		<p><a id="babyshark-source" href='/babyshark/babyshark.js' data-parent="baby-shark">babyshark.js</a></p>
 	</div>
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
-		<p><a href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
-		<p><a href="/AltspaceVR/" data-parent="altvr">Altspace Scripts</a></p>
-		<p><a href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace World</a></p>
+		<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
+		<p><a id="altvr-scripts" href="/AltspaceVR/" data-parent="altvr">Altspace Scripts</a></p>
+		<p><a id="altvr-world" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace World</a></p>
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
