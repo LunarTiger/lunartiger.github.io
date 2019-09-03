@@ -11,21 +11,8 @@
 body {
     font-family: ComicSans;
     text-align:center;
-    background-image: url("/assets/img/fractal.png");
-    background-color: #000000;
     color: #b3ef56;
 }
-
-/*footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align:center;
-    background-color: #000000;
-    color: #00ff00;
-    border-top: 1px dashed #006900;
-}*/
 
 /* unvisited link */
 a:link {
@@ -202,7 +189,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/*footer{
+footer{
     z-index:-1;
     position:fixed;
     left:0;
@@ -210,9 +197,16 @@ nav ul li a:hover {
     width:95%;
     text-align:center;
     background-color:#000000;
+    background-image: url("/assets/img/fractal.png");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%
     color:#00ff00;
     border:0px;
 }
+
 /********coustom scrollbar********/
 /* width */
 ::-webkit-scrollbar {
