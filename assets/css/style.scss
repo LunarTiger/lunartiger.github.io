@@ -201,7 +201,18 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/*coustom scrollbar*/
+footer{
+    z-index:-1;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background-color:#000000;
+    color:#00ff00;
+    border:0px
+}
+/********coustom scrollbar********/
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
