@@ -11,7 +11,20 @@
 body {
     font-family: ComicSans;
     text-align:center;
+    background-color:#000000;
     color: #b3ef56;
+}
+
+footer{
+    z-index:-1;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background-color:#000000;
+    color:#00ff00;
+    border:0px;
 }
 
 /* unvisited link */
@@ -119,6 +132,12 @@ div.container {
     margin: 0 auto;
 }
 
+div.foot {
+    max-width: 95%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
 section {
     border: none;
 }
@@ -189,18 +208,6 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-footer{
-    z-index:-1;
-    position:fixed;
-    left:0;
-    bottom:0;
-    width:95%;
-    text-align:center;
-    background-color:#000000;
-    color:#00ff00;
-    border:0px;
-}
-
 /********coustom scrollbar********/
 /* width */
 ::-webkit-scrollbar {
@@ -228,7 +235,7 @@ footer{
     background: transparent;
 }
 
-/* collapsible layout */
+/*********** collapsible layout ***********/
 
 .collapsible {
     background-color: #006900;
