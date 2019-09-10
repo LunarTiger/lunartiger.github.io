@@ -11,6 +11,7 @@
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
 		<p>Dust:&nbsp;&nbsp;<span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>
+		<p>Riot:&nbsp;&nbsp;<a href="https://matrix.to/#/@lunartiger:matrix.org" target="_blank" id="riot" data-parent="secure">lunartiger</a></p>
 		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="secure">15406926899</span></p>
 		<p>Telegram:&nbsp;&nbsp;<a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
 		<p>Wickr:&nbsp;&nbsp;<span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
