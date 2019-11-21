@@ -10,9 +10,10 @@
 	</div>
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
-		<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
-		<p><a id="altvr-scripts" href="/AltspaceVR/" data-parent="altvr">Altspace Scripts - Old API</a></p>
+		<p><a id="stwl" href="/stwl" data-parent="altvr">Story Time with Lunar</a></p>
 		<p><a id="altvr-world" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Altspace Universe</a></p>
+		<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
+		<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="altvr">Altspace Scripts - Old API</a></p>
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
