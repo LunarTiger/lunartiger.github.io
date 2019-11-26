@@ -7,7 +7,7 @@
 		<p>Signal:&nbsp;&nbsp;<span style="color:#0ac139;" id="signal" data-parent="openme">15406926899</span></p>
 		<p>Snapchat:&nbsp;&nbsp;<a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="openme">dat1gui69</a></p>
 		<p>Discord:&nbsp;&nbsp;<a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="openme">Lunar#6969</a></p>
-	</div>	<!--<p id="discordserver">Discord Server:&nbsp;&nbsp;<a href="https://discord.me/lunatics" target="_blank">Lunatics</a></p>-->
+	</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 	<div id="secure-child" class="innertext" data-parent="secure">
 		<p>Dust:&nbsp;&nbsp;<span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>
