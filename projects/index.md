@@ -19,7 +19,7 @@
 	<div id="other-child" class="innertext center" data-parent="other">
 		<p><a href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
-	<button class="collapsible" id="depreciated" data-parent="depreciated" data-child="depreciated-child">Depriciated</button>
+	<button class="collapsible" id="depreciated" data-parent="depreciated" data-child="depreciated-child">Depreciated</button>
 	<div id="depreciated-child" class="innertext center" data-parent="depreciated">
 		<p><a href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
 		<p><a href='/fs-up' data-parent="depreciated">File Server</a></p>
