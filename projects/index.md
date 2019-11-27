@@ -17,13 +17,13 @@
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
-		<p><a href="/hypatia" data-parent="other">Hypatia Hints</a></p>
 		<p><a href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
 	<button class="collapsible" id="depreciated" data-parent="depreciated" data-child="depreciated-child">Depriciated</button>
 	<div id="depreciated-child" class="innertext center" data-parent="depreciated">
 		<p><a href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
 		<p><a href='/fs-up' data-parent="depreciated">File Server</a></p>
+		<p><a href="/hypatia" data-parent="depreciated">Hypatia Hints</a></p>
 		<p><a href="/worms" data-parent="depreciated">Worms Live Stream</a></p>
 		<!--<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>-->
 	</div>
