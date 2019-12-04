@@ -6,8 +6,8 @@
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
 		<p><a id="stwl" href="/stwl" data-parent="altvr">Story Time with Lunar</a></p>
-		<p><a id="altvr-world" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Lunarverse</a></p>
-		<p><a id="altvr-world" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="altvr">Spaces Archive
+		<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Lunarverse</a></p>
+		<p><a id="spacearchive" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="altvr">Spaces Archive
 </a></p>
 		<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
 		<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="altvr">Altspace Scripts - Old API</a></p>
@@ -19,14 +19,14 @@
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
-		<p><a href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
+		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
 	<button class="collapsible" id="depreciated" data-parent="depreciated" data-child="depreciated-child">Depreciated</button>
 	<div id="depreciated-child" class="innertext center" data-parent="depreciated">
-		<p><a href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
-		<p><a href='/fs-up' data-parent="depreciated">File Server</a></p>
-		<p><a href="/hypatia" data-parent="depreciated">Hypatia Hints</a></p>
-		<p><a href="/worms" data-parent="depreciated">Worms Live Stream</a></p>
+		<p><a id="discord" href='/Discord' data-parent="depreciated">Discord Add-Ons</a></p>
+		<p><a id="file-server" href='/fs-up' data-parent="depreciated">File Server</a></p>
+		<p><a id="hypatia" href="/hypatia" data-parent="depreciated">Hypatia Hints</a></p>
+		<p><a id="worms" href="/worms" data-parent="depreciated">Worms Live Stream</a></p>
 		<!--<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>-->
 	</div>
 </div>
