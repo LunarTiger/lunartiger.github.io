@@ -1,7 +1,7 @@
 <h2 id="projects">Projects</h2>
 <br>
-<p><a href="/ovrtoggle">Oculus VR Toggle</a></p>
-<p><a href='/lar'>Lovense API Redirect</a></p>
+<p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
+<p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 <div class="encase">
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
