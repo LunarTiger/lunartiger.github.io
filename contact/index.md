@@ -1,5 +1,5 @@
 <h2 id="contact">Contact Me</h2>
-<br>
+<hr style="height:1px; visibility:hidden;" />
 <div class="encase">
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 	<div id="preferred" class="innertext" data-parent="openme">
