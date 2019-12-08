@@ -1,4 +1,5 @@
 <h2 id="projects">Projects</h2>
+<hr style="height:1px; visibility:hidden;" />
 <p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
 <p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 <hr style="height:1px; visibility:hidden;" />
