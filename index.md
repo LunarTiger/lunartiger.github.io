@@ -10,4 +10,4 @@
 <iframe id="musicembed" allow="autoplay; encrypted-media" style="max-width:100%;height:64px;width:114px;border: 0px" allowfullscreen  data-parent="depreciated"></iframe>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
-<script src="/asseta/js/music-embed.js"></script>
+<script src="/assets/js/music-embed.js"></script>
