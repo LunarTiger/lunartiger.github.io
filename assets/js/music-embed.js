@@ -8,6 +8,6 @@ state.on('value', (function(snapshot) {
 	var id = database.ref('id');
 	id.on('value', (function(snapshot) {
 		var idVal = snapshot.val();
-		document.getElementById('musicembed').src = "https://www.youtube.com/embed/"+idVal;
+		document.getElementById('musicembed').src = "https://www.youtube.com/embed/"+idVal+"?rel=0;&autoplay=1";
 	}));
 }));
