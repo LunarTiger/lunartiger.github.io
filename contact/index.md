@@ -50,7 +50,7 @@
 		<p>YouTube:&nbsp;&nbsp;<a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube" data-parent="other">Ryan Fowler-Hughes</a></p>
 		<p>Spotify:&nbsp;&nbsp;<a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
 		<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
-		<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunartiger@live.com" target="_top" id="email" data-parent="other">lunartiger@live.com</a></p>
+		<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 		<p>Patreon:&nbsp;&nbsp;<a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="other">Ryan Fowler-Hughes</a></p>
 		<p>PayPal:&nbsp;&nbsp;<a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="other">lunartiger</a></p>
 	</div>
