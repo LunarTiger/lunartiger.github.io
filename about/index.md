@@ -13,6 +13,7 @@
 		<p>Birthday:&nbsp;&nbsp;July 2, 1992</p>
 		<p>Height:&nbsp;&nbsp;5ft 10in (approx. 177 cm)</p>
 		<p>Weight:&nbsp;&nbsp;140 lb (approx. 63.5 kg)</p>
+		<p>IPD:&nbsp;&nbsp;7.5cm (approx. 3in)</p>
 		<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>
 	</div>
 	<button class="collapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
