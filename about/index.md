@@ -18,7 +18,8 @@
 		<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>
 	</div>
 	<button class="collapsible" id="bdsmtest" data-parent="bdsmtest" data-child="bdsmtest-child">BDSM Test Results</button>
-	<div id="bdsmtest-child" class="innertext" data-parent="bdsmtest">
+	<div id="bdsmtest-child" class="innertext center" data-parent="bdsmtest">
+		<hr style="height:1px; visibility:hidden;">
 		<h3>Results from <a href="https://bdsmtest.org" target="_blank">bdsmtest.org</a></h3>
 		<p>100% Brat tamer</p>
 		<p>100% Rigger</p>
