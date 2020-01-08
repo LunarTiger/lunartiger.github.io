@@ -39,6 +39,7 @@
 		<p>Origin:&nbsp;&nbsp;<a href="https://www.origin.com/usa/en-us/profile/user/Us_m7_zkAXm4u_A4yP5DQA--/achievements" target="_blank" id="origin" data-parent="gaming">LunarTiger69</a></p>
 		<p>Pokemon Go:&nbsp;&nbsp;<span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
 		<p>PSN:&nbsp;&nbsp;<span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>
+		<p>SideQuest:&nbsp;&nbsp;<a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Lunar</a></p>
 		<p>Steam:&nbsp;&nbsp;<a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 		<p>Uplay:&nbsp;&nbsp;<a href="https://club.ubisoft.com/en-US/profile/lunartiger1965" target="_blank" id="uplay" data-parent="gaming">lunartiger1965</a></p>
 		<p>VRChat:&nbsp;&nbsp;<a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Lunar#6969</a></p>
