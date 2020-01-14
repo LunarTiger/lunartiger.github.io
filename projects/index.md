@@ -1,12 +1,12 @@
 <h2 id="projects">Projects</h2>
 <hr style="height:1px; visibility:hidden;" />
+<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 <p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
 <p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 <hr style="height:1px; visibility:hidden;" />
 <div class="encase">
 	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
 	<div id="altvr-child" class="innertext center" data-parent="altvr">
-		<p><a id="stwl" href="/stwl" data-parent="altvr">Story Time with Lunar</a></p>
 		<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Lunarverse</a></p>
 		<p><a id="spacearchive" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="altvr">Spaces Archive
 </a></p>
