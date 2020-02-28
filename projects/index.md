@@ -1,4 +1,4 @@
-<h2 id="projects">Projects</h2>
+<h2 id="projects">My Projects</h2>
 <hr style="height:1px; visibility:hidden;" />
 <p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 <p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
