@@ -6,8 +6,8 @@
 <hr />
 <nav>
 	<ul class="navbar">
-		<li class="navbar"><a href="/ovrtoggle">Oculus Toggle</a></li>
 		<li class="navbar"><a href="/stwl">Story Time</a></li>
+		<li class="navbar"><a href="/ovrtoggle">Oculus Toggle</a></li>
 	</ul>
 </nav>
 <hr />
