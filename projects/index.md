@@ -14,6 +14,7 @@
 	<div id="other-child" class="innertext center" data-parent="other">
 		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
+	<hr />
 	<button class="collapsible" id="deprecated" data-parent="depreciated" data-child="deprecated-child">Deprecated</button>
 	<div id="deprecated-child" class="innertext center" data-parent="deprecated">
 		<p><a id="discord" href='/Discord' data-parent="deprecated">Discord Add-Ons</a></p>
