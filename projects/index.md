@@ -12,7 +12,7 @@
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
-		<p><a id="pictures" href="/pictures" data-parent="other">Pictures</a></p>
+		<p><a id="pictures" href="/pics" data-parent="other">Pictures</a></p>
 		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
 	<hr />
