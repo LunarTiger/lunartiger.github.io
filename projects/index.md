@@ -7,11 +7,12 @@
 <div class="encase">
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 	<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
-		<p><a id="babyshark" href='/babyshark' data-parent="baby-shark">Baby Shark</a></p>
-		<p><a id="babyshark-source" href='/babyshark/babyshark.js' data-parent="baby-shark">babyshark.js</a></p>
+		<p><a id="babyshark" href='/babyshark' target="_blank" data-parent="baby-shark">Baby Shark</a></p>
+		<p><a id="babyshark-source" href='/babyshark/babyshark.js' target="_blank" data-parent="baby-shark">babyshark.js</a></p>
 	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext center" data-parent="other">
+		<p><a id="pictures" href="/pictures" data-parent="other">Pictures</a></p>
 		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
 	<hr />
