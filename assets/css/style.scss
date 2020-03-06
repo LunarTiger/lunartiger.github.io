@@ -294,3 +294,14 @@ nav ul li a:hover {
 }
 
 /*------------------------------------*/
+
+.focus {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #020;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
