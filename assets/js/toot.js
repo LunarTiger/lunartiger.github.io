@@ -1,7 +1,7 @@
-var config = {
+var tootconfig = {
 	databaseURL: "https://toot-embed.firebaseio.com/",
 };
-firebase.initializeApp(config);
+firebase.initializeApp(tootconfig);
 var database = firebase.database();
 var toot = database.ref('toot');
 state.on('value', (function(snapshot) {

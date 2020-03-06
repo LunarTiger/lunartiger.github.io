@@ -1,7 +1,7 @@
-var config = {
+var musicconfig = {
 	databaseURL: "https://music-embed.firebaseio.com/",
 };
-firebase.initializeApp(config);
+firebase.initializeApp(musicconfig);
 var database = firebase.database();
 var state = database.ref('state');
 state.on('value', (function(snapshot) {
