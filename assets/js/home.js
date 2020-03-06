@@ -9,7 +9,7 @@ toot.on('value', (function(snapshot) {
 	var tootVal = snapshot.val();
 	if(tootVal){
 		document.getElementById('tootembed').width = "400"
-		document.getElementById('tootembed').style = "max-width: 100%; border: 0"
+		document.getElementById('tootembed').style = "max-width: 100%;height:187;border: 0"
 		document.getElementById('tootembed').src = "https://mas.to/@lunar/"+tootVal+"/embed";
 	}
 	if(!tootVal){
