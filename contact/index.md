@@ -27,6 +27,7 @@
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 	<div id="social-child" class="innertext" data-parent="social">
 		<p>Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
+		<p>Mastodon:&nbsp;&nbsp;<a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 		<p>Reddit:&nbsp;&nbsp;<a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
 		<p>Twitch:&nbsp;&nbsp;<a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 		<p>Twitter:&nbsp;&nbsp;<a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
