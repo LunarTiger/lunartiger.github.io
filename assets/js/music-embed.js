@@ -14,4 +14,8 @@ state.on('value', (function(snapshot) {
 			document.getElementById('musicembed').src = "https://www.youtube.com/embed/"+idVal+"?rel=0;&autoplay=1";
 		}));
 	}
+	if(!stateVal){
+		document.getElementById('musicembed').style = "max-width:0px;height:0px;width:0px;border: 0px"
+		document.getElementById('musicembed').src = "";
+	}
 }));
