@@ -4,7 +4,7 @@ var tootconfig = {
 firebase.initializeApp(tootconfig);
 var database = firebase.database();
 var toot = database.ref('toot');
-state.on('value', (function(snapshot) {
+toot.on('value', (function(snapshot) {
 	var tootVal = snapshot.val();
 	if(tootVal){
 		document.getElementById('tootembed').width = "400"
