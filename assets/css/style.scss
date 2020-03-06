@@ -280,10 +280,6 @@ nav ul li a:hover {
     margin: 20px 0 20px
 }
 
-.center {
-    text-align: center;
-}
-
 .encase {
     border-width: 0;
     width: 75%;
@@ -295,10 +291,21 @@ nav ul li a:hover {
 
 /*------------------------------------*/
 
-.focus {
+.holder {
     padding: 0 18px;
+    height: auto;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
     background-color: #020;
     text-align: left;
     border-radius: 10px;
     margin-bottom: 1.5em;
+}
+
+.holder p {
+    margin: 20px 0 20px
+}
+
+.center {
+    text-align: center;
 }

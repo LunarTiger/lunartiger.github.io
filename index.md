@@ -3,7 +3,7 @@
 <h2>Home</h2>
 <p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>
 <hr />
-<div id="projects" class="focus center">
+<div id="projects" class="holder center">
 	<nav>
 		<ul class="navbar">
 			<li class="navbar"><a href="/stwl">Story Time</a></li>
@@ -11,7 +11,7 @@
 		</ul>
 	</nav>
 </div>
-<div id="contact" class="focus center">
+<div id="contact" class="holder center">
 	<nav>
 		<ul class="navbar">
 			<li class="navbar"><a href="/contact#mastodon">Mastodon</a></li>
