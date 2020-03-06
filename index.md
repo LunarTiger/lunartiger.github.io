@@ -19,7 +19,9 @@
 		</ul>
 	</nav>
 </div>
+<iframe src="https://mas.to/@lunar/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
 <iframe id="musicembed" allow="autoplay; encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
+<script src="https://mas.to/embed.js" async="async"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script src="/assets/js/music-embed.js"></script>
