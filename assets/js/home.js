@@ -31,3 +31,16 @@ id.on('value', (function(snapshot) {
 		document.getElementById('musicembed').src = "";
 	}
 }));
+//Post-Message
+var message = database.ref('post-message/html');
+message.on('value', (function(snapshot) {
+	var messageVal = snapshot.val();
+	if(messageVal){
+		document.getElementById('messageembed').class = "encase";
+		document.getElementById('messageembed').innerHTML = messageVal;
+	}
+	if(!messageVal){
+		document.getElementById('messageembed').class = "innertext";
+		document.getElementById('messageembed').innerHTML = "";
+	}
+}));
