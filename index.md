@@ -5,6 +5,7 @@
 <div id="projects" class="holder center">
 	<nav>
 		<ul class="navbar">
+			<li class="navbar"><a href="/covid19">COVID-19 Info</a></li>
 			<li class="navbar"><a href="/stwl">Story Time</a></li>
 			<li class="navbar"><a href="/ovrtoggle">Oculus Toggle</a></li>
 		</ul>
