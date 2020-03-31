@@ -5,17 +5,20 @@
 <p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 <hr style="height:1px; visibility:hidden;" />
 <div class="encase">
-	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
-	<div id="other-child" class="innertext center" data-parent="other">
-		<p><a id="meditation" href="/meditate" data-parent="other">Meditation</a></p>
-		<p><a id="voicemeeter" href="/voicemeeter" data-parent="other">Voice Meeter Setup Instructions</a></p>
-		<p><a id="pictures" href="/pics" data-parent="other">Pictures</a></p>
-		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
+	<button class="collapsible" id="writeup" data-parent="writeup" data-child="writeup-child">Write-Ups</button>
+	<div id="writeup-child" class="innertext center" data-parent="writeup">
+		<p><a id="meditation" href="/meditate" data-parent="writeup">Meditation</a></p>
+		<p><a id="voicemeeter" href="/voicemeeter" data-parent="writeup">Voice Meeter Setup Instructions</a></p>
 	</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 	<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
 		<p><a id="babyshark" href='/babyshark' target="_blank" data-parent="baby-shark">Baby Shark</a></p>
 		<p><a id="babyshark-source" href='/babyshark/babyshark.js' target="_blank" data-parent="baby-shark">babyshark.js</a></p>
+	</div>
+	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
+	<div id="other-child" class="innertext center" data-parent="other">
+		<p><a id="pictures" href="/pics" data-parent="other">Pictures</a></p>
+		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 	</div>
 	<hr />
 	<button class="collapsible" id="deprecated" data-parent="depreciated" data-child="deprecated-child">Deprecated</button>
