@@ -50,7 +50,7 @@
 	<button class="collapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
 	<div id="pet-child" class="innertext" data-parent="pet">
 		<p>Dog's Name:&nbsp;&nbsp;Max</p>
-		<p>Three Chickens</p>
+		<p>Two Chickens</p>
 		<p>Thousands of Compost Worms</p>
 	</div>
 </div>
