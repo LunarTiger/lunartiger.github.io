@@ -46,6 +46,12 @@
 		<p>VRChat:&nbsp;&nbsp;<a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Lunar|sdq․st⁄l</a></p>
 		<!--<p>Xbox:&nbsp;&nbsp;<a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>-->
 	</div>
+	<button class="collapsible" id="payme" data-parent="payme" data-child="payme-child">Pay Me</button>
+	<div id="payme-child" class="innertext" data-parent="payme">
+		<p>Patreon:&nbsp;&nbsp;<a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="payme">Ryan Fowler-Hughes</a></p>
+		<p>PayPal:&nbsp;&nbsp;<a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="payme">lunartiger</a></p>
+		<p>Monero Wallet:&nbsp;&nbsp;<span style="color:#0ac139;" id="monero" data-parent="payme">4361qB7fPB7fy4Lpzta4qcS1NKDZTdUbsFNPL8ZEfHNyQpagVsfb6gwfzwD87YaGVobBb7rcg5EGwA4iUmSeGGUaPnZecc1</span></p>
+	</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 	<div id="other-child" class="innertext" data-parent="other">
 		<p>Phone:&nbsp;&nbsp;<a href="tel:+15406926899" id="phone" data-parent="other">1-540-692-6899</a></p>
@@ -54,8 +60,6 @@
 		<p>TikTok:&nbsp;&nbsp;<a href="https://tiktok.com/@lunartiger" id="tiktok" data-parent="other">lunartiger</a></p>
 		<p>GitHub:&nbsp;&nbsp;<a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
 		<p>E-mail:&nbsp;&nbsp;<a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
-		<p>Patreon:&nbsp;&nbsp;<a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="other">Ryan Fowler-Hughes</a></p>
-		<p>PayPal:&nbsp;&nbsp;<a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="other">lunartiger</a></p>
 	</div>
 </div>
 <script src="/assets/js/collapsible.js"></script>
