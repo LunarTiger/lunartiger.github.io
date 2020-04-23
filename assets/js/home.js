@@ -29,7 +29,7 @@ loc.on('value', (function(snapshot) {
 		}
 	}
 	if(!locVal){
-		document.getElementById('lunar-location').innerHTML = "<p>No clue. "+place[0]+"</p>";
+		document.getElementById('lunar-location').innerHTML = "<p>¯\_(ツ)_/¯ "+place[0]+"</p>";
 	}
 }));
 //Toot
