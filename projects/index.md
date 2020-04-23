@@ -19,6 +19,7 @@
 	<div id="other-child" class="innertext center" data-parent="other">
 		<p><a id="pictures" href="/pics" data-parent="other">Pictures</a></p>
 		<p><a id="imgur" href="https://lunartiger69.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
+		<p><a id="whereis" href="/whereis" data-parent="other">Where is Lunar?</a></p>
 	</div>
 	<hr />
 	<button class="collapsible" id="deprecated" data-parent="depreciated" data-child="deprecated-child">Deprecated</button>
