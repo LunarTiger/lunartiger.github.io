@@ -66,7 +66,7 @@ message.on('value', (function(snapshot) {
 	var messageVal = snapshot.val();
 	if(messageVal){
 		document.getElementById('messageembed').class = "encase";
-		document.getElementById('messageembed').innerHTML = messageVal;
+		document.getElementById('messageembed').innerHTML = "<p>"+messageVal+"</p>";
 	}
 	if(!messageVal){
 		document.getElementById('messageembed').class = "innertext";
