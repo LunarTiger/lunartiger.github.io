@@ -3,6 +3,35 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
+//Location
+var place = [
+    "You can <a href='/contact' id='contact'>contact me</a>.",
+    "I'm <a href='https://www.google.com/maps/place/293+Babbs+Mountain+Rd,+Winchester,+VA+22603/@39.2744651,-78.1799907,17z/data=!3m1!4b1!4m5!3m4!1s0x89b5f115682b0d49:0xa79fd3617adf6fc!8m2!3d39.274461!4d-78.177802' id='address' target='_blank'>home</a>.",
+    "I'm out with my dad, Lanny. He can be contacted at <a href='tel:+15403279023'>1-540-327-9023</a>.",
+    "I'm out with my mom, Shelva. She can be contacted at <a href='tel:+13048204338'>1-304-820-4338</a>."
+];
+var location = database.ref('lunar/location');
+location.on('value', (function(snapshot) {
+	var locationVal = snapshot.val();
+	document.getElementById('lunar-location').class = "encase";
+	if(locationVal){
+		if(locationVal=="home"){
+			document.getElementById('lunar-location').innerHTML = place[1]+" "+place[0];
+		}
+		else if(locationVal=="awayd"){
+			document.getElementById('lunar-location').innerHTML = place[2]+" "+place[0];
+		}
+		else if(locationVal=="awaym"){
+			document.getElementById('lunar-location').innerHTML = place[3]+" "+place[0];
+		}
+		else{
+			document.getElementById('lunar-location').innerHTML = locationVal+" "+place[0];
+		}
+	}
+	if(!locationVal){
+		document.getElementById('lunar-location').innerHTML = "No clue. "+place[0];
+	}
+}));
 //Toot
 var toot = database.ref('mastodon/toot');
 toot.on('value', (function(snapshot) {
