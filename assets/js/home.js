@@ -10,26 +10,26 @@ var place = [
     "I'm out with my dad, Lanny. He can be contacted at <a href='tel:+15403279023'>1-540-327-9023</a>.",
     "I'm out with my mom, Shelva. She can be contacted at <a href='tel:+13048204338'>1-304-820-4338</a>."
 ];
-var location = database.ref('lunar/location');
-location.on('value', (function(snapshot) {
-	var locationVal = snapshot.val();
+var loc = database.ref('lunar/location');
+loc.on('value', (function(snapshot) {
+	var locVal = snapshot.val();
 	document.getElementById('lunar-location').class = "encase";
-	if(locationVal){
-		if(locationVal=="home"){
-			document.getElementById('lunar-location').innerHTML = place[1]+" "+place[0];
+	if(locVal){
+		if(locVal=="home"){
+			document.getElementById('lunar-location').innerHTML = "<p>"+place[1]+" "+place[0]+"</p>";
 		}
-		else if(locationVal=="awayd"){
-			document.getElementById('lunar-location').innerHTML = place[2]+" "+place[0];
+		else if(locVal=="awayd"){
+			document.getElementById('lunar-location').innerHTML = "<p>"+place[2]+" "+place[0]+"</p>";
 		}
-		else if(locationVal=="awaym"){
-			document.getElementById('lunar-location').innerHTML = place[3]+" "+place[0];
+		else if(locVal=="awaym"){
+			document.getElementById('lunar-location').innerHTML = "<p>"+place[3]+" "+place[0]+"</p>";
 		}
 		else{
-			document.getElementById('lunar-location').innerHTML = locationVal+" "+place[0];
+			document.getElementById('lunar-location').innerHTML = "<p>"+locVal+" "+place[0]+"</p>";
 		}
 	}
-	if(!locationVal){
-		document.getElementById('lunar-location').innerHTML = "No clue. "+place[0];
+	if(!locVal){
+		document.getElementById('lunar-location').innerHTML = "<p>No clue. "+place[0]+"</p>";
 	}
 }));
 //Toot
