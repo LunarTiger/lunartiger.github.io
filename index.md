@@ -2,10 +2,10 @@
 
 <h2>Home</h2>
 <p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>
+<div id="story-time" class="holder center"></div>
 <div id="projects" class="holder center">
 	<nav>
 		<ul class="navbar">
-			<li class="navbar"><a href="/stwl">Story Time</a></li>
 			<li class="navbar"><a href="/ovrtoggle">Oculus Toggle</a></li>
 			<li class="navbar"><a href="/voicemeeter">VoiceMeeter Setup</a></li>
 		</ul>

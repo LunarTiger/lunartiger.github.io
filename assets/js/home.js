@@ -3,6 +3,17 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
+//Event
+var event = database.ref('stwl/next-event');
+event.on('value', (function(snapshot) {
+	var eventVal = snapshot.val();
+	if(eventVal){
+		document.getElementById('story-time').innerHTML = "<p><a href='/stwl'>Story Time with Lunar</a>. Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+	}
+	if(!eventVal){
+		document.getElementById('story-time').innerHTML = "<p>Check out the <a href='/stwl/archive'>archive</a> or join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+	}
+}));
 //Location
 var place = [
     "You can <a href='/contact'>contact me</a>.",
