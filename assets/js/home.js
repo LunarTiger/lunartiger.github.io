@@ -8,20 +8,19 @@ var event = database.ref('stwl/next-event');
 event.on('value', (function(snapshot) {
 	var eventVal = snapshot.val();
 	if(eventVal){
-		var inside = "<a href='/stwl'>Story Time with Lunar</a><br />Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.";
-		//Book
-		var book = database.ref('stwl/book');
-		book.on('value', (function(snapshot) {
-			var bookVal = snapshot.val();
-			if(bookVal){
-				inside += "<br />Current Book:&nbsp "+bookVal;
-			}
-		}));
-		//////
-		document.getElementById('story-time').innerHTML = "<p>"+inside+"</p>";
+		var inside = "";
+		document.getElementById('story-time').innerHTML = "<p id='story-time-p'><a href='/stwl'>Story Time with Lunar</a><br />Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
 	}
 	if(!eventVal){
 		document.getElementById('story-time').innerHTML = "<p>Check out the <a href='/stwl/archive'>archive</a> or join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+	}
+}));
+//Book
+var book = database.ref('stwl/book');
+book.on('value', (function(snapshot) {
+	var bookVal = snapshot.val();
+	if(bookVal){
+		document.getElementById('story-time-p').innerHTML += "<br />Current Book:&nbsp "+bookVal;
 	}
 }));
 //Location
