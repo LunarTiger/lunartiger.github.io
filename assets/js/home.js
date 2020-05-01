@@ -19,7 +19,7 @@ var book = database.ref('stwl/book');
 book.on('value', (function(snapshot) {
 	var bookVal = snapshot.val();
 	if(bookVal){
-		document.getElementById('story-time-p').innerHTML += "Current Book:&nbsp "+bookVal;
+		document.getElementById('story-time-p').innerHTML += "<br />Current Book:&nbsp "+bookVal;
 	}
 	if(!bookVal){}
 }));
