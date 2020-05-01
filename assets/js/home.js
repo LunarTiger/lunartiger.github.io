@@ -8,7 +8,7 @@ var event = database.ref('stwl/next-event');
 event.on('value', (function(snapshot) {
 	var eventVal = snapshot.val();
 	if(eventVal){
-		document.getElementById('story-time').innerHTML = "<p><a href='/stwl'>Story Time with Lunar</a><br />Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+		document.getElementById('story-time').innerHTML = "<p id='story-time-p'><a href='/stwl'>Story Time with Lunar</a><br />Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
 	}
 	if(!eventVal){
 		document.getElementById('story-time').innerHTML = "<p>Check out the <a href='/stwl/archive'>archive</a> or join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
@@ -19,7 +19,7 @@ var book = database.ref('stwl/book');
 book.on('value', (function(snapshot) {
 	var bookVal = snapshot.val();
 	if(bookVal){
-		document.getElementById('story-time').innerHTML += "<p>Current Book:"+bookVal+"</p>";
+		document.getElementById('story-time-p').innerHTML += "Current Book:&nbsp "+bookVal;
 	}
 	if(!bookVal){}
 }));
