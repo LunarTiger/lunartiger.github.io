@@ -14,6 +14,15 @@ event.on('value', (function(snapshot) {
 		document.getElementById('story-time').innerHTML = "<p>Check out the <a href='/stwl/archive'>archive</a> or join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
 	}
 }));
+//Book
+var book = database.ref('stwl/next-event');
+book.on('value', (function(snapshot) {
+	var bookVal = snapshot.val();
+	if(bookVal){
+		document.getElementById('story-time').innerHTML += "<p>Current Book:"+bookVal+"</p>";
+	}
+	if(!bookVal){}
+}));
 //Location
 var place = [
     "You can <a href='/contact'>contact me</a>.",
