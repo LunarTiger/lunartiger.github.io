@@ -1,12 +1,6 @@
 var coll = document.getElementsByClassName("collapsible");
 var default_open = document.getElementById('openme');
-var open_this = null;
 var i;
-if (window.location.hash) {
-	if(document.getElementById(window.location.hash.substr(1))) {
-		open_this = document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent);
-	}
-}
 if (coll) {
 	for (i = 0; i < coll.length; i++) {
 		coll[i].addEventListener("click", function() {
@@ -17,5 +11,7 @@ if (coll) {
 		});
 	}
 }
-if (open_this) {open_this.click();}
+if (document.getElementById(window.location.hash.substr(1))) {
+	document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();
+}
 else if (default_open) {default_open.click();}
