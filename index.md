@@ -23,8 +23,8 @@
 <div id="lunar-location" class="holder center"></div>
 <iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 <iframe id="tootembed" src="" class="mastodon-embed" style="max-width: 0; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
-<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=100&header=false&replies=false&boosts=false"></iframe>
 <div id="messageembed" class="holder center"></div>
+<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=false"></iframe>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script src="/assets/js/home.js"></script>
