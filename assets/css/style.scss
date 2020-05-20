@@ -125,6 +125,14 @@ ul {
 }
 
 button {
+    font-family: Lexend;
+    background-color: #000000;
+    color: #00FF00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
     font-family: ComicSans;
     background-color: #000000;
     color: #00FF00;
@@ -166,7 +174,7 @@ nav ul li:last-child {
 }
 
 nav button {
-    font-family: ComicSans;
+    font-family: Lexend;
     background-color: #000000;
     color: #00FF00;
     padding: 10px;
