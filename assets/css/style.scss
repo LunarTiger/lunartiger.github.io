@@ -182,6 +182,7 @@ nav button:hover {
 }
 
 nav ul li a {
+    font-family: Lexend;
     display: block;
     color: #00be00;
     text-align: center;
@@ -191,6 +192,7 @@ nav ul li a {
 
 /* unvisited link */
 nav ul li a:link {
+    font-family: Lexend;
     display: block;
     color: #00be00;
     text-align: center;
@@ -200,6 +202,7 @@ nav ul li a:link {
 
 /* visited link */
 nav ul li a:visited {
+    font-family: Lexend;
     display: block;
     color: #00be00;
     text-align: center;
@@ -209,6 +212,7 @@ nav ul li a:visited {
 
 /* Change the link color on hover */
 nav ul li a:hover {
+    font-family: ComicSans;
     background-color: #003300;
     text-decoration: none;
 }
