@@ -23,7 +23,7 @@
 		<p><a id="whereis" href="/whereis" data-parent="other">Where is Lunar?</a></p>
 	</div>
 	<hr />
-	<button class="collapsible" id="deprecated" data-parent="depreciated" data-child="deprecated-child">Deprecated</button>
+	<button class="collapsible" id="deprecated" data-parent="deprecated" data-child="deprecated-child">Deprecated</button>
 	<div id="deprecated-child" class="innertext center" data-parent="deprecated">
 		<p><a id="discord" href='/Discord' data-parent="deprecated">Discord Add-Ons</a></p>
 		<p><a id="file-server" href='/fs-up' data-parent="deprecated">File Server</a></p>
