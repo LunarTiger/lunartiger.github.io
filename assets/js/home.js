@@ -60,7 +60,7 @@ loc.on('value', (function(snapshot) {
 	}
 }));
 //Toot
-var toot = database.ref('mastodon/toot');
+/*var toot = database.ref('mastodon/toot');
 toot.on('value', (function(snapshot) {
 	var tootVal = snapshot.val();
 	if(tootVal){
@@ -73,7 +73,7 @@ toot.on('value', (function(snapshot) {
 		document.getElementById('tootembed').style = "max-width:0px;height:0px;border: 0";
 		document.getElementById('tootembed').src = "";
 	}
-}));
+}));*/
 //Music
 var id = database.ref('music-embed/id');
 id.on('value', (function(snapshot) {
