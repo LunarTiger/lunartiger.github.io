@@ -52,7 +52,7 @@ loc.on('value', (function(snapshot) {
 		else if(locVal=="mom"){
 			document.getElementById('lunar-location').innerHTML = "<p>"+place[4]+" "+place[0]+"</p>";
 		}
-		else if(messageVal=="sis"){
+		else if(locVal=="sis"){
 			document.getElementById('lunar-location').innerHTML = "<p>"+place[5]+" "+place[0]+"</p>";
 		}
 		else{
