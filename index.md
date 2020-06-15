@@ -6,7 +6,7 @@
 	<nav>
 		<ul class="navbar">
 			<li class="navbar"><a href="/ovrtoggle">Oculus Toggle</a></li>
-			<li class="navbar"><a href="/og/voicemeeter">VoiceMeeter Setup</a></li>
+			<li class="navbar"><a href="/wu/voicemeeter">VoiceMeeter Setup</a></li>
 		</ul>
 	</nav>
 </div>

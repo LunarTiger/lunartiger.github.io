@@ -5,10 +5,10 @@
 <p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 <hr style="height:1px; visibility:hidden;" />
 <div class="encase">
-	<button class="collapsible" id="og" data-parent="og" data-child="og-child">Omnium-Gatherum</button>
-	<div id="og-child" class="innertext center" data-parent="og">
-		<p><a id="meditation" href="/og/meditate" data-parent="writeup">Meditation</a></p>
-		<p><a id="voicemeeter" href="/og/voicemeeter" data-parent="writeup">Voice Meeter Setup Instructions</a></p>
+	<button class="collapsible" id="wu" data-parent="wu" data-child="wu-child">Write-Ups</button>
+	<div id="wu-child" class="innertext center" data-parent="wu">
+		<p><a id="meditation" href="/wu/meditate" data-parent="writeup">Meditation</a></p>
+		<p><a id="voicemeeter" href="/wu/voicemeeter" data-parent="writeup">Voice Meeter Setup Instructions</a></p>
 	</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 	<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
