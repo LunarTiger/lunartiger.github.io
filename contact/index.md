@@ -48,7 +48,7 @@
 	</div>
 	<button class="collapsible" id="payme" data-parent="payme" data-child="payme-child">Pay Me</button>
 	<div id="payme-child" class="innertext" data-parent="payme">
-		<p>Cash App:&nbsp; <a href="https://cash.app/$lunar69" target="_blank" id="cashapp" data-parent="payme">Ryan Fowler-Hughes</a></p>
+		<p>Cash App:&nbsp; <a href="https://cash.app/$lunar69" target="_blank" id="cashapp" data-parent="payme">$lunar69</a></p>
 		<p>Patreon:&nbsp; <a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="payme">Ryan Fowler-Hughes</a></p>
 		<p>PayPal:&nbsp; <a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="payme">lunartiger</a></p>
 		<p>Revolut:&nbsp; <a href="https://pay.revolut.com/profile/ryan5v9n4" target="_blank" id="revolut" data-parent="payme">ryan5v9n4</a></p>
