@@ -1,4 +1,4 @@
-<div class="encase">
+<section><div class="encase">
 	<h2 id="about">About Me</h2>
 	<hr style="height:1px; visibility:hidden;" />
 	<p>Hobbyist Developer<br>Nihilistic Atheist<br>Chaotic Neutral</p>
@@ -55,4 +55,4 @@
 			<p>Thousands of Compost Worms</p>
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
-</div>
+</div></section>
