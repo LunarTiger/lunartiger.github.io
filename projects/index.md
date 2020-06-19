@@ -1,11 +1,10 @@
-<section>
+<div class="encase">
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 	<p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
 	<p><a id="lar" href='/lar'>Lovense API Redirect</a></p>
 	<hr style="height:1px; visibility:hidden;" />
-	<!--<div class="encase">-->
 	<button class="collapsible" id="wu" data-parent="wu" data-child="wu-child">Write-Ups</button>
 		<div id="wu-child" class="innertext center" data-parent="wu">
 			<p><a id="unity" href="/wu/unity" data-parent="wu">World Building with Unity</a><br /><small>Thanks to Andy Wood</small></p>
@@ -40,9 +39,8 @@
 			<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
 			<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="altvr">Altspace Scripts - Old API</a></p>
 		</div>
-	<!--</div>-->
 	<script src="/assets/js/collapsible.js"></script>
 	<!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 	<script src="/assets/js/worms-embed.js"></script>-->
-</section>
+</div>

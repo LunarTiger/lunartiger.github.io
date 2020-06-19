@@ -1,11 +1,10 @@
-<section>
+<div class="encase">
 	<h2 id="about">About Me</h2>
 	<hr style="height:1px; visibility:hidden;" />
 	<p>Hobbyist Developer<br>Nihilistic Atheist<br>Chaotic Neutral</p>
 	<hr style="height:1px; visibility:hidden;" />
 	<img style="border-radius: 50%;" src="/assets/img/me.jpg" alt="Ryan" height="315" width="315"/>
 	<hr style="height:1px; visibility:hidden;" />
-	<!--<div class="encase">-->
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
 			<p>Name:&nbsp;&nbsp;Ryan Fowler-Hughes</p>
@@ -55,6 +54,5 @@
 			<p>Two Chickens</p>
 			<p>Thousands of Compost Worms</p>
 		</div>
-	<!--</div>-->
 	<script src="/assets/js/collapsible.js"></script>
-</section>
+</div>

@@ -1,7 +1,6 @@
-<section>
+<div class="encase">
 	<h2 id="contact">Contact Me</h2>
 	<hr style="height:1px; visibility:hidden;" />
-	<!--<div class="encase">-->
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
@@ -64,6 +63,5 @@
 			<p>GitHub:&nbsp; <a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
 			<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 		</div>
-	<!--</div>-->
 	<script src="/assets/js/collapsible.js"></script>
-</section>
+</div>
