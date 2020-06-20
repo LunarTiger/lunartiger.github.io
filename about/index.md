@@ -3,7 +3,7 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<p>Hobbyist Developer<br>Nihilistic Atheist<br>Chaotic Neutral</p>
 	<hr style="height:1px; visibility:hidden;" />
-	<img style="border-radius: 50%;" src="/assets/img/me.jpg" alt="Ryan" height="315" width="315"/>
+	<img style="border-radius: 50%;" src="/assets/img/me0.jpg" alt="Ryan" onmouseover="this.src='/assets/img/me1.jpg';" onmouseout="this.src='/assets/img/me0.jpg';" height="315" width="315" />
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
