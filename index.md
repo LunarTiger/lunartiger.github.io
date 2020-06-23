@@ -20,7 +20,7 @@
 		</nav>
 	</div>
 	<div id="spyro-playlist" class="holder center">
-		<h3>I've been playing Spyro</h3>
+		<p><h3>I've been playing Spyro</h3></p>
 		<iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLJAqjOYAEgb79hDfBwSnZOrFH-RXu49t9" style="max-width:100%; height:197px; width:350px; border:0px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="story-time" class="holder center"></div>
