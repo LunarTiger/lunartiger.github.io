@@ -5,7 +5,7 @@
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
 			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="Pwickr" data-parent="openme">lunartiger</span></p>
-			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">Lunar#6969</a></p>
+			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">Lunar#6184</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/LunarTiger" target="_blank" id="Ptelegram" data-parent="openme">@LunarTiger</a></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
