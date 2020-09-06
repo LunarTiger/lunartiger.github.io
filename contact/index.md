@@ -41,6 +41,7 @@
 			<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
 			<!--<p>PSN:&nbsp; <span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>-->
 			<p>Sansar:&nbsp; <a href="https://profiles.sansar.com/profiles/Lunar-6624" target="_blank" id="sansar" data-parent="gaming">@Lunar-6624</a></p>
+			<p>Second Life:&nbsp; <a href="https://my.secondlife.com/lunar.leifstrom" target="_blank" id="secondlife" data-parent="gaming">Lunar Leifstrom</a></p>
 			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Lunar</a></p>
 			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
 			<p>Uplay:&nbsp; <a href="https://club.ubisoft.com/en-US/profile/lunartiger1965" target="_blank" id="uplay" data-parent="gaming">lunartiger1965</a></p>
