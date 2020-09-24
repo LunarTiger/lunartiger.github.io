@@ -52,7 +52,6 @@
 		<div id="pet-child" class="innertext" data-parent="pet">
 			<p>Dog's Name:&nbsp;&nbsp;Max</p>
 			<p>Two Chickens</p>
-			<p>Thousands of Compost Worms</p>
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>
