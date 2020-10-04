@@ -3,7 +3,7 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-//Event
+//Event*/
 var event = database.ref('stwl/next-event');
 event.on('value', (function(snapshot) {
 	var eventVal = snapshot.val();
@@ -15,7 +15,7 @@ event.on('value', (function(snapshot) {
 		document.getElementById('story-time').innerHTML = "<p><a href='/stwl'>Story Time with Lunar</a><br />Check out the <a href='/stwl/archive'>archive</a>.<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
 	}
 }));
-//Book
+//Book*/
 var book = database.ref('stwl/book');
 book.on('value', (function(snapshot) {
 	var bookVal = snapshot.val();
@@ -26,8 +26,8 @@ book.on('value', (function(snapshot) {
 		}
 	}
 }));
-//Location
-var place = [
+//Location*/
+/*var place = [
     "You can <a href='/contact'>contact me</a>.",
     "I'm <a href='https://www.google.com/maps/place/293+Babbs+Mountain+Rd,+Winchester,+VA+22603/@39.2744651,-78.1799907,17z/data=!3m1!4b1!4m5!3m4!1s0x89b5f115682b0d49:0xa79fd3617adf6fc!8m2!3d39.274461!4d-78.177802' target='_blank'>home</a>.",
 	"I'm not home.",
@@ -63,7 +63,7 @@ loc.on('value', (function(snapshot) {
 		document.getElementById('lunar-location').innerHTML = "<p>¯\_(ツ)_/¯ "+place[0]+"</p>";
 	}
 }));
-//Toot
+//Toot*/
 /*var toot = database.ref('mastodon/toot');
 toot.on('value', (function(snapshot) {
 	var tootVal = snapshot.val();
@@ -77,8 +77,8 @@ toot.on('value', (function(snapshot) {
 		document.getElementById('tootembed').style = "max-width:0px;height:0px;border: 0";
 		document.getElementById('tootembed').src = "";
 	}
-}));*/
-//Music
+}));
+//Music*/
 var id = database.ref('music-embed/id');
 id.on('value', (function(snapshot) {
 	var idVal = snapshot.val();
@@ -91,7 +91,7 @@ id.on('value', (function(snapshot) {
 		document.getElementById('musicembed').src = "";
 	}
 }));
-//Post-Message
+//Post-Message*/
 var message = database.ref('post-message/html');
 message.on('value', (function(snapshot) {
 	var messageVal = snapshot.val();
