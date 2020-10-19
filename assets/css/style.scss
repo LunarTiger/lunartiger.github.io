@@ -252,6 +252,7 @@ nav ul li a:hover {
 }
 
 /*********** collapsible layout ***********/
+/**Fake**/
 .fakecollapsible{
     background-color: #009000;
     color: white;
@@ -266,13 +267,23 @@ nav ul li a:hover {
 }
 
 .fakecollapsible:after {
-    content: '\002B';
+    content: '\2212';
     color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
 }
-
+.fakeinnertext {
+    padding: 0 18px;
+    max-height: auto;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #020;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+/****/
 .collapsible {
     background-color: #006900;
     color: white;
