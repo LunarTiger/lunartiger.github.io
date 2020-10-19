@@ -31,13 +31,13 @@
 			<p><a id="hypatia" href="/hypatia" data-parent="deprecated">Hypatia Hints</a></p>
 			<p><a id="worms" href="/worms" data-parent="deprecated">Worms Live Stream</a></p>
 			<!--<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="deprecated"></iframe>-->
-		</div>
-	<button class="collapsible" id="altvr" data-parent="altvr" data-child="altvr-child">Altspace</button>
-		<div id="altvr-child" class="innertext center" data-parent="altvr">
-			<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Lunarverse</a></p>
-			<p><a id="spacearchive" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="altvr">Spaces Archive</a></p>
-			<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
-			<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="altvr">Altspace Scripts - Old API</a></p>
+			<button class="collapsible" id="altvr" data-parent="deprecated" data-child="altvr-child">Altspace</button>
+				<div id="altvr-child" class="innertext center" data-parent="altvr">
+					<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="altvr">Lunarverse</a></p>
+					<p><a id="spacearchive" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="altvr">Spaces Archive</a></p>
+					<p><a id="tphub" href="/althub" data-parent="altvr">Altspace Teleport Hub</a></p>
+					<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="altvr">Altspace Scripts - Old API</a></p>
+				</div>
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
 	<!--<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
