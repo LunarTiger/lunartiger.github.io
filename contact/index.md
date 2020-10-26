@@ -29,6 +29,7 @@
 			<p>Instagram: &nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
 			<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
+			<p>TikTok:&nbsp; <a href="https://tiktok.com/@lunartiger" id="tiktok" data-parent="social">lunartiger</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
 			<p>Twitter:&nbsp; <a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
 		</div>
@@ -60,7 +61,6 @@
 		<div id="other-child" class="innertext" data-parent="other">
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="phone" data-parent="other">1-540-692-6899</a></p>
 			<p>YouTube:&nbsp; <a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube" data-parent="other">Ryan Fowler-Hughes</a></p>
-			<p>TikTok:&nbsp; <a href="https://tiktok.com/@lunartiger" id="tiktok" data-parent="other">lunartiger</a></p>
 			<p>Spotify:&nbsp; <a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
 			<p>GitHub:&nbsp; <a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
 			<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
