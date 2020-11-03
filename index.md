@@ -10,7 +10,12 @@
 			</ul>
 		</nav>
 	</div>
-	<div id="contact" class="holder center">
+	<div id="contact-navbar" class="holder center">
+	<nav>
+			<ul class="navbar">
+				<li class="navbar"><a href="https://linktr.ee/lunar69">My Linktree</a></li>
+			</ul>
+		</nav>
 		<nav>
 			<ul class="navbar">
 				<li class="navbar"><a href="/contact#mastodon">Mastodon</a></li>
