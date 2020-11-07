@@ -55,7 +55,7 @@
 			<p>Patreon:&nbsp; <a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="payme">Ryan Fowler-Hughes</a></p>
 			<p>PayPal:&nbsp; <a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="payme">lunartiger</a></p>
 			<p>Revolut:&nbsp; <a href="https://pay.revolut.com/profile/ryan5v9n4" target="_blank" id="revolut" data-parent="payme">ryan5v9n4</a></p>
-			<p>Monero Wallet:&nbsp; <span style="color:#0ac139; word-wrap:break-word;" id="monero" data-parent="payme">4361qB7fPB7fy4Lpzta4qcS1NKDZTdUbsFNPL8ZEfHNyQpagVsfb6gwfzwD87YaGVobBb7rcg5EGwA4iUmSeGGUaPnZecc1</span></p>
+			<!--<p>Monero Wallet:&nbsp; <span style="color:#0ac139; word-wrap:break-word;" id="monero" data-parent="payme"></span></p>-->
 		</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 		<div id="other-child" class="innertext" data-parent="other">
