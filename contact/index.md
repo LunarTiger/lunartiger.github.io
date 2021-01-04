@@ -63,7 +63,7 @@
 			<p>YouTube:&nbsp; <a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube" data-parent="other">Ryan Fowler-Hughes</a></p>
 			<p>Spotify:&nbsp; <a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
 			<p>GitHub:&nbsp; <a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
-			<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
+			<!--<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>-->
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>
