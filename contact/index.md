@@ -28,6 +28,7 @@
 		<div id="social-child" class="innertext" data-parent="social">
 			<p>Instagram: &nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
 			<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
+			<p>MeWe:&nbsp; <a href="https://mewe.com/i/ryanfowler-hughes" target="_blank" id="mewe" data-parent="social">Ryan Fowler-Hughes</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
 			<p>TikTok:&nbsp; <a href="https://tiktok.com/@lunartiger" id="tiktok" data-parent="social">lunartiger</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
