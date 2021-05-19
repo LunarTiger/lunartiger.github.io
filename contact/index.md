@@ -5,7 +5,7 @@
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
 			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="Pwickr" data-parent="openme">lunartiger</span></p>
-			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">Lunar#6184</a></p>
+			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">Rev. Lunar#6184</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/LunarTiger" target="_blank" id="Ptelegram" data-parent="openme">@LunarTiger</a></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
@@ -19,7 +19,7 @@
 		</div>
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 		<div id="messaging-child" class="innertext" data-parent="messaging">
-			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">Lunar#6184</a></p>
+			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">Rev. Lunar#6184</a></p>
 			<p>Kik:&nbsp; <a href="https://kik.me/lunartiger" target="_blank" id="kik" data-parent="messaging">lunartiger</a></p>
 			<p>Marco Polo:&nbsp; <a href="http://reachmeonmp.com/s/ryan-f-oi3kW" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
 			<p>Snapchat:&nbsp; <a href="https://www.snapchat.com/add/dat1gui69" target="_blank" id="snapchat" data-parent="messaging">dat1gui69</a></p>
