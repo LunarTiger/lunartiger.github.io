@@ -26,12 +26,12 @@
 		</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 		<div id="social-child" class="innertext" data-parent="social">
-			<p>Instagram: &nbsp;<a href="https://www.instagram.com/lunartiger69/" target="_blank" id="instagram" data-parent="social">lunartiger69</a></p>
+			<p>Instagram: &nbsp;<a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
-			<p>TikTok:&nbsp; <a href="https://tiktok.com/@lunartiger" id="tiktok" data-parent="social">lunartiger</a></p>
+			<p>TikTok:&nbsp; <a href="https://tiktok.com/@the.rev.lunar" id="tiktok" data-parent="social">the.rev.lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/lunartiger69" target="_blank" id="twitch" data-parent="social">LunarTiger69</a></p>
-			<p>Twitter:&nbsp; <a href="https://twitter.com/LunarTiger69" target="_blank" id="twitter" data-parent="social">@LunarTiger69</a></p>
+			<p>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></p>
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 		<div id="gaming-child" class="innertext" data-parent="gaming">
