@@ -6,14 +6,14 @@
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
 			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="Pwickr" data-parent="openme">lunartiger</span></p>
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">Rev. Lunar#6184</a></p>
-			<p>Telegram:&nbsp; <a href="https://t.me/LunarTiger" target="_blank" id="Ptelegram" data-parent="openme">@LunarTiger</a></p>
+			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 		<div id="secure-child" class="innertext" data-parent="secure">
 			<p>Dust:&nbsp; <span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>
 			<p>Riot:&nbsp; <a href="https://matrix.to/#/@lunartiger:matrix.org" target="_blank" id="riot" data-parent="secure">lunartiger</a></p>
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="signal" data-parent="secure">15406926899</span></p>
-			<p>Telegram:&nbsp; <a href="https://t.me/LunarTiger" target="_blank" id="telegram" data-parent="secure">@LunarTiger</a></p>
+			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="telegram" data-parent="secure">@Rev_Lunar</a></p>
 			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
 			<p>Wire:&nbsp; <span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
 		</div>
