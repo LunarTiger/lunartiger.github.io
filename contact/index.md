@@ -15,7 +15,7 @@
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="signal" data-parent="secure">15406926899</span></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="telegram" data-parent="secure">@Rev_Lunar</a></p>
 			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
-			<p>Wire:&nbsp; <span style="color:#0ac139;" id="wire" data-parent="secure">@lunartiger</span></p>
+			<p>Wire:&nbsp; <span style="color:#0ac139;" id="wire" data-parent="secure">@rev_lunar</span></p>
 		</div>
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 		<div id="messaging-child" class="innertext" data-parent="messaging">
