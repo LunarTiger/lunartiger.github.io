@@ -30,7 +30,7 @@
 			<p>Instagram: &nbsp;<a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
-			<p>TikTok:&nbsp; <a href="https://tiktok.com/@the.rev.lunar" id="tiktok" data-parent="social">the.rev.lunar</a></p>
+			<p>TikTok:&nbsp; <a href="https://tiktok.com/@rev_lunar" id="tiktok" data-parent="social">rev_lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
 			<p>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></p>
 		</div>
