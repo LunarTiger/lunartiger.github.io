@@ -46,7 +46,7 @@
 			<p>Sansar:&nbsp; <a href="https://profiles.sansar.com/profiles/Lunar-6624" target="_blank" id="sansar" data-parent="gaming">@Lunar-6624</a></p>
 			<p>Second Life:&nbsp; <a href="https://my.secondlife.com/lunar.leifstrom" target="_blank" id="secondlife" data-parent="gaming">Lunar Leifstrom</a></p>
 			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Lunar</a></p>
-			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/lunartiger" target="_blank" id="steam" data-parent="gaming">lunartiger</a></p>
+			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/rev_lunar" target="_blank" id="steam" data-parent="gaming">rev_lunar</a></p>
 			<p>Uplay:&nbsp; <a href="https://club.ubisoft.com/en-US/profile/lunartiger1965" target="_blank" id="uplay" data-parent="gaming">lunartiger1965</a></p>
 			<p>VRChat:&nbsp; <a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Lunar | sdq․st⁄l</a></p>
 			<!--<p>Xbox:&nbsp; <a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>-->
