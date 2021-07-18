@@ -10,26 +10,8 @@
 			</ul>
 		</nav>
 	</div>
-	<div id="contact-navbar" class="holder center">
-	<nav>
-			<ul class="navbar">
-				<li class="navbar"><a href="https://linktr.ee/lunar69">My Linktree</a></li>
-			</ul>
-		</nav>
-		<nav>
-			<ul class="navbar">
-				<li class="navbar"><a href="/contact#telegram">Telegram</a></li>
-				<li class="navbar"><a href="/contact#snapchat">Snapchat</a></li>
-				<li class="navbar"><a href="/contact#discord">Discord</a></li>
-			</ul>
-		</nav>
-		<nav>
-			<ul class="navbar">
-				<li class="navbar"><a href="/contact#instagram">Instagram</a></li>
-				<li class="navbar"><a href="/contact#mastodon">Mastodon</a></li>
-				<li class="navbar"><a href="/contact#twitter">Twitter</a></li>
-			</ul>
-		</nav>
+	<div id="amazin-wishlist" class="holder center">
+		<p><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="wishlist">Amazon Wishlist</a></p>
 	</div>
 	<div id="spyro-playlist" class="holder center">
 		<p><h3>I've been playing Spyro</h3></p>
