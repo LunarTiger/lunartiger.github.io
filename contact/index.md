@@ -61,6 +61,7 @@
 		</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 		<div id="other-child" class="innertext" data-parent="other">
+			<p><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="wishlist" data-parent="other">Amazon Wishlist</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="phone" data-parent="other">1-540-692-6899</a></p>
 			<p>YouTube:&nbsp; <a href="https://www.youtube.com/user/69lunartiger" target="_blank" id="youtube" data-parent="other">Ryan Fowler-Hughes</a></p>
 			<p>Spotify:&nbsp; <a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Ryan Fowler-Hughes</a></p>
