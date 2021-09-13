@@ -37,7 +37,7 @@
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 		<div id="gaming-child" class="innertext" data-parent="gaming">
-			<p>Animal Crossing New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">72656552659</span></p>
+			<p>New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">7265 6552 659</span></p>
 			<!--<p><del>AltspaceVR:&nbsp; <span style="color:#0ac139;" id="altvr" data-parent="gaming">Lunar</span></del><br /><ins>Was banned for talking about how they protect pedophiles</ins></p>
 			<p>Battle.net:&nbsp; <span style="color:#0ac139;" id="battlenet" data-parent="gaming">LunarTiger69#1995</span></p>-->
 			<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>
