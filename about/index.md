@@ -1,7 +1,7 @@
 <section><div class="encase">
 	<h2 id="about">About Me</h2>
 	<hr style="height:1px; visibility:hidden;" />
-	<p>Hobbyist Developer<br>Atheistic Wayist<br>Chaotic Neutral</p>
+	<p>Hobbyist Developer<br>Satanic Wayist<br>Chaotic Neutral</p>
 	<hr style="height:1px; visibility:hidden;" />
 	<img style="border-radius: 50%;" src="/assets/img/me0.jpg" alt="Ryan" onmouseover="this.src='/assets/img/me1.jpg';" onmouseout="this.src='/assets/img/me0.jpg';" height="315" width="315" />
 	<hr style="height:1px; visibility:hidden;" />
