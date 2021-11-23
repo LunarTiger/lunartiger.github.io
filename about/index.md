@@ -3,7 +3,7 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<p>Hobbyist Developer<br>Satanic Wayist<br>Chaotic Neutral<br>Communistic Fleshlight</p>
 	<hr style="height:1px; visibility:hidden;" />
-	<img style="border-radius: 50%;" src="/assets/img/me0.jpg" alt="Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me0.jpg';" height="275" width="275" />
+	<img style="border-radius: 50%;" src="/assets/img/me.gif" alt="Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
