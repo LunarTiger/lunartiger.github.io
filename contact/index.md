@@ -43,8 +43,8 @@
 			<!---->
 			<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>
 			<p>New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">7265 6552 659</span></p>
-			<!--<p>Oculus:&nbsp; <span style="color:#0ac139;" id="oculus" data-parent="gaming">lunartiger</span></p>
-			<p>Origin:&nbsp; <a href="https://www.origin.com/usa/en-us/profile/user/Us_m7_zkAXm4u_A4yP5DQA--/achievements" target="_blank" id="origin" data-parent="gaming">LunarTiger69</a></p>
+			<p>Oculus:&nbsp; <span style="color:#0ac139;" id="oculus" data-parent="gaming">lunartiger</span></p>
+			<!--<p>Origin:&nbsp; <a href="https://www.origin.com/usa/en-us/profile/user/Us_m7_zkAXm4u_A4yP5DQA--/achievements" target="_blank" id="origin" data-parent="gaming">LunarTiger69</a></p>
 			<!---->
 			<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
 			<!--<p>PSN:&nbsp; <span style="color:#0ac139;" id="psn" data-parent="gaming">lunartiger69</span></p>
@@ -56,7 +56,7 @@
 			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Lunar</a></p>
 			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/rev_lunar" target="_blank" id="steam" data-parent="gaming">rev_lunar</a></p>
 			<p>Uplay:&nbsp; <a href="https://club.ubisoft.com/en-US/profile/lunartiger1965" target="_blank" id="uplay" data-parent="gaming">lunartiger1965</a></p>
-			<p>VRChat:&nbsp; <a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Lunar | sdq․st⁄l</a></p>
+			<p>VRChat:&nbsp; <a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Rev. Lunar</a></p>
 			<!--<p>Xbox:&nbsp; <a href="https://account.xbox.com/profile?gamertag=lunartiger69" target="_blank" id="xbox" data-parent="gaming">lunartiger69</a></p>
 			<!---->
 		</div>
