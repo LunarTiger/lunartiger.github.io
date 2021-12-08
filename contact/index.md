@@ -3,11 +3,11 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">
-			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
-			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="Pwickr" data-parent="openme">lunartiger</span></p>
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">🜏Rev. Lunar🜏#6969</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
+			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="Pspacehey" data-parent="openme">rev_lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
+			<p>Signal:&nbsp; <span style="color:#0ac139;" id="Psignal" data-parent="openme">15406926899</span></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 		<div id="secure-child" class="innertext" data-parent="secure">
