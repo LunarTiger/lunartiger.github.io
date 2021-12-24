@@ -16,7 +16,7 @@ event.on('value', (function(snapshot) {
 	}
 }));
 //Book*/
-var book = database.ref('stwl/book');
+/*var book = database.ref('stwl/book');
 book.on('value', (function(snapshot) {
 	var bookVal = snapshot.val();
 	if(bookVal){
