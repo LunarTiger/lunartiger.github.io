@@ -50,6 +50,7 @@
 		</div>
 	<button class="fakecollapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
 		<div id="pet-child" class="fakeinnertext" data-parent="pet">
+			<hr style="visibility:hidden;"/>
 			<p>Dog's Name:&nbsp;&nbsp;Max</p>
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
