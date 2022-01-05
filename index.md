@@ -1,7 +1,6 @@
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
-	<p>Nobody exists on purpose,<br>nobody belongs anywhere,<br>everybody is going to die.</p>
 	<div id="projects" class="holder center">
 		<nav>
 			<ul class="navbar">
