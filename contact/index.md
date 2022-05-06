@@ -6,7 +6,6 @@
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">🜏Rev. Lunar🜏#6969</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
 			<p>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="Ptwitter" data-parent="openme">@rev_lunar</a></p>
-			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="Pspacehey" data-parent="openme">rev_lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
