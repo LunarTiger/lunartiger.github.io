@@ -10,7 +10,6 @@
 	<button class="collapsible" id="wu" data-parent="wu" data-child="wu-child">Write-Ups</button>
 		<div id="wu-child" class="innertext center" data-parent="wu">
 			<p><a id="rosary" href="/wu/rosary" data-parent="wu">My Satanic Rosary</a></p>
-			<p><a id="2020" href="/wu/2020" data-parent="wu">2020 Opining</a></p>
 			<p><a id="unity" href="/wu/unity" data-parent="wu">World Building in Altspace</a><br /><small>Thanks to Andy Wood</small></p>
 			<p><a id="meditation" href="/wu/meditate" data-parent="wu">Meditation</a></p>
 			<p><a id="voicemeeter" href="/wu/voicemeeter" data-parent="wu">Voice Meeter Setup Instructions</a></p>
