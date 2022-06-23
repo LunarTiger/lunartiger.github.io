@@ -3,10 +3,7 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank">Trans Science</a></p>
 	<p><a id="tome" href="/tome" target="_blank">My Personal Tome</a></p>
-	<p><a id="lar" href="/lar">Lovense API Redirect</a></p>
-	<p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
-	<p><a id="sansar" href="/sansar">Sansar Scripts</a></p>
 	<p><a id="wu" href="/wu">Write-Ups</a></p>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
@@ -20,6 +17,12 @@
 			<p><a id="pictures" href="/pics" data-parent="other">Pictures</a></p>
 			<p><a id="imgur" href="https://revlunar.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 			<p><a id="whereis" href="/whereis" data-parent="other">Where is Lunar?</a></p>
+		</div>
+	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Deprecated</button>
+		<div id="unmaintained-child" class="innertext center" data-parent="unmaintained">
+			<p><a id="lar" href="/lar" data-parent="unmaintained">Lovense API Redirect</a></p>
+			<p><a id="ovrtoggle" href="/ovrtoggle" data-parent="unmaintained">Oculus VR Toggle</a></p>
+			<p><a id="sansar" href="/sansar" data-parent="unmaintained">Sansar Scripts</a></p>
 		</div>
 	<button class="collapsible" id="deprecated" data-parent="deprecated" data-child="deprecated-child">Deprecated</button>
 		<div id="deprecated-child" class="innertext center" data-parent="deprecated">
