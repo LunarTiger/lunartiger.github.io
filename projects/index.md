@@ -18,7 +18,7 @@
 			<p><a id="imgur" href="https://revlunar.imgur.com/" target="_blank" data-parent="other">imgur albums</a></p>
 			<p><a id="whereis" href="/whereis" data-parent="other">Where is Lunar?</a></p>
 		</div>
-	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Deprecated</button>
+	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Unmaintained</button>
 		<div id="unmaintained-child" class="innertext center" data-parent="unmaintained">
 			<p><a id="lar" href="/lar" data-parent="unmaintained">Lovense API Redirect</a></p>
 			<p><a id="ovrtoggle" href="/ovrtoggle" data-parent="unmaintained">Oculus VR Toggle</a></p>
