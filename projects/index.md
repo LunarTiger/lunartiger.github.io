@@ -2,18 +2,13 @@
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
 	<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank">Trans Science</a></p>
+	<p><a id="tome" href="/tome" target="_blank">My Personal Tome</a></p>
 	<p><a id="lar" href="/lar">Lovense API Redirect</a></p>
 	<p><a id="ovrtoggle" href="/ovrtoggle">Oculus VR Toggle</a></p>
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 	<p><a id="sansar" href="/sansar">Sansar Scripts</a></p>
+	<p><a id="wu" href="/wu">Write-Ups</a></p>
 	<hr style="height:1px; visibility:hidden;" />
-	<button class="collapsible" id="wu" data-parent="wu" data-child="wu-child">Write-Ups</button>
-		<div id="wu-child" class="innertext center" data-parent="wu">
-			<p><a id="rosary" href="/wu/rosary" data-parent="wu">My Satanic Rosary</a></p>
-			<p><a id="unity" href="/wu/unity" data-parent="wu">World Building in Altspace</a><br /><small>Thanks to Andy Wood</small></p>
-			<p><a id="meditation" href="/wu/meditate" data-parent="wu">Meditation</a></p>
-			<p><a id="voicemeeter" href="/wu/voicemeeter" data-parent="wu">Voice Meeter Setup Instructions</a></p>
-		</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
 			<p><a id="babyshark" href="/babyshark" target="_blank" data-parent="baby-shark">Baby Shark</a></p>
