@@ -4,7 +4,7 @@
 	<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank">Trans Science</a></p>
 	<p><a id="tome" href="/tome" target="_blank">My Personal Tome</a></p>
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
-	<p><a id="wu" href="/wu">Write-Ups</a></p>
+	<p><a id="wu" href="/wu#navbar">Write-Ups</a></p>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
