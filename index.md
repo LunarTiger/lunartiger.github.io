@@ -5,6 +5,7 @@
 		<p><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></p>
 	</div>
 	<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="369" height="569" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=true"></iframe>
+	<p><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">open timeline in new tab</a></p>
 	<hr style="height:4px; visibility:hidden;">
 	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 	<hr style="height:4px; visibility:hidden;">
