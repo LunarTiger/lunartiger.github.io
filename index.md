@@ -4,8 +4,8 @@
 	<div id="trans-science" class="holder center">
 		<p><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></p>
 	</div>
-	<div id="mastodon" class="holder center" style="padding: 8px 2% 0;">
-		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="96%" height="569" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=false"></iframe>
+	<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
+		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="98%" height="569" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=false"></iframe>
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
 	</div>
 	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
