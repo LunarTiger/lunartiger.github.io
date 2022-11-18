@@ -32,6 +32,7 @@
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
 			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="spacehey" data-parent="social">rev_lunar</a></p>
 			<p>TikTok:&nbsp; <a href="https://tiktok.com/@rev_lunar" id="tiktok" data-parent="social">rev_lunar</a></p>
+			<p>Tumblr:&nbsp; <a href="https://tumblr.com/rev-lunar" id="tumblr" data-parent="social">rev-lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
 			<p>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></p>
 			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>
