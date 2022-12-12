@@ -2,9 +2,12 @@
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
 	<div id="cremation-fund" class="holder center">
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BRt43CjeX9S5OmHn4hPn9AwIfQ-pS_6yR1EUONX115syaw/viewform?embedded=true" width="98%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-		<!--<p><a href="https://forms.gle/YWN9hWoQQY8N7fHi9" id="cremation-fund-form" target="_blank">Donation Form</a></p>-->
+		<h2>Shelva Washburn's Cremation Fund</h2>
+		<img src="/assets/img/shelva.jpg" alt="Shelva, my mom, sitting between two frog statues in front of a background of peace lillys." height="auto" width="100%" />
+		<p>Shelva Denise Washburn was a loving mother, wife, and a cherished friend to many. Her unexpected death on November 25, 2022 has left the hearts of the many people that knew her heavy with grief. Like everything in this rediculous society, death costs money and quickly gets expensive, even when choosing the cheapest options. Any amount you can donate would be greatly appreciated.</p>
+		<p><a href="https://forms.gle/YWN9hWoQQY8N7fHi9" id="cremation-fund-form" target="_blank">Donation Form</a></p>
 		<p><a href="https://docs.google.com/spreadsheets/d/1FoZSLeRR9ejxRz1_j-W4bEQtu_5bVbmbIkxd4yHx_Ak/edit?usp=drivesdk" id="cremation-fund-spreadsheet" target="_blank">Spreadsheet of donors</a></p>
+		<img src="/assets/img/shelva-altar.jpg" alt="Shelva's urn sitting on a table with a red wine glass with water, an incense, glasses, a watch, a certificate showing she was an organ donor, a plant, a picture showing her dad, and a small amount of her dad's cremains." height="360" width="360" />
 	</div>
 	<div id="trans-science" class="holder center">
 		<p><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></p>
