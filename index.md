@@ -2,7 +2,7 @@
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
 	<div id="cremation-fund" class="holder center">
-		<h2 style="color:#0ff; padding-top: 16em;">Shelva Washburn's Cremation Fund</h2>
+		<h2 style="color:#0ff; padding-top: 1em;">Shelva Washburn's Cremation Fund</h2>
 		<img src="/assets/img/shelva.jpg" alt="Shelva, my mom, sitting between two frog statues in front of a background of peace lillys." height="auto" width="100%" />
 		<p>Shelva Denise Washburn was a loving mother, wife, and a cherished friend to many. Her unexpected death on November 25, 2022 has left the hearts of the many people that knew her heavy with grief. Like everything in this rediculous society, death costs money and quickly gets expensive, even when choosing the cheapest options. Any amount you can donate would be greatly appreciated.</p>
 		<p><a href="https://forms.gle/YWN9hWoQQY8N7fHi9" id="cremation-fund-form" target="_blank">Donation Form</a></p>
