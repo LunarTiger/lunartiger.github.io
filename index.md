@@ -1,6 +1,11 @@
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
+	<div id="cremation-fund" class="holder center">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BRt43CjeX9S5OmHn4hPn9AwIfQ-pS_6yR1EUONX115syaw/viewform?embedded=true" width="98%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<!--<p><a href="https://forms.gle/YWN9hWoQQY8N7fHi9" id="cremation-fund-form" target="_blank">Donation Form</a></p>-->
+		<p><a href="https://docs.google.com/spreadsheets/d/1FoZSLeRR9ejxRz1_j-W4bEQtu_5bVbmbIkxd4yHx_Ak/edit?usp=drivesdk" id="cremation-fund-spreadsheet" target="_blank">Spreadsheet of donors</a></p>
+	</div>
 	<div id="trans-science" class="holder center">
 		<p><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></p>
 	</div>
