@@ -16,7 +16,7 @@
 			<p>Pronouns:&nbsp;&nbsp;it/its (any pronouns are fine though)</p>
 			<p>IPD:&nbsp;&nbsp;7.5cm (approx. 3in)</p>
 			<p>Shoe Size:&nbsp;&nbsp;8, EUR 40.5, MEX 26</p>
-			<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>
+			<!--<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>-->
 		</div>
 	<button class="collapsible" id="bdsmtest" data-parent="bdsmtest" data-child="bdsmtest-child">BDSM Test Results</button>
 		<div id="bdsmtest-child" class="innertext center" data-parent="bdsmtest">
