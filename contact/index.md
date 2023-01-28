@@ -32,7 +32,6 @@
 					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">@lunar@gram.social</a></p>
 					<p>Misskey:&nbsp; <a rel="me" href="https://misskey.ai/@lunar" target="_blank" id="misskey" data-parent="social">@lunar@misskey.ai</a></p>
-			
 				</div>
 			<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
