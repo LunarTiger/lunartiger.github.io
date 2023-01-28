@@ -28,7 +28,7 @@
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 		<div id="social-child" class="innertext" data-parent="social">
 			<button class="fakecollapsible" id="fediverse" data-parent="social" data-child="fediverse">Fediverse</button>
-				<div id="fediverse-child" class="fakeinnertext center" data-parent="fediverse">
+				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
 					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">@lunar@gram.social</a></p>
 					<p>Misskey:&nbsp; <a rel="me" href="https://misskey.ai/@lunar" target="_blank" id="misskey" data-parent="social">@lunar@misskey.ai</a></p>
