@@ -27,6 +27,7 @@
 		</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 		<div id="social-child" class="innertext" data-parent="social">
+			<hr style="height:1em; visibility:hidden;"/>
 			<button class="fakecollapsible" id="fediverse" data-parent="social" data-child="fediverse">Fediverse</button>
 				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
 					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">@lunar@mas.to</a></p>
