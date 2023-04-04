@@ -41,7 +41,7 @@
 			<p>TikTok:&nbsp; <a href="https://tiktok.com/@rev_lunar" id="tiktok" data-parent="social">rev_lunar</a></p>
 			<p>Tumblr:&nbsp; <a href="https://tumblr.com/rev-lunar" id="tumblr" data-parent="social">rev-lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
-			<p>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></p>
+			<p><del>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</del></a></p>
 			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
