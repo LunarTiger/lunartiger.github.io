@@ -22,6 +22,7 @@
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 		<div id="messaging-child" class="innertext" data-parent="messaging">
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">🜏Rev. Lunar🜏#6969</a></p>
+			<p>Revolt:&nbsp; <a href="https://rvlt.gg/QwvVQrEA" target="_blank" id="revolt" data-parent="messaging">Lunatics</a></p>
 			<p>Snapchat:&nbsp; <a href="https://www.snapchat.com/add/rev_lunar" target="_blank" id="snapchat" data-parent="messaging">rev_lunar</a></p>
 			<p>Marco Polo:&nbsp; <a href="https://marcopolo.me/s/ryan-f-iRgKx" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
 		</div>
