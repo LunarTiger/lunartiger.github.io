@@ -3,9 +3,9 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">
-			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="Pmatrix" data-parent="openme">@rev_lunar:matrix.org</a></p>
+			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">rev_lunar#6969</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
-			<p>Mastodon:&nbsp; <a href="https://mas.to/@lunar" target="_blank" id="Pmastodon" data-parent="openme">@lunar@mas.to</a></p>
+			<p>Calckey:&nbsp; <a href="https://hell.social/@rev_lunar" target="_blank" id="Pcalckey" data-parent="openme">@lunar@hell.social</a></p>
 			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="Pspacehey" data-parent="openme">rev_lunar</a></p>
 			<p>Tumblr:&nbsp; <a href="https://tumblr.com/rev-lunar" id="Ptumblr" data-parent="openme">rev-lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
@@ -21,7 +21,7 @@
 		</div>
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 		<div id="messaging-child" class="innertext" data-parent="messaging">
-			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">🜏Rev. Lunar🜏#6969</a></p>
+			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">rev_lunar#6969</a></p>
 			<p>Revolt:&nbsp; <a href="https://rvlt.gg/QwvVQrEA" target="_blank" id="revolt" data-parent="messaging">Lunatics</a></p>
 			<p>Snapchat:&nbsp; <a href="https://www.snapchat.com/add/rev_lunar" target="_blank" id="snapchat" data-parent="messaging">rev_lunar</a></p>
 			<p>Marco Polo:&nbsp; <a href="https://marcopolo.me/s/ryan-f-iRgKx" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
