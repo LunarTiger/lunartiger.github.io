@@ -9,7 +9,7 @@
 			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="Pspacehey" data-parent="openme">rev_lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
 		</div>
-	<button cass="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
+	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 		<div id="secure-child" class="innertext" data-parent="secure">			<p>Dust:&nbsp; <span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>
 			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="matrix" data-parent="secure">@rev_lunar:matrix.org</a></p>
 			<p>Signal:&nbsp; <span style="color:#0ac139;" id="signal" data-parent="secure">15406926899</span></p>
