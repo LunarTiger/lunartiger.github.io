@@ -20,6 +20,7 @@
     <link rel="shortcut icon" href="/favicon.ico?v=RyQA5rLO48">
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#006900">
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <!----
     <style>
        /* customizable snowflake styling */
@@ -101,6 +102,44 @@
       {{content}}
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;">
+      <!-- A little streetview skybox there -->
+      <a-entity id="streetViewObject" scale="10 10 10" rotation="0 30 0" position="0 -5 0" sq-streetview="panoId: 6RYDeomKfCYv4rX2J86vCA"  ></a-entity>
+      <!-- Assets -->
+      <a-assets>
+        <a-asset id="mom-pic" src="https://lunartiger.github.io/assets/img/shelva.jpg"></a-asset>
+        <a-asset id="favicon-pic" src="https://lunartiger.github.io/assets/img/dick.png"></a-asset>
+        <a-asset id="me-pic" src="https://lunartiger.github.io/assets/img/me.gif"></a-asset>
+        <a-asset id="seatWood" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/chrome_JtbAJ5eIT0.png"></a-asset>
+        <a-asset id="ball" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/Granite%20None%202000%20x%201485%20mm.jpg"></a-asset>
+        <a-asset id="floor" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/Granite%20None%202000%20x%201485%20mm.jpg"></a-asset>
+        <a-asset id="galv" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/galv.jpg"></a-asset>
+        <a-asset id="brick" src="https://cdn.glitch.global/6136ee77-dc6e-41f2-96e2-012840f2dd99/brick.jpg"></a-asset>
+        <a-asset id="brickJoin" src="https://cdn.glitch.global/376b5e69-e989-4420-887c-8925a3e39012/Beige-Brick%2C-Stretcher-Architextures.jpg"></a-asset>
+      </a-assets>
+      <!-- main area -->
+      <a-box id="the_floor" sq-climbable rotation="0 0 0" scale="40 0.1 40" color="#006900" src="#floor" repeat="5 2.5"></a-box>
+      <!-- The wall -->
+      <a-box sq-climbable position="19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <a-box sq-climbable position="-19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <a-box sq-climbable position="0 0.8 19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown" ></a-box>
+      <a-box sq-climbable position="0 0.8 -19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <!-- picture display -->
+      <a-plane id="favicon-picture" src="#favicon-pic" position="0 0.69 -19.7" rotation="0 180 0" width="1" height="1"></a-plane>
+      <!-- picture display -->
+      <a-entity id="pictures-group" position="19.7 0.69 0" rotation="0 270 0">
+        <a-plane id="me-picture" src="#me-pic" position="0 0 0" rotation="0 0 0" width="1" height="1"></a-plane>
+      </a-entity>
+      <!-- portals to spaces -->
+      <a-entity id="space-portals" position="-19 0.3 -19" rotation="0 90 0">
+        <!-- Wintersport Resort -->
+        <a-link id="wintersport-portal" position="0 0 0" rotation="0 0 0" href="https://sq-wintersport-resort.glitch.me"></a-link>
+        <!-- ISS -->
+        <a-link id="ISS-portal" position="2 0 0" rotation="0 0 0" href="https://iss-interior.glitch.me/"></a-link>
+        <!-- Lunar's Test World' -->
+        <a-link id="test-world-portal" position="4 0 0" rotation="0 0 0" href="https://lunar-test.glitch.me/"></a-link>
+      </a-entity>
+	</a-scene></div>
   </body>
   <!----
   <footer>
