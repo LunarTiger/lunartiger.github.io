@@ -100,9 +100,7 @@
         <hr />
       </header>
       {{content}}
-    </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;">
+      <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;">
       <!-- A little streetview skybox there -->
       <a-entity id="streetViewObject" scale="10 10 10" rotation="0 30 0" position="0 -5 0" sq-streetview="panoId: 6RYDeomKfCYv4rX2J86vCA"  ></a-entity>
       <!-- Assets -->
@@ -140,6 +138,8 @@
         <a-link id="test-world-portal" title="My Test World" position="4 0 0" rotation="0 0 0" href="https://lunar-test.glitch.me/"></a-link>
       </a-entity>
 	</a-scene></div>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
   <!----
   <footer>
