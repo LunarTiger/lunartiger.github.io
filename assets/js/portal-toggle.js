@@ -10,7 +10,7 @@ AFRAME.registerComponent('portal-toggle', {
       }
       else {
         // create a new entity to contain the portals and make destruction easier                
-        let new_one = document.createElement('a-entity'); new_one.id = 'space-portals'; new_one.setAttribute('position', '1 -1.12 0.5');
+        let new_one = document.createElement('a-entity'); new_one.id = 'space-portals'; new_one.setAttribute('position', '1.5 -1.12 0.83');
         // loop through and create the portals
         for (let i = 0; i < spaces.length; i++) {
           // make a portal for each url in the spaces array
