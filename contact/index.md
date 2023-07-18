@@ -88,4 +88,5 @@
 			-->
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
+	<script src="scene-addin.js"></script>
 </div></section>
