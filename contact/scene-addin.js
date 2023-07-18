@@ -18,8 +18,8 @@ createTablet(this_array, txt_color, box_color, position, rotation) {
   box.setAttribute('depth', '0.05');
   box.setAttribute('width', 0.03*this_array.length);
   box.setAttribute('height', '0.3');
-  box.setAttribute('sq-collider');
-  box.setAttribute('sq-grabbable');
+  box.setAttribute('sq-collider', true);
+  box.setAttribute('sq-grabbable', true);
   box.setAttribute('sq-rigidbody', 'mass: 0.3; useGravity: true;');
   // create text
   let text = document.createElement('a-text');
