@@ -126,14 +126,10 @@
         <a-plane id="me-picture" src="#me-pic" position="0 0 0" rotation="0 0 0" width="1" height="1"></a-plane>
       </a-entity>
       <!-- portals to spaces -->
-      <a-entity id="space-portals" position="-18 0.3 18" rotation="0 90 0">
-        <!-- Wintersport Resort -->
-        <a-link id="wintersport-portal" position="0 0 0" rotation="0 0 0" href="https://sq-wintersport-resort.glitch.me"></a-link>
-        <!-- ISS -->
-        <a-link id="ISS-portal" position="2 0 0" rotation="0 0 0" href="https://iss-interior.glitch.me/"></a-link>
-        <!-- Lunar's Test World' -->
-        <a-link id="test-world-portal" title="My Test World" position="4 0 0" rotation="0 0 0" href="https://lunar-test.glitch.me/"></a-link>
-      </a-entity>
+      <script src="https://lunartiger.github.io/assets/js/portal-toggle.js"></script>
+      <a-box sq-collider sq-interactable portal-toggle id="portal-toggle" color="#002100" position="-18 1.42 18" rotation="0 90 0" depth="0.05" width="0.69" height="0.6">
+        <a-text value="toggle\nportals" id="portal-toggle-text" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
+      </a-box>
 	</a-scene></div>
     </div>
   </body>
