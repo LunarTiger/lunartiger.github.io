@@ -43,7 +43,7 @@ stringifyArray(this_array) {
 // create a new entity to contain the contact stuff
 let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
 // for each array in the master one create a tablet
-for (let i = 0; i < master.info.length; i++) {
-  contact.appendChild(createTablet(master[i], '#00be00', '#000', i+' 0.5 0', '0 0 0'));
+for (let i = 0; i < master_info.length; i++) {
+  contact.appendChild(createTablet(master_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0'));
 }
 document.querySelector('a-scene').appendChild(contact);
