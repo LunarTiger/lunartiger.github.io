@@ -1,4 +1,4 @@
-let spaces = ["https://sq-wintersport-resort.glitch.me", "https://bant-island-night.glitch.me", "https://high-rise-bant.glitch.me", "https://benvr.co.uk/banter/toyhouse", "https://iss-interior.glitch.me" , "https://lunar-test.glitch.me", "https://ai-tour.glitch.me", "https://not-recroom.glitch.me"];
+let spaces = ["https://lunar-test.glitch.me", "https://sq-wintersport-resort.glitch.me", "https://slipstream.glitch.me", "https://bant-island-night.glitch.me", "https://high-rise-bant.glitch.me", "https://benvr.co.uk/banter/toyhouse", "https://iss-interior.glitch.me" , "https://ai-tour.glitch.me", "https://not-recroom.glitch.me"];
 // Setup an aframe component to handle clicking on the box to create and destroy portals
 AFRAME.registerComponent('portal-toggle', {
   init: function () {
