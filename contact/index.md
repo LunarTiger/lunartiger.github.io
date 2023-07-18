@@ -50,7 +50,7 @@
 			<p>Oculus:&nbsp; <span style="color:#0ac139;" id="oculus" data-parent="gaming">rev_lunar</span></p>
 			<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
 			<p>Rec Room:&nbsp; <span style="color:#0ac139;" id="recroom" data-parent="gaming">@Rev_Lunar</span></p>
-			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Lunar</a></p>
+			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Rev. Lunar</a></p>
 			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/rev_lunar" target="_blank" id="steam" data-parent="gaming">rev_lunar</a></p>
 			<p>Uplay:&nbsp; <a href="https://club.ubisoft.com/en-US/profile/lunartiger1965" target="_blank" id="uplay" data-parent="gaming">lunartiger1965</a></p>
 			<p>VRChat:&nbsp; <a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank" id="vrchat" data-parent="gaming">Rev. Lunar</a></p>
@@ -88,5 +88,5 @@
 			-->
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
-	<script src="scene-addin.js"></script>
+	<script src="/contact/scene-addin.js"></script>
 </div></section>
