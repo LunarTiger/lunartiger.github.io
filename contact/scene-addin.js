@@ -42,6 +42,7 @@ function stringifyArray(this_array) {
   return this_string;
 }
 
+(async function() {
 // create a new entity to contain the contact stuff
 let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
 // for each array in the master one create a tablet
@@ -50,3 +51,4 @@ for (let i = 0; i < contact_info.length; i++) {
   contact.appendChild(tablet);
 }
 document.querySelector('a-scene').appendChild(contact);
+})();
