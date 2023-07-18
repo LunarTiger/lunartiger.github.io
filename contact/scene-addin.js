@@ -10,7 +10,7 @@ let contact_info = [
 ];
 
 // function to create a box and text
-createTablet(this_array, txt_color, box_color, position, rotation) {
+function createTablet(this_array, txt_color, box_color, position, rotation) {
   //create box
   let box = document.createElement('a-box');
   box.setAttribute('color', box_color);
@@ -23,17 +23,18 @@ createTablet(this_array, txt_color, box_color, position, rotation) {
   box.setAttribute('sq-grabbable', true);
   box.setAttribute('sq-rigidbody', 'mass: 0.3; useGravity: true;');
   // create text
+  let value = stringifyArray(this_array);
   let text = document.createElement('a-text');
   text.setAttribute('color', txt_color);
   text.setAttribute('position', '0 0.03 0.06');
-  text.setAttribute('value', stringifyArray(this_array));
+  text.setAttribute('value', value);
   text.setAttribute('align', 'center');
   // parent the text to the box and return the box
   box.appendChild(text);
   return box;
 }
 
-stringifyArray(this_array) {
+function stringifyArray(this_array) {
   let this_string = "";
   for (let i = 0; i < this_array.length; i++) {
     this_string = this_string+this_array[i]+"\n";
@@ -45,6 +46,7 @@ stringifyArray(this_array) {
 let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
 // for each array in the master one create a tablet
 for (let i = 0; i < contact_info.length; i++) {
-  contact.appendChild(createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0'));
+  let tablet = createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0');
+  contact.appendChild(tablet);
 }
 document.querySelector('a-scene').appendChild(contact);
