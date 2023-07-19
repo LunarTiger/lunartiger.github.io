@@ -71,7 +71,7 @@ async function orderTablets(offset, this_info) {
   document.querySelector('a-scene').appendChild(this_scene);
 }
 
-async function projectPortals(location, rotation, spaces) {
+async function projectPortals(position, rotation, spaces) {
   let this_entity = document.createElement('a-entity'); this_entity.id = 'projet-portals'; this_entity.setAttribute('position', position);
   // loop through and create the portals
   for (let i = 0; i < spaces.length; i++) {
