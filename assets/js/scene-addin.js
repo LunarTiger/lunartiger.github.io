@@ -22,7 +22,7 @@ let unmade_info = [
   ["Error:", "space not found or not made"],
   ["Hail Satan!"]
 ];
-// let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
 // function to create a box and text
 async function createTablet(this_array, txt_color, box_color, position, rotation) {
@@ -43,9 +43,8 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   text.setAttribute('color', txt_color);
   text.setAttribute('position', '0 0.03 0.06');
   text.setAttribute('value', value);
-  // text.setAttribute('font', font_face);
+  text.setAttribute('font', font_face);
   text.setAttribute('scale', '0.5 1 0.5');
-  // text.setAttribute('wrap-count', '80');
   text.setAttribute('align', 'center');
   // parent the text to the box and return the box
   box.appendChild(text);
