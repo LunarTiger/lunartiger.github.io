@@ -29,7 +29,8 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   text.setAttribute('color', txt_color);
   text.setAttribute('position', '0 0.03 0.06');
   text.setAttribute('value', value);
-  text.setAttribute('font', font_face);
+  // text.setAttribute('font', font_face);
+  text.setAttribute('scale', '0.5 1 0.5');
   text.setAttribute('wrap-count', '80');
   text.setAttribute('align', 'center');
   // parent the text to the box and return the box
