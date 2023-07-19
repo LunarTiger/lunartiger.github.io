@@ -1,3 +1,7 @@
+﻿let about_info = [
+  ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water","a conciousness trapped in a meat prison"]
+  ["Hail Satanǃ"]
+];
 let contact_info = [
   ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@hell.social", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
   ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
@@ -8,7 +12,12 @@ let contact_info = [
   ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme,
   ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
 ];
-let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+let home_info = [];
+let projects_info = [];
+let unmade_info = [
+  ["Error:", "space not found or not made"]
+];
+// let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
 // function to create a box and text
 async function createTablet(this_array, txt_color, box_color, position, rotation) {
@@ -46,15 +55,31 @@ async function stringifyArray(this_array) {
   return this_string;
 }
 
-async function main() {
-  // create a new entity to contain the contact stuff
-  let contact_scene = document.createElement('a-entity'); contact_scene.id = 'contact-scene'; contact_scene.setAttribute('position', '-5 0 -10');
+async function orderTablets(offset, this_info) {
+  // create a new entity to contain the stuff
+  let this_scene = document.createElement('a-entity'); this_scene.id = 'this-scene'; this_scene.setAttribute('position', offset+' 0 -10');
   // for each array in the master one create a tablet
-  for (let i = 0; i < contact_info.length; i++) {
-    let tablet = await createTablet(contact_info[i], '#00be00', '#000', (i*1.5)+' 0.055 0', '270 0 0');
-    contact_scene.appendChild(tablet);
+  for (let i = 0; i < this_info.length; i++) {
+    let tablet = await createTablet(this_info[i], '#00be00', '#000', (i*1.5)+' 0.055 0', '270 0 0');
+    this_scene.appendChild(tablet);
   }
-  document.querySelector('a-scene').appendChild(contact_scene);
-}
+  document.querySelector('a-scene').appendChild(this_scene);
 
-window.onload = () => {main();}
+window.onload = () => {
+  let page_location = window.location.pathname;
+  if(page_location == "/about" || page_location == "/about/") {
+    orderTablets("0", about_info);
+  }
+  else if(page_location == "/contact" || page_location == "/contact/") {
+    contact("-5", contact_info);
+  }
+  else if(page_location == "/projects" || page_location == "/projects/") {
+    orderTablets("0", projects_info);
+  }
+  else if(page_location == "/") {
+    orderTablets("0", home_info);
+  }
+  else {
+    orderTablets("0", unmade_info);
+  }
+}
