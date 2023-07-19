@@ -95,5 +95,5 @@ window.onload = () => {
     orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "space not found or not made"]]);
   }
   orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
-  orderTablets("0 0.055 10", "180", "window-pathname" [["window.location.pathname", window.location.pathname]])
+  orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]])
 }
