@@ -56,4 +56,4 @@ async function main() {
 }
 
 // window.onload = () => {main();}
-$(document).ready(function(){main();}
+$(document).ready(function(){main();})
