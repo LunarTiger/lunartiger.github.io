@@ -10,7 +10,7 @@ let contact_info = [
 ];
 
 // function to create a box and text
-function createTablet(this_array, txt_color, box_color, position, rotation) {
+async function createTablet(this_array, txt_color, box_color, position, rotation) {
   //create box
   let box = document.createElement('a-box');
   box.setAttribute('color', box_color);
@@ -23,7 +23,7 @@ function createTablet(this_array, txt_color, box_color, position, rotation) {
   box.setAttribute('sq-grabbable', true);
   box.setAttribute('sq-rigidbody', 'mass: 0.3; useGravity: true;');
   // create text
-  let value = stringifyArray(this_array);
+  let value = await stringifyArray(this_array);
   let text = document.createElement('a-text');
   text.setAttribute('color', txt_color);
   text.setAttribute('position', '0 0.03 0.06');
@@ -34,7 +34,7 @@ function createTablet(this_array, txt_color, box_color, position, rotation) {
   return box;
 }
 
-function stringifyArray(this_array) {
+async function stringifyArray(this_array) {
   let this_string = "";
   for (let i = 0; i < this_array.length; i++) {
     this_string = this_string+this_array[i]+"\n";
@@ -42,13 +42,15 @@ function stringifyArray(this_array) {
   return this_string;
 }
 
-(async function() {
-// create a new entity to contain the contact stuff
-let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
-// for each array in the master one create a tablet
-for (let i = 0; i < contact_info.length; i++) {
-  let tablet = createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0');
-  contact.appendChild(tablet);
+async function main() {
+  // create a new entity to contain the contact stuff
+  let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
+  // for each array in the master one create a tablet
+  for (let i = 0; i < contact_info.length; i++) {
+    let tablet = await createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0');
+    contact.appendChild(tablet);
+  }
+  document.querySelector('a-scene').appendChild(contact);
 }
-document.querySelector('a-scene').appendChild(contact);
-})();
+
+main();
