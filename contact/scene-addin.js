@@ -45,10 +45,10 @@ async function stringifyArray(this_array) {
 
 async function main() {
   // create a new entity to contain the contact stuff
-  let contact_scene = document.createElement('a-entity'); contact_scene.id = 'contact-scene'; contact_scene.setAttribute('position', '0 0 -10');
+  let contact_scene = document.createElement('a-entity'); contact_scene.id = 'contact-scene'; contact_scene.setAttribute('position', '-5 0 -10');
   // for each array in the master one create a tablet
   for (let i = 0; i < contact_info.length; i++) {
-    let tablet = await createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '90 0 0');
+    let tablet = await createTablet(contact_info[i], '#00be00', '#000', (i*1.5)+' 0.5 0', '270 0 0');
     contact_scene.appendChild(tablet);
   }
   document.querySelector('a-scene').appendChild(contact_scene);
