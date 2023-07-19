@@ -19,10 +19,6 @@ let projects_info = [
   ["placeholder", "info", "projects"]
 ];
 let project_spaces = ["https://lunar-test.glitch.me"]
-let unmade_info = [
-  ["warning:", "space not found or not made"],
-  ["Hail Satan!"]
-];
 let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
 // function to create a box and text
@@ -86,13 +82,13 @@ document.querySelector('a-scene').appendChild(this_entity);
 
 window.onload = () => {
   // let page_location = window.location.pathname;
-  if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
+  if(window.location.pathname == "/about") {
     orderTablets("-2 0.055 -10", about_info);
   }
-  else if(window.location.pathname == "/contact" || window.location.pathname == "/contact/") {
+  else if(window.location.pathname == "/contact") {
     orderTablets("-5 0.055 -10", contact_info);
   }
-  else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
+  else if(window.location.pathname == "/projects") {
     orderTablets("0 0.055 -10", projects_info);
     projectPortals("18.57 0.3 18.57", "0 270 0", project_spaces);
   }
@@ -100,7 +96,7 @@ window.onload = () => {
    orderTablets("0 0.055 -10", home_info);
   }
   else {
-    orderTablets("-2 0.055 -10", unmade_info);
+    orderTablets("-2 0.055 -10", [["warning:", "space not found or not made"], ["Hail Satan!"]]);
   }
   orderTablets("0 0.055 10", [["window.location.pathname", window.location.pathname]])
 }
