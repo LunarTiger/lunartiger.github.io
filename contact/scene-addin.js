@@ -17,8 +17,8 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   box.setAttribute('position', position);
   box.setAttribute('rotation', rotation);
   box.setAttribute('depth', '0.05');
-  box.setAttribute('width', 0.03*this_array.length);
-  box.setAttribute('height', '0.3');
+  box.setAttribute('width', '1');
+  box.setAttribute('height', 0.4*this_array.length);
   box.setAttribute('sq-collider', true);
   box.setAttribute('sq-grabbable', true);
   box.setAttribute('sq-rigidbody', 'mass: 0.3; useGravity: true;');
@@ -28,10 +28,10 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   text.setAttribute('color', txt_color);
   text.setAttribute('position', '0 0.03 0.06');
   text.setAttribute('value', value);
+  text.setAttribute('width', '1');
   text.setAttribute('align', 'center');
   // parent the text to the box and return the box
   box.appendChild(text);
-  console.log("tablet created: "+this_array)
   return box;
 }
 
@@ -50,7 +50,6 @@ async function main() {
   for (let i = 0; i < contact_info.length; i++) {
     let tablet = await createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0');
     contact_scene.appendChild(tablet);
-    console.log("child appended. i="+i)
   }
   document.querySelector('a-scene').appendChild(contact_scene);
 }
