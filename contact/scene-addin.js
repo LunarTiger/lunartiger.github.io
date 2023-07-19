@@ -18,7 +18,7 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   box.setAttribute('position', position);
   box.setAttribute('rotation', rotation);
   box.setAttribute('depth', '0.05');
-  box.setAttribute('width', '1');
+  box.setAttribute('width', '1.42');
   box.setAttribute('height', 0.3*this_array.length);
   box.setAttribute('sq-collider', true);
   box.setAttribute('sq-grabbable', true);
@@ -31,7 +31,7 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   text.setAttribute('value', value);
   // text.setAttribute('font', font_face);
   text.setAttribute('scale', '0.5 1 0.5');
-  text.setAttribute('wrap-count', '80');
+  // text.setAttribute('wrap-count', '80');
   text.setAttribute('align', 'center');
   // parent the text to the box and return the box
   box.appendChild(text);
