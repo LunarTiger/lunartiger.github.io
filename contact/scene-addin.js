@@ -39,21 +39,20 @@ async function stringifyArray(this_array) {
   let this_string = "";
   for (let i = 0; i < this_array.length; i++) {
     this_string = this_string+this_array[i]+"\n";
-    console.log("this_string = "+this_string)
   }
   return this_string;
 }
 
 async function main() {
   // create a new entity to contain the contact stuff
-  let contact = document.createElement('a-entity'); contact.id = 'contact-scene'; contact.setAttribute('position', '0 0 -10');
+  let contact_scene = document.createElement('a-entity'); contact_scene.id = 'contact-scene'; contact_scene.setAttribute('position', '0 0 -10');
   // for each array in the master one create a tablet
   for (let i = 0; i < contact_info.length; i++) {
     let tablet = await createTablet(contact_info[i], '#00be00', '#000', i+' 0.5 0', '0 0 0');
-    contact.appendChild(tablet);
+    contact_scene.appendChild(tablet);
     console.log("child appended. i="+i)
   }
-  document.querySelector('a-scene').appendChild(contact);
+  document.querySelector('a-scene').appendChild(contact_scene);
 }
 
 main();
