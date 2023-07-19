@@ -60,9 +60,9 @@ async function stringifyArray(this_array) {
   return this_string;
 }
 
-async function orderTablets(offset, this_info) {
+async function orderTablets(position, this_info) {
   // create a new entity to contain the stuff
-  let this_scene = document.createElement('a-entity'); this_scene.id = 'this-scene'; this_scene.setAttribute('position', offset+' 0 -10');
+  let this_scene = document.createElement('a-entity'); this_scene.id = 'this-scene'; this_scene.setAttribute('position', position);
   // for each array in the master one create a tablet
   for (let i = 0; i < this_info.length; i++) {
     let tablet = await createTablet(this_info[i], '#00be00', '#000', (i*1.5)+' 0.055 0', '270 0 0');
@@ -87,19 +87,20 @@ document.querySelector('a-scene').appendChild(this_entity);
 window.onload = () => {
   // let page_location = window.location.pathname;
   if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
-    orderTablets("-2", about_info);
+    orderTablets("-2 0.055 -10", about_info);
   }
   else if(window.location.pathname == "/contact" || window.location.pathname == "/contact/") {
-    orderTablets("-5", contact_info);
+    orderTablets("-5 0.055 -10", contact_info);
   }
   else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
-    orderTablets("0", projects_info);
-    projectPortals("18.57 0.3 18.69", "0 270 0", project_spaces);
+    orderTablets("0 0.055 -10", projects_info);
+    projectPortals("18.57 0.3 18.57", "0 270 0", project_spaces);
   }
   else if(window.location.pathname == "/") {
-   orderTablets("0", home_info);
+   orderTablets("0 0.055 -10", home_info);
   }
   else {
-    orderTablets("-2", unmade_info);
+    orderTablets("-2 0.055 -10", unmade_info);
   }
+  orderTablets("0 0.055 10", [["window.location.pathname", window.location.pathname]])
 }
