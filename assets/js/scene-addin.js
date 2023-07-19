@@ -67,14 +67,15 @@ async function orderTablets(offset, this_info) {
 
 window.onload = () => {
   let page_location = window.location.pathname;
+  console.log(page_location);
   if(page_location == "/about" || page_location == "/about/") {
-    orderTablets("0", about_info);
+    await orderTablets("-2", about_info);
   }
   else if(page_location == "/contact" || page_location == "/contact/") {
-    contact("-5", contact_info);
+    await orderTablets("-5", contact_info);
   }
   else if(page_location == "/projects" || page_location == "/projects/") {
-    orderTablets("0", projects_info);
+    await orderTablets("0", projects_info);
   }
   else if(page_location == "/") {
     orderTablets("0", home_info);
