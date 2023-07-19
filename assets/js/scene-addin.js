@@ -94,7 +94,7 @@ window.onload = () => {
   }
   else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
     orderTablets("0", projects_info);
-    projectPortals("18.57 0.3 19", "0 270 0", project_spaces);
+    projectPortals("18.57 0.3 18.69", "0 270 0", project_spaces);
   }
   else if(window.location.pathname == "/") {
    orderTablets("0", home_info);
