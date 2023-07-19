@@ -66,21 +66,21 @@ async function orderTablets(offset, this_info) {
   document.querySelector('a-scene').appendChild(this_scene);
 
 window.onload = () => {
-  let page_location = await window.location.pathname;
-  console.log(page_location);
-  if(page_location == "/about" || page_location == "/about/") {
+  // let page_location = window.location.pathname;
+  console.log("window.location.pathname="window.location.pathname);
+  if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
     await orderTablets("-2", about_info);
   }
-  else if(page_location == "/contact" || page_location == "/contact/") {
+  else if(window.location.pathname == "/contact" || window.location.pathname == "/contact/") {
     await orderTablets("-5", contact_info);
   }
-  else if(page_location == "/projects" || page_location == "/projects/") {
+  else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
     await orderTablets("0", projects_info);
   }
-  else if(page_location == "/") {
-    orderTablets("0", home_info);
+  else if(window.location.pathname == "/") {
+   await orderTablets("0", home_info);
   }
   else {
-    orderTablets("0", unmade_info);
+    await orderTablets("0", unmade_info);
   }
 }
