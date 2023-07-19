@@ -19,7 +19,8 @@ let projects_info = [
   ["placeholder", "info", "projects"]
 ];
 let unmade_info = [
-  ["Error:", "space not found or not made"]
+  ["Error:", "space not found or not made"],
+  ["Hail Satan!"]
 ];
 // let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
@@ -85,6 +86,6 @@ window.onload = () => {
    orderTablets("0", home_info);
   }
   else {
-    orderTablets("0", unmade_info);
+    orderTablets("-2", unmade_info);
   }
 }
