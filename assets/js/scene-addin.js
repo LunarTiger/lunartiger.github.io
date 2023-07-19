@@ -1,5 +1,5 @@
 ﻿let about_info = [
-  ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water","a conciousness trapped in a meat prison"]
+  ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water", "a conciousness trapped in a meat prison"],
   ["Hail Satanǃ"]
 ];
 let contact_info = [
