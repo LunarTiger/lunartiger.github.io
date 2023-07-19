@@ -55,5 +55,4 @@ async function main() {
   document.querySelector('a-scene').appendChild(contact_scene);
 }
 
-// window.onload = () => {main();}
-$(document).ready(function(){main();})
+window.onload = () => {main();}
