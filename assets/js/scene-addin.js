@@ -18,8 +18,9 @@ let home_info = [
 let projects_info = [
   ["placeholder", "info", "projects"]
 ];
+let project_spaces = ["https://lunar-test.glitch.me"]
 let unmade_info = [
-  ["Error:", "space not found or not made"],
+  ["warning:", "space not found or not made"],
   ["Hail Satan!"]
 ];
 let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
@@ -70,6 +71,19 @@ async function orderTablets(offset, this_info) {
   document.querySelector('a-scene').appendChild(this_scene);
 }
 
+async function projectPortals(location, rotation, spaces) {
+  let this_entity = document.createElement('a-entity'); this_entity.id = 'projet-portals'; this_entity.setAttribute('position', position);
+  // loop through and create the portals
+  for (let i = 0; i < spaces.length; i++) {
+    // make a portal for each url in the spaces array
+    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 -0.83'); this_portal.setAttribute('rotation', rotation); this_portal.setAttribute('href', spaces[i]);
+    // add the portal to this_entity
+    this_entity.appendChild(this_portal);
+  }
+// add this_entity to the portal-toggle button
+document.querySelector('a-scene').appendChild(this_entity);
+}
+
 window.onload = () => {
   // let page_location = window.location.pathname;
   if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
@@ -80,6 +94,7 @@ window.onload = () => {
   }
   else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
     orderTablets("0", projects_info);
+    projectPortals("19.4 1.42 19", "0 270 0", project_spaces);
   }
   else if(window.location.pathname == "/") {
    orderTablets("0", home_info);
