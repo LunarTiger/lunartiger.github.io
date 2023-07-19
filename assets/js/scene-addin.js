@@ -76,7 +76,7 @@ async function projectPortals(position, rotation, spaces) {
   // loop through and create the portals
   for (let i = 0; i < spaces.length; i++) {
     // make a portal for each url in the spaces array
-    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 -0.83'); this_portal.setAttribute('rotation', rotation); this_portal.setAttribute('href', spaces[i]);
+    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 0'); this_portal.setAttribute('rotation', rotation); this_portal.setAttribute('href', spaces[i]);
     // add the portal to this_entity
     this_entity.appendChild(this_portal);
   }
@@ -94,7 +94,7 @@ window.onload = () => {
   }
   else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
     orderTablets("0", projects_info);
-    projectPortals("19.4 1.42 19", "0 270 0", project_spaces);
+    projectPortals("18.57 0.3 19", "0 270 0", project_spaces);
   }
   else if(window.location.pathname == "/") {
    orderTablets("0", home_info);
