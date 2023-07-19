@@ -67,7 +67,6 @@ async function orderTablets(offset, this_info) {
 
 window.onload = () => {
   // let page_location = window.location.pathname;
-  console.log("window.location.pathname="window.location.pathname);
   if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
     await orderTablets("-2", about_info);
   }
