@@ -68,6 +68,7 @@ async function orderTablets(offset, this_info) {
     this_scene.appendChild(tablet);
   }
   document.querySelector('a-scene').appendChild(this_scene);
+}
 
 window.onload = () => {
   // let page_location = window.location.pathname;
