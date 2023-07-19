@@ -12,8 +12,12 @@ let contact_info = [
   ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme,
   ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
 ];
-let home_info = [];
-let projects_info = [];
+let home_info = [
+  ["placeholder", "info", "home"]
+];
+let projects_info = [
+  ["placeholder", "info", "projects"]
+];
 let unmade_info = [
   ["Error:", "space not found or not made"]
 ];
@@ -68,18 +72,18 @@ async function orderTablets(offset, this_info) {
 window.onload = () => {
   // let page_location = window.location.pathname;
   if(window.location.pathname == "/about" || window.location.pathname == "/about/") {
-    await orderTablets("-2", about_info);
+    orderTablets("-2", about_info);
   }
   else if(window.location.pathname == "/contact" || window.location.pathname == "/contact/") {
-    await orderTablets("-5", contact_info);
+    orderTablets("-5", contact_info);
   }
   else if(window.location.pathname == "/projects" || window.location.pathname == "/projects/") {
-    await orderTablets("0", projects_info);
+    orderTablets("0", projects_info);
   }
   else if(window.location.pathname == "/") {
-   await orderTablets("0", home_info);
+   orderTablets("0", home_info);
   }
   else {
-    await orderTablets("0", unmade_info);
+    orderTablets("0", unmade_info);
   }
 }
