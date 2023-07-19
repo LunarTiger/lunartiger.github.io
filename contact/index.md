@@ -88,5 +88,5 @@
 			-->
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
-	<script src="/contact/scene-addin.js"></script>
+	<script src="/contact/scene-addin.js" defer></script>
 </div></section>
