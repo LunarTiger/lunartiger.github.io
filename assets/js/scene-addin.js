@@ -12,9 +12,7 @@ let contact_info = [
   ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme,
   ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
 ];
-let home_info = [
-  ["placeholder", "info", "home"]
-];
+let home_info = [];
 let projects_info = [
   ["placeholder", "info", "projects"]
 ];
