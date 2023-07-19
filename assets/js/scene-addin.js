@@ -66,7 +66,7 @@ async function orderTablets(offset, this_info) {
   document.querySelector('a-scene').appendChild(this_scene);
 
 window.onload = () => {
-  let page_location = window.location.pathname;
+  let page_location = await window.location.pathname;
   console.log(page_location);
   if(page_location == "/about" || page_location == "/about/") {
     await orderTablets("-2", about_info);
