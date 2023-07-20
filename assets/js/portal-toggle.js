@@ -6,6 +6,10 @@ AFRAME.registerComponent('portal-toggle', {
       // are the portals in the scene? if so remove them, otherwise add them
       let old_one = document.getElementById('space-portals');
       if(old_one) {
+        let old_portals = old_one.children;
+        for (let i = 0; i < old_portals.length; i++){
+          old_portals[i].parentElement.removeChild(old_portals[i]);
+        }
         old_one.parentElement.removeChild(old_one);
       }
       else {
