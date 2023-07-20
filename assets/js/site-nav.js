@@ -37,8 +37,8 @@ AFRAME.registerComponent('site-navigation', {
           text.setAttribute('scale', '0.5 1 0.5');
           text.setAttribute('align', 'center');
           // add the portal to new_one
-          box.appendChild(text);
-          this_portal.appendChild(box);
+          plane.appendChild(text);
+          this_portal.appendChild(plane);
           new_one.appendChild(this_portal);
         }
         // add new_one to the portal-toggle button
