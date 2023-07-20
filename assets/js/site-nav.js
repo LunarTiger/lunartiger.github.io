@@ -1,7 +1,7 @@
 let website = [
   {href:"https://lunartiger.github.io", name:"home"},
-  {href:"https://https://lunartiger.github.io/contact", name:"contact"},
-  {href:"https://https://lunartiger.github.io/projects", name:"projects"},
+  {href:"https://lunartiger.github.io/contact", name:"contact"},
+  {href:"https://lunartiger.github.io/projects", name:"projects"},
   {href:"https://lunartiger.github.io/about", name:"about"},
 ];
 
@@ -24,7 +24,7 @@ AFRAME.registerComponent('site-navigation', {
           // make labels for the portals
           let this_plane = document.createElement('a-plane');
           this_plane.setAttribute('color', '#000');
-          this_plane.setAttribute('position', (i*2)+' 0 1');
+          this_plane.setAttribute('position', (i*2)+' -0.299 1');
           this_plane.setAttribute('rotation', '270 0 0');
           this_plane.setAttribute('width', '1.42');
           this_plane.setAttribute('height', '0.3');
@@ -32,7 +32,7 @@ AFRAME.registerComponent('site-navigation', {
           // create text
           let this_text = document.createElement('a-text');
           this_text.setAttribute('color', '#0ff');
-          this_text.setAttribute('position', (i*2)+' 0.01 0.06');
+          this_text.setAttribute('position', '0 0.01 0.06');
           this_text.setAttribute('value', website[i].name);
           this_text.setAttribute('scale', '0.5 1 0.5');
           this_text.setAttribute('align', 'center');
