@@ -24,7 +24,7 @@ AFRAME.registerComponent('site-navigation', {
           // make labels for the portals
           let this_plane = document.createElement('a-plane');
           this_plane.setAttribute('color', '#000');
-          this_plane.setAttribute('position', (i*2)+' -0.29 1');
+          this_plane.setAttribute('position', (i*2)+' -0.24 1');
           this_plane.setAttribute('rotation', '270 0 0');
           this_plane.setAttribute('width', '1.42');
           this_plane.setAttribute('height', '0.3');
