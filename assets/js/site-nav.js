@@ -22,13 +22,13 @@ AFRAME.registerComponent('site-navigation', {
           // make a portal for each url in the website array
           let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 0'); this_portal.setAttribute('href', website[i].href);
           //make labels for the portals
-          let plane = document.createElement('a-plane');
-          plane.setAttribute('color', '#000');
-          plane.setAttribute('position', '0 2 1');
-          plane.setAttribute('rotation', '270 0 0');
-          //box.setAttribute('depth', '0.05');
-          plane.setAttribute('width', '1.42');
-          plane.setAttribute('height', '0.3');
+          let box = document.createElement('a-box');
+          box.setAttribute('color', '#000');
+          box.setAttribute('position', '0 2 1');
+          box.setAttribute('rotation', '270 0 0');
+          box.setAttribute('depth', '0.05');
+          box.setAttribute('width', '1.42');
+          box.setAttribute('height', '0.3');
           // create text
           let text = document.createElement('a-text');
           text.setAttribute('color', '#0ff');
@@ -37,8 +37,8 @@ AFRAME.registerComponent('site-navigation', {
           text.setAttribute('scale', '0.5 1 0.5');
           text.setAttribute('align', 'center');
           // add the portal to new_one
-          plane.appendChild(text);
-          this_portal.appendChild(plane);
+          box.appendChild(text);
+          this_portal.appendChild(box);
           new_one.appendChild(this_portal);
         }
         // add new_one to the portal-toggle button
