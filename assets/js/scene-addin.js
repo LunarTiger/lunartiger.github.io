@@ -12,7 +12,9 @@ let contact_info = [
   ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme
   ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
 ];
-let home_info = [];
+let home_info = [
+  ["welcome to", "my website"]
+];
 let projects_info = [];
 let project_spaces = ["https://lunar-test.glitch.me"]
 let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
@@ -34,7 +36,7 @@ async function createTablet(this_array, txt_color, box_color, position, rotation
   let value = await stringifyArray(this_array);
   let text = document.createElement('a-text');
   text.setAttribute('color', txt_color);
-  text.setAttribute('position', '0 0.03 0.06');
+  text.setAttribute('position', '0 0 0.03');
   text.setAttribute('value', value);
   // text.setAttribute('font', font_face); // font faces don't work in Banter :'(
   text.setAttribute('scale', '0.5 1 0.5');
