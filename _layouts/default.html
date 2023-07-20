@@ -3,10 +3,10 @@
   <head>
      <meta name="twitter:card" content="summary_large_image"/>
      <meta name="twitter:title" content="Rev. Lunar's Homepage"/>
-     <meta name="twitter:description" content="Rev. Lunar's homepage with contact info and other things (like a hidden link to a discord server)"/>
+     <meta name="twitter:description" content="Rev. Lunar's homepage with contact info and other things"/>
      <meta name="twitter:image" content="https://lunartiger.github.io/assets/img/dick.png"/>
      <meta property="og:title" content="Rev. Lunar's Homepage">
-     <meta property="og:description" content="Rev. Lunar's homepage with contact info and other things (like a hidden link to a discord server)">
+     <meta property="og:description" content="Rev. Lunar's homepage with contact info and other things">
      <meta property="og:image" content="https://lunartiger.github.io/assets/img/dick.png"><meta property="og:url" content="https://lunartiger.github.io">
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -101,7 +101,7 @@
       </header>
       {{content}}
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;" sq-disableteleport embedded>
+    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;" sq-disableteleport sq-hidedefaulttextures embedded>
       <!-- A little streetview skybox there -->
       <a-entity id="streetViewObject" scale="10 10 10" rotation="0 30 0" position="0 -5 0" sq-streetview="panoId: 6RYDeomKfCYv4rX2J86vCA"  ></a-entity>
       <!-- Assets -->
@@ -128,9 +128,14 @@
       <!-- video player -->
       <script src="https://sq-video-player.glitch.me/playlist.js" playlist="PLJAqjOYAEgb5_qkDOY7V9nvcOSntp-HoM" spatial="false" announce="true" instance="lunar-webpage" position="25 6 0" rotation="20 270 0" scale="10 10 10" volume="10"></script>
       <!-- portals to spaces -->
-      <script src="https://lunartiger.github.io/assets/js/portal-toggle.js"></script>
+      <script src="/assets/js/portal-toggle.js"></script>
       <a-box sq-collider sq-interactable portal-toggle id="portal-toggle" color="#002100" position="-19.4 1.42 19" rotation="0 90 0" depth="0.05" width="0.69" height="0.6">
-        <a-text value="toggle\nportals" id="portal-toggle-text" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
+        <a-text value="toggle\nworld\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
+      </a-box>
+      <!-- site navigation portals -->
+      <script src="/assets/js/site-nav.js"></script>
+      <a-box sq-collider sq-interactable site-navigation id="site-navigation" color="#002100" position="-19 1.42 -19.4" rotation="0 0 0" depth="0.05" width="0.69" height="0.6">
+        <a-text value="toggle\nwebsite\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
       </a-box>
       <script src="/assets/js/scene-addin.js"></script>
 	</a-scene></div>
