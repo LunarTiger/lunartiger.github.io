@@ -21,24 +21,24 @@ AFRAME.registerComponent('site-navigation', {
         for (let i = 0; i < website.length; i++) {
           // make a portal for each url in the website array
           let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 0'); this_portal.setAttribute('href', website[i].href);
-          //make labels for the portals
-          let box = document.createElement('a-box');
-          box.setAttribute('color', '#000');
-          box.setAttribute('position', '0 2 1');
-          box.setAttribute('rotation', '270 0 0');
-          box.setAttribute('depth', '0.05');
-          box.setAttribute('width', '1.42');
-          box.setAttribute('height', '0.3');
+          // make labels for the portals
+          let this_plane = document.createElement('a-plane');
+          this_plane.setAttribute('color', '#000');
+          this_plane.setAttribute('position', (i*2)+' 0 1');
+          this_plane.setAttribute('rotation', '270 0 0');
+          this_plane.setAttribute('width', '1.42');
+          this_plane.setAttribute('height', '0.3');
+          //box.setAttribute('depth', '0.05');
           // create text
-          let text = document.createElement('a-text');
-          text.setAttribute('color', '#0ff');
-          text.setAttribute('position', '0 0.01 0.06');
-          text.setAttribute('value', website[i].name);
-          text.setAttribute('scale', '0.5 1 0.5');
-          text.setAttribute('align', 'center');
-          // add the portal to new_one
-          box.appendChild(text);
-          this_portal.appendChild(box);
+          let this_text = document.createElement('a-text');
+          this_text.setAttribute('color', '#0ff');
+          this_text.setAttribute('position', (i*2)+' 0.01 0.06');
+          this_text.setAttribute('value', website[i].name);
+          this_text.setAttribute('scale', '0.5 1 0.5');
+          this_text.setAttribute('align', 'center');
+          // add the things to new_one
+          this_plane.appendChild(this_text);
+          new_one.appendChild(this_plane);
           new_one.appendChild(this_portal);
         }
         // add new_one to the portal-toggle button
