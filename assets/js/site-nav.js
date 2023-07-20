@@ -32,7 +32,7 @@ AFRAME.registerComponent('site-navigation', {
           // create text
           let this_text = document.createElement('a-text');
           this_text.setAttribute('color', '#0ff');
-          this_text.setAttribute('position', '0 0.005 0.06');
+          this_text.setAttribute('position', '0 0 0.01');
           this_text.setAttribute('value', website[i].name);
           this_text.setAttribute('scale', '0.5 1 0.5');
           this_text.setAttribute('align', 'center');
