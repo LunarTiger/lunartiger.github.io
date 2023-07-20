@@ -4,7 +4,7 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 //Event*/
-var event = database.ref('stwl/next-event');
+/*var event = database.ref('stwl/next-event');
 event.on('value', (function(snapshot) {
 	var eventVal = snapshot.val();
 	if(eventVal){
