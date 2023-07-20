@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
      <meta name="twitter:card" content="summary_large_image"/>
      <meta name="twitter:title" content="Rev. Lunar's Homepage"/>
      <meta name="twitter:description" content="Rev. Lunar's homepage with contact info and other things"/>
@@ -20,7 +21,6 @@
     <link rel="shortcut icon" href="/favicon.ico?v=RyQA5rLO48">
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#006900">
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <!----
     <style>
        /* customizable snowflake styling */
@@ -63,6 +63,44 @@
     {% seo %}
   </head>
   <body>
+    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;" sq-disableteleport embedded></a-scene></div>
+      <!-- A little streetview skybox there --
+      <a-entity id="streetViewObject" scale="10 10 10" rotation="0 30 0" position="0 -5 0" sq-streetview="panoId: 6RYDeomKfCYv4rX2J86vCA"  ></a-entity>
+      <!-- Assets --
+      <a-assets>
+        <a-asset id="mom-pic" src="https://lunartiger.github.io/assets/img/shelva.jpg"></a-asset>
+        <a-asset id="favicon-pic" src="https://lunartiger.github.io/assets/img/dick.png"></a-asset>
+        <a-asset id="me-pic" src="https://lunartiger.github.io/assets/img/me.gif"></a-asset>
+        <a-asset id="floor" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/Granite%20None%202000%20x%201485%20mm.jpg"></a-asset>
+        <a-asset id="brickJoin" src="https://cdn.glitch.global/376b5e69-e989-4420-887c-8925a3e39012/Beige-Brick%2C-Stretcher-Architextures.jpg"></a-asset>
+      </a-assets>
+      <!-- main area --
+      <a-box id="the_floor" sq-climbable rotation="0 0 0" scale="40 0.1 40" color="#006900" src="#floor" repeat="5 2.5"></a-box>
+      <!-- The wall --
+      <a-box sq-climbable position="19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <a-box sq-climbable position="-19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <a-box sq-climbable position="0 0.8 19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown" ></a-box>
+      <a-box sq-climbable position="0 0.8 -19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
+      <!-- favicon display --
+      <a-plane id="favicon-picture" src="#favicon-pic" position="0 0.69 -19.39" rotation="0 0 0" width="1" height="1" transparent="true"></a-plane>
+      <!-- picture display --
+      <a-entity id="pictures-group" position="19.39 0.69 0" rotation="0 270 0">
+        <a-plane id="me-picture" src="#me-pic" position="0 0 0" rotation="0 0 0" width="1" height="1"></a-plane>
+      </a-entity>
+      <!-- video player --
+      <script src="https://sq-video-player.glitch.me/playlist.js" playlist="PLJAqjOYAEgb5_qkDOY7V9nvcOSntp-HoM" spatial="false" announce="true" instance="lunar-webpage" position="25 6 0" rotation="20 270 0" scale="10 10 10" volume="10"></script>
+      <!-- portals to spaces --
+      <script src="/assets/js/portal-toggle.js"></script>
+      <a-box sq-collider sq-interactable portal-toggle id="portal-toggle" color="#002100" position="-19.4 1.42 19" rotation="0 90 0" depth="0.05" width="0.69" height="0.6">
+        <a-text value="toggle\nworld\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
+      </a-box>
+      <!-- site navigation portals --
+      <script src="/assets/js/site-nav.js"></script>
+      <a-box sq-collider sq-interactable site-navigation id="site-navigation" color="#002100" position="-19 1.42 -19.4" rotation="0 0 0" depth="0.05" width="0.69" height="0.6">
+        <a-text value="toggle\nwebsite\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
+      </a-box>
+      <!--<script src="/assets/js/scene-addin.js"></script>-->
+	<!--</a-scene></div> <!--sq-hidedefaulttextures-->
     <!--Have you tried looking somewhere that doesn't exist for some sort of link?-->
     <div class="wrapper">
       <header>
@@ -101,45 +139,6 @@
       </header>
       {{content}}
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <!--sq-hidedefaulttextures-->
-    <div style="display: none;" id="aScene"><a-scene sq-spawnpoint="position: 0 0 0;" sq-disableteleport embedded>
-      <!-- A little streetview skybox there --
-      <a-entity id="streetViewObject" scale="10 10 10" rotation="0 30 0" position="0 -5 0" sq-streetview="panoId: 6RYDeomKfCYv4rX2J86vCA"  ></a-entity>
-      <!-- Assets --
-      <a-assets>
-        <a-asset id="mom-pic" src="https://lunartiger.github.io/assets/img/shelva.jpg"></a-asset>
-        <a-asset id="favicon-pic" src="https://lunartiger.github.io/assets/img/dick.png"></a-asset>
-        <a-asset id="me-pic" src="https://lunartiger.github.io/assets/img/me.gif"></a-asset>
-        <a-asset id="floor" src="https://cdn.glitch.global/8a3dc90d-d1a6-4e98-bf1f-55efd8de9f91/Granite%20None%202000%20x%201485%20mm.jpg"></a-asset>
-        <a-asset id="brickJoin" src="https://cdn.glitch.global/376b5e69-e989-4420-887c-8925a3e39012/Beige-Brick%2C-Stretcher-Architextures.jpg"></a-asset>
-      </a-assets>
-      <!-- main area --
-      <a-box id="the_floor" sq-climbable rotation="0 0 0" scale="40 0.1 40" color="#006900" src="#floor" repeat="5 2.5"></a-box>
-      <!-- The wall --
-      <a-box sq-climbable position="19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
-      <a-box sq-climbable position="-19.5 0.8 0" rotation="0 90 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
-      <a-box sq-climbable position="0 0.8 19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown" ></a-box>
-      <a-box sq-climbable position="0 0.8 -19.5" rotation="0 0 0" scale="39 1.6 0.2" src="#brickJoin" repeat="20 2" color="brown"></a-box>
-      <!-- favicon display --
-      <a-plane id="favicon-picture" src="#favicon-pic" position="0 0.69 -19.39" rotation="0 0 0" width="1" height="1" transparent="true"></a-plane>
-      <!-- picture display --
-      <a-entity id="pictures-group" position="19.39 0.69 0" rotation="0 270 0">
-        <a-plane id="me-picture" src="#me-pic" position="0 0 0" rotation="0 0 0" width="1" height="1"></a-plane>
-      </a-entity>
-      <!-- video player --
-      <script src="https://sq-video-player.glitch.me/playlist.js" playlist="PLJAqjOYAEgb5_qkDOY7V9nvcOSntp-HoM" spatial="false" announce="true" instance="lunar-webpage" position="25 6 0" rotation="20 270 0" scale="10 10 10" volume="10"></script>
-      <!-- portals to spaces --
-      <script src="/assets/js/portal-toggle.js"></script>
-      <a-box sq-collider sq-interactable portal-toggle id="portal-toggle" color="#002100" position="-19.4 1.42 19" rotation="0 90 0" depth="0.05" width="0.69" height="0.6">
-        <a-text value="toggle\nworld\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
-      </a-box>
-      <!-- site navigation portals --
-      <script src="/assets/js/site-nav.js"></script>
-      <a-box sq-collider sq-interactable site-navigation id="site-navigation" color="#002100" position="-19 1.42 -19.4" rotation="0 0 0" depth="0.05" width="0.69" height="0.6">
-        <a-text value="toggle\nwebsite\nportals" id="portal-toggle-text" scale="0.69 0.69 0.69" position="0 0.03 0.06" color="#0ff" align="center"></a-text>
-      </a-box>
-      <!--<script src="/assets/js/scene-addin.js"></script>-->
-	</a-scene></div>
     </div>
   </body>
   <!----
