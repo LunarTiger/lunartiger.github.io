@@ -25,7 +25,7 @@ AFRAME.registerComponent('site-navigation', {
           let plane = document.createElement('a-plane');
           plane.setAttribute('color', '#000');
           plane.setAttribute('position', '0 1 1');
-          plane.setAttribute('rotation', '90 0 0');
+          plane.setAttribute('rotation', '270 0 0');
           //box.setAttribute('depth', '0.05');
           plane.setAttribute('width', '1.42');
           plane.setAttribute('height', '0.3');
