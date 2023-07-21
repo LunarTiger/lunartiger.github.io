@@ -16,7 +16,7 @@
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
 	</div>
 	<!---->
-	<!--<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
+	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 	<hr style="height:4px; visibility:hidden;">
 	<!--
 	<div id="projects" class="holder center">
@@ -46,7 +46,7 @@
 		<div id="lunar-location" class="holder center"></div>
 		<iframe id="tootembed" src="" class="mastodon-embed" style="max-width: 0; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
 		<hr style="height:4px; visibility:hidden;">
-	<!----
+	<!---->
 	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 	<script src="/assets/js/home.js"></script>
