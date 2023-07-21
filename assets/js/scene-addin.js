@@ -1,6 +1,7 @@
 ﻿let about_info = [
   ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water", "a conciousness trapped in a", " meat prison"],
-  ["Hail Satanǃ"]
+  ["jan sewi Wijan", "ona", "kule", "tonsi", "jan pi nasin sewi Setan", "poki telo pi ike lukin","pi monsuta suli", "kon jan li ken ala weka","e tomo pi jan ike","pi ko soweli"],
+  ["o ale e jan Setan a"]
 ];
 let contact_info = [
   ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@hell.social", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
@@ -94,7 +95,7 @@ window.onload = () => {
    orderTablets("0 0.055 -10", "0", "home-info", home_info);
   }
   else {
-    orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "space not found or not made"]]);
+    orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
   }
   orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
   orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]])
