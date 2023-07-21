@@ -1,9 +1,9 @@
 <section><div class="encase">
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
-	<button class="collapsible" id="baby-shark" data-parent="banter-worlds" data-child="banter-worlds-child">Banter Worlds</button>
-		<div id="banter-worlds-child" class="innertext center" data-parent="baby-shark">
-			<p><a id="test-world" href="https://lunar-test.glitch.me" target="_blank" data-parent="banter-worlds">Lunar's Test World</a></p>
+	<button class="collapsible" id="banter-worlds" data-parent="banter-worlds" data-child="banter-worlds-child">Banter Worlds</button>
+		<div id="banter-worlds-child" class="innertext center" data-parent="banter-worlds">
+			<p><a id="test-world" href="https://lunar-test.glitch.me" target="_blank" data-parent="banter-worlds">Rev. Lunar's Test World</a></p>
 		</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
