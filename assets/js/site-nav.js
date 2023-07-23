@@ -12,7 +12,13 @@ AFRAME.registerComponent('site-navigation', {
       // are the portals in the scene? if so remove them, otherwise add them
       let old_one = document.getElementById('site-portals');
       if(old_one) {
-        old_one.parentElement.removeChild(old_one);
+        let old_portals = old_one.children;
+        if(old_portals) {
+          for (let i = 0; i < old_portals.length; i++){
+            old_portals[i].parentElement.removeChild(old_portals[i]);
+          }
+          old_one.parentElement.removeChild(old_one);
+        }
       }
       else {
         // create a new entity to contain the portals and make destruction easier                

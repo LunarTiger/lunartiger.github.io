@@ -7,10 +7,12 @@ AFRAME.registerComponent('portal-toggle', {
       let old_one = document.getElementById('space-portals');
       if(old_one) {
         let old_portals = old_one.children;
-        for (let i = 0; i < old_portals.length; i++){
-          old_portals[i].parentElement.removeChild(old_portals[i]);
+        if(old_portals) {
+          for (let i = 0; i < old_portals.length; i++){
+            old_portals[i].parentElement.removeChild(old_portals[i]);
+          }
+          old_one.parentElement.removeChild(old_one);
         }
-        old_one.parentElement.removeChild(old_one);
       }
       else {
         // create a new entity to contain the portals and make destruction easier                
