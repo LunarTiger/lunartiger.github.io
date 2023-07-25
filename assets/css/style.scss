@@ -13,7 +13,12 @@
 
 @import "{{ site.theme }}";
 
+html {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
+}
+
 body {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
     font-family: ComicSans;
     text-align:center;
     color: #b3ef56;
@@ -41,29 +46,34 @@ footer{
 
 /* unvisited link */
 a:link {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 a {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
