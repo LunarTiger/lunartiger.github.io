@@ -13,9 +13,9 @@
 
 @import "{{ site.theme }}";
 
-html {
+/*html {
     cursor: url("/assets/pride_cursor.cur"), pointer;
-}
+}*/
 
 body {
     cursor: url("/assets/pride_cursor.cur"), pointer;
@@ -42,10 +42,6 @@ footer{
     background-color:#000000;
     color:#00ff00;
     border:0px;
-}
-
-details {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
 }
 
 /* unvisited link */
