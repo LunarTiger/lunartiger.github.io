@@ -13,6 +13,10 @@
 
 @import "{{ site.theme }}";
 
+html {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
+}
+
 body {
     cursor: url("/assets/pride_cursor.cur"), pointer;
     font-family: ComicSans;
