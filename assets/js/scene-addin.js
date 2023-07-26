@@ -71,7 +71,7 @@ async function projectPortals(position, rotation, spaces) {
   // loop through and create the portals
   for (let i = 0; i < spaces.length; i++) {
     // make a portal for each url in the spaces array
-    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', (i*2)+' 0 0'); this_portal.setAttribute('rotation', "0 "+rotation+" 0"); this_portal.setAttribute('href', spaces[i]);
+    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', '0 0 '+(i*2)); this_portal.setAttribute('rotation', "0 "+rotation+" 0"); this_portal.setAttribute('href', spaces[i]);
     // add the portal to this_entity
     this_entity.appendChild(this_portal);
   }
