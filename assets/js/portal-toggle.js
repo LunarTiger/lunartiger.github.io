@@ -1,8 +1,23 @@
-let spaces = ["https://lunar-test.glitch.me", "https://sq-wintersport-resort.glitch.me", "https://slipstream.glitch.me", "https://bant-island-night.glitch.me", "https://high-rise-bant.glitch.me", "https://benvr.co.uk/banter/toyhouse", "https://iss-interior.glitch.me" , "https://ai-tour.glitch.me", "https://not-recroom.glitch.me"];
+let spaces = [
+  "https://lunar-test.glitch.me",
+  "https://sq-wintersport-resort.glitch.me",
+  "https://slipstream.glitch.me",
+  "https://bant-island-night.glitch.me",
+  "https://high-rise-bant.glitch.me",
+  "https://benvr.co.uk/banter/toyhouse",
+  "https://iss-interior.glitch.me" ,
+  "https://ai-tour.glitch.me",
+  "https://not-recroom.glitch.me"
+];
+var wait = false;
+
 // Setup an aframe component to handle clicking on the box to create and destroy portals
 AFRAME.registerComponent('portal-toggle', {
   init: function () {
     this.el.addEventListener('click', () => {
+      // if throttled, ignore the click
+      if (wait) return;
+
       // are the portals in the scene? if so remove them, otherwise add them
       let old_one = document.getElementById('space-portals');
       if(old_one) {
@@ -27,6 +42,12 @@ AFRAME.registerComponent('portal-toggle', {
         // add new_one to the portal-toggle button
         document.getElementById('portal-toggle').appendChild(new_one);
       }
+
+      // ignore any future requests for the next 3 seconds
+      wait = true;
+      setTimeout(function () {
+        wait = false;
+      }, 3000);
     })
   }
 });

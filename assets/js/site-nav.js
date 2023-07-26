@@ -4,11 +4,15 @@ let website = [
   {href:"https://lunartiger.github.io/projects", name:"projects"},
   {href:"https://lunartiger.github.io/about", name:"about"},
 ];
+var site_wait = false;
 
 // Setup an aframe component to handle clicking on the box to create and destroy portals
 AFRAME.registerComponent('site-navigation', {
   init: function () {
     this.el.addEventListener('click', () => {
+      // if throttled, ignore the click
+      if (site_wait) return;
+      
       // are the portals in the scene? if so remove them, otherwise add them
       let old_one = document.getElementById('site-portals');
       if(old_one) {
@@ -50,6 +54,12 @@ AFRAME.registerComponent('site-navigation', {
         // add new_one to the portal-toggle button
         document.getElementById('site-navigation').appendChild(new_one);
       }
+
+      // ignore any future requests for the next 3 seconds
+      site_wait = true;
+      setTimeout(function () {
+        site_wait = false;
+      }, 3000);
     })
   }
 });
