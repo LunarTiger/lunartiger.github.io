@@ -286,8 +286,8 @@ nav ul li a:hover {
 
 /*********** collapsible layout ***********/
 /**Fake**/
-.fakecollapsible{
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+.fakecollapsible {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
     background-color: #009000;
     color: white;
     cursor: default;
@@ -300,8 +300,13 @@ nav ul li a:hover {
     font-size: 15px;
 }
 
+.fakecollapsible:hover {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
+    background-color: #009000;
+}
+
 .fakecollapsible:after {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/pride_cursor.cur"), pointer;
     content: '\2212';
     color: white;
     font-weight: bold;
