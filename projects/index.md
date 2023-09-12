@@ -1,6 +1,8 @@
 <section><div class="encase">
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
+	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
+	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="banter-worlds" data-parent="banter-worlds" data-child="banter-worlds-child">Banter Worlds</button>
 		<div id="banter-worlds-child" class="innertext center" data-parent="banter-worlds">
 			<p><a id="test-world" href="https://lunar-test.glitch.me" data-parent="banter-worlds">Rev. Lunar's Test World</a></p>
@@ -22,7 +24,6 @@
 		</div>
 	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Unmaintained</button>
 		<div id="unmaintained-child" class="innertext center" data-parent="unmaintained">
-			<p><a id="stwl" href="/stwl" data-parent="unmaintained">Story Time with Lunar</a></p>
 			<p><a id="lar" href="/lar" data-parent="unmaintained">Lovense API Redirect</a></p>
 			<p><a id="ovrtoggle" href="/ovrtoggle" data-parent="unmaintained">Oculus VR Toggle</a></p>
 			<p><a id="sansar" href="/sansar" data-parent="unmaintained">Sansar Scripts</a></p>
