@@ -12,6 +12,7 @@ AFRAME.registerComponent('site-navigation', {
     this.el.addEventListener('click', () => {
       // if throttled, ignore the click
       if (site_wait) return;
+      site_wait = true;
       
       // are the portals in the scene? if so remove them, otherwise add them
       let old_one = document.getElementById('site-portals');
@@ -56,7 +57,6 @@ AFRAME.registerComponent('site-navigation', {
       }
 
       // ignore any future requests for the next 3 seconds
-      site_wait = true;
       setTimeout(function () {
         site_wait = false;
       }, 3000);

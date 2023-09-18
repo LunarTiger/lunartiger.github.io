@@ -71,7 +71,33 @@ async function orderTablets(position, rotation, group_id, this_info) {
 }
 
 async function projectPortals(position, rotation, spaces) {
-  let this_entity = document.createElement('a-entity'); this_entity.id = 'projet-portals'; this_entity.setAttribute('position', position);
+  const portals = await fetch('https://lunartiger.githug.io/banter/assets/my_spaces.json');
+  const portalJson = await portals.json();
+  const portalParent = makeProjectPortals('project-portals', portalJson);
+  portalParent.setAttribute('visible', visible);
+}
+
+function makeProjectPortals(button, portal_array) {  
+  
+  let existing = document.createElement('a-entity');
+  existing.id = button.id+'-holder';
+  existing.setAttribute('position', position);
+  existing.setAttribute('visible', false);
+  button.appendChild(existing);
+  
+  // Add the new portals based on the array
+  for (let i = 0; i < portal_array.length; i++) {
+    let this_portal =  document.createElement('a-link'); 
+    this_portal.setAttribute('position', '0 0 -'+(i*2));
+    this_portal.setAttribute('rotation', "0 "+rotation+" 0");
+    this_portal.setAttribute('href', portal_array[i]);
+    existing.appendChild(this_portal);
+  }
+  
+  // return the portal parent
+  return existing;
+}
+/*  let this_entity = document.createElement('a-entity'); this_entity.id = 'projet-portals'; this_entity.setAttribute('position', position);
   // loop through and create the portals
   for (let i = 0; i < spaces.length; i++) {
     // make a portal for each url in the spaces array
@@ -81,26 +107,26 @@ async function projectPortals(position, rotation, spaces) {
   }
 // add this_entity to the portal-toggle button
 document.querySelector('a-scene').appendChild(this_entity);
-}
+}*/
 
 window.onload = () => {
-  // let page_location = window.location.pathname;
-  if(window.location.pathname == "/about") {
+  let page_location = window.location.pathname;
+  if(page_location == "/about") {
     orderTablets("-2 0.055 -10", "0", "about-info", about_info);
   }
-  else if(window.location.pathname == "/contact") {
+  else if(page_location == "/contact") {
     orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
   }
-  else if(window.location.pathname == "/projects") {
+  else if(page_location == "/projects") {
     orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
     projectPortals("18.57 0.3 18.57", "270", project_spaces);
   }
-  else if(window.location.pathname == "/") {
+  else if(page_location == "/") {
    orderTablets("0 0.055 -10", "0", "home-info", home_info);
   }
   else {
     orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
   }
   orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
-  orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]])
+  orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
 }
