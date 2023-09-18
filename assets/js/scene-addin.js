@@ -83,7 +83,7 @@ function makeProjectPortals(button, portal_array, position, rotation) {
   existing.id = button.id+'-holder';
   existing.setAttribute('position', position);
   existing.setAttribute('visible', false);
-  button.appendChild(existing);
+  document.querySelector('a-scene').appendChild(existing);
   
   // Add the new portals based on the array
   for (let i = 0; i < portal_array.length; i++) {
