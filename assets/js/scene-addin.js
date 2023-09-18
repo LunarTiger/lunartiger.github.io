@@ -71,7 +71,7 @@ async function orderTablets(position, rotation, group_id, this_info) {
 }
 
 async function projectPortals(position, rotation, spaces) {
-  const portals = await fetch('https://lunartiger.githug.io/banter/assets/my_spaces.json');
+  const portals = await fetch('https://lunartiger.github.io/banter/assets/my_spaces.json');
   const portalJson = await portals.json();
   const portalParent = makeProjectPortals('project-portals', portalJson);
   portalParent.setAttribute('visible', visible);
@@ -97,17 +97,6 @@ function makeProjectPortals(button, portal_array) {
   // return the portal parent
   return existing;
 }
-/*  let this_entity = document.createElement('a-entity'); this_entity.id = 'projet-portals'; this_entity.setAttribute('position', position);
-  // loop through and create the portals
-  for (let i = 0; i < spaces.length; i++) {
-    // make a portal for each url in the spaces array
-    let this_portal = document.createElement('a-link'); this_portal.setAttribute('position', '0 0 -'+(i*2)); this_portal.setAttribute('rotation', "0 "+rotation+" 0"); this_portal.setAttribute('href', spaces[i]);
-    // add the portal to this_entity
-    this_entity.appendChild(this_portal);
-  }
-// add this_entity to the portal-toggle button
-document.querySelector('a-scene').appendChild(this_entity);
-}*/
 
 window.onload = () => {
   let page_location = window.location.pathname;
