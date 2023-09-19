@@ -6,7 +6,8 @@
 	<button class="collapsible" id="banter-worlds" data-parent="banter-worlds" data-child="banter-worlds-child">Banter Worlds</button>
 		<div id="banter-worlds-child" class="innertext center" data-parent="banter-worlds">
 			<p><a id="test-world" href="https://lunar-test.glitch.me" data-parent="banter-worlds">Rev. Lunar's Test World</a></p>
-			<p><a id="gravity-cube" href="/gravity-cube" data-parent="banter-worlds">Gravity Cube</a></p>
+			<p><a id="story-time" href="/stwl" data-parent="banter-worlds">Story Time</a></p>
+			<p><a id="gravity-cube" href="/banter/gravity-cube" data-parent="banter-worlds">Gravity Cube</a></p>
 		</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
