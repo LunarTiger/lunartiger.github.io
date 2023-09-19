@@ -71,7 +71,7 @@ async function orderTablets(position, rotation, group_id, this_info) {
 }
 
 async function projectPortals(position, rotation) {
-  const portals = await fetch('https://lunartiger.github.io/banter/assets/my_spaces.json');
+  const portals = await fetch('https://lunartiger.github.io/banter/my_spaces.json');
   const portalJson = await portals.json();
   const portalParent = makeProjectPortals('project-portals', portalJson, position, rotation);
   portalParent.setAttribute('visible', true);
