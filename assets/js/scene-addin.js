@@ -99,23 +99,25 @@ function makeProjectPortals(button, portal_array, position, rotation) {
 }
 
 window.onload = () => {
-  let page_location = window.location.pathname;
-  if(page_location == "/about") {
-    orderTablets("-2 0.055 -10", "0", "about-info", about_info);
+  if(window.isBanter){
+    let page_location = window.location.pathname;
+    if(page_location == "/about") {
+      orderTablets("-2 0.055 -10", "0", "about-info", about_info);
+    }
+    else if(page_location == "/contact") {
+      orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
+    }
+    else if(page_location == "/projects") {
+      orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
+      projectPortals("18.57 0.3 18.57", "270");
+    }
+    else if(page_location == "/") {
+     orderTablets("0 0.055 -10", "0", "home-info", home_info);
+    }
+    else {
+      orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
+    }
+    orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
+    orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
   }
-  else if(page_location == "/contact") {
-    orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
-  }
-  else if(page_location == "/projects") {
-    orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
-    projectPortals("18.57 0.3 18.57", "270");
-  }
-  else if(page_location == "/") {
-   orderTablets("0 0.055 -10", "0", "home-info", home_info);
-  }
-  else {
-    orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
-  }
-  orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
-  orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
 }
