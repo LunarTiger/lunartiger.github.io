@@ -4,15 +4,24 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 //Event*/
-/*var event = database.ref('stwl/next-event');
-event.on('value', (function(snapshot) {
-	var eventVal = snapshot.val();
-	if(eventVal){
-		var inside = "";
-		document.getElementById('story-time').innerHTML = "<p id='story-time-p'><a href='/stwl'>Story Time with Lunar</a><br />Next Event:&nbsp; "+eventVal+"<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+var book_sat = database.ref('stwl/book_saturday');
+book_sat.on('value', (function(snapshot) {
+	var satVal = snapshot.val();
+	if(satVal){
+		document.getElementById('bookSat').innerHTML = "Saturday's Book Reading:&nbsp; "+satVal;
 	}
-	if(!eventVal){
-		document.getElementById('story-time').innerHTML = "<p><a href='/stwl'>Story Time with Lunar</a><br />Check out the <a href='/stwl/archive'>archive</a>.<br />Join the <a href='https://discord.gg/DbQF7ze'>discord</a>.</p>";
+	if(!satVal){
+		document.getElementById('bookSat').innerHTML = "No event scheduled";
+	}
+}));
+var book_sun = database.ref('stwl/book_sunday');
+book_sun.on('value', (function(snapshot) {
+	var sunVal = snapshot.val();
+	if(sunVal){
+		document.getElementById('bookSun').innerHTML = "Sunday's Book Reading:&nbsp; "+sunVal;
+	}
+	if(!sunVal){
+		document.getElementById('bookSun').innerHTML = "No event scheduled";
 	}
 }));
 //Book*/
