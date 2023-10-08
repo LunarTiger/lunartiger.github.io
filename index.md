@@ -16,7 +16,7 @@
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
 	</div>
 	<!---->
-	<div id="story-time" class="holder center"><h2><a href='/stwl'>Story Time with Lunar</a><h2><p id="bookSat"></p><p id="bookSun"></p></div>
+	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href='/stwl'>Story Time with Lunar</a></h2><p id="bookSat"></p><p id="bookSun"></p></div>
 	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 	<hr style="height:4px; visibility:hidden;">
 	<!--
