@@ -1,14 +1,9 @@
 <section><div class="encase">
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
+	<p><a id="banter-spaces" href="/banter">Banter Spaces</a></p>
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 	<hr style="height:1px; visibility:hidden;" />
-	<button class="collapsible" id="banter-worlds" data-parent="banter-worlds" data-child="banter-worlds-child">Banter Worlds</button>
-		<div id="banter-worlds-child" class="innertext center" data-parent="banter-worlds">
-			<p><a id="test-world" href="https://lunar-test.glitch.me" data-parent="banter-worlds">Rev. Lunar's Test World</a></p>
-			<p><a id="story-time" href="/banter/story-time" data-parent="banter-worlds">Story Time</a></p>
-			<p><a id="gravity-cube" href="/banter/gravity-cube" data-parent="banter-worlds">Gravity Cube</a></p>
-		</div>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
 			<p><a id="babyshark" href="/babyshark" target="_blank" data-parent="baby-shark">Baby Shark</a></p>
