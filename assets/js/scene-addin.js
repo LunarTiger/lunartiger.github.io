@@ -98,7 +98,7 @@ function makeProjectPortals(button, portal_array, position, rotation) {
   return existing;
 }
 
-window.onload = () => {
+addEventListener("DOMContentLoaded", async() => {
   if(window.isBanter){
     let page_location = window.location.pathname;
     if(page_location == "/about") {
@@ -120,4 +120,4 @@ window.onload = () => {
     orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
   }
-}
+});
