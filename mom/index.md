@@ -7,7 +7,9 @@
 		<p>Shelva Denise Washburn was a loving mother, wife, and a cherished friend to many. Her unexpected death on November 25, 2022 has left the hearts of the many people that knew her heavy with grief.</p>
 		<img src="/assets/img/shelva-altar.jpg" alt="Shelva's urn sitting on a table with a red wine glass with water, an incense, glasses, a watch, a certificate showing she was an organ donor, a plant, a picture showing her dad, and a small amount of her dad's cremains." height="360" width="360" />
 	</div>
-	<div id="img" class="holder center"></div>
+	<div id="img" class="holder center">
+		<h3 style="padding-top: 1em;">pictures</h3>
+	</div>
 	<div class="holder center">
 		<h3 style="padding-top: 1em;">special thanks to the following people</h3>
 		<ul>
