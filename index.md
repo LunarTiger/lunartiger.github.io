@@ -2,7 +2,7 @@
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
 	<div id="cremation-fund" class="holder center">
-		<a href="/mom" style="color:#0ff; padding-top: 1em;">Shelva Washburn's Memorial Page</h2>
+		<a href="/mom" style="color:#0ff; padding-top: 1em;">Shelva Washburn's Memorial Page</a>
 	</div>
 	<!--
 	<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
