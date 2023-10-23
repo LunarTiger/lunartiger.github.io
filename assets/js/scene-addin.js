@@ -17,11 +17,6 @@ let home_info = [
   ["welcome to", "my website"]
 ];
 let projects_info = [];
-let project_spaces = [
-  "https://lunar-test.glitch.me",
-  "https://lunartiger.github.io/stwl",
-  "https://lunartiger.github.io/gravity-cube"
-];
 let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
 // function to create a box and text
