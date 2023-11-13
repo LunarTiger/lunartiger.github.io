@@ -66,8 +66,9 @@ async function orderTablets(position, rotation, group_id, this_info) {
 }
 
 async function projectPortals(position, rotation) {
-  const portals = await fetch('https://lunartiger.github.io/banter/my_spaces.json');
-  const portalJson = await portals.json();
+  //const portals = await fetch('https://lunartiger.github.io/banter/my_spaces.json');
+  //const portalJson = await portals.json();
+  const portalJson = ["https://lunartiger.github.io/banter"];
   const portalParent = makeProjectPortals('project-portals', portalJson, position, rotation);
   portalParent.setAttribute('visible', true);
 }
@@ -104,7 +105,7 @@ addEventListener("DOMContentLoaded", async() => {
     }
     else if(page_location == "/projects") {
       orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
-      projectPortals("18.57 0.3 18.57", "270");
+      projectPortals("18.57 0.3 18.5", "270");
     }
     else if(page_location == "/") {
      orderTablets("0 0.055 -10", "0", "home-info", home_info);
