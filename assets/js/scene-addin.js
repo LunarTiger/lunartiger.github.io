@@ -105,7 +105,7 @@ addEventListener("DOMContentLoaded", async() => {
     }
     else if(page_location == "/projects") {
       orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
-      projectPortals("18.57 0.3 18.5", "270");
+      projectPortals("18.57 0.3 18.3", "270");
     }
     else if(page_location == "/") {
      orderTablets("0 0.055 -10", "0", "home-info", home_info);
