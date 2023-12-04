@@ -3,7 +3,7 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-//Event*/
+/* Story Time Event Books */
 var book_sat = database.ref('stwl/book_saturday');
 book_sat.on('value', (function(snapshot) {
 	var satVal = snapshot.val();
@@ -22,6 +22,26 @@ book_sun.on('value', (function(snapshot) {
 	}
 	if(!sunVal){
 		document.getElementById('bookSun').innerHTML = "No event scheduled";
+	}
+}));/*
+var book_moto = database.ref('stwl/book_moto');
+book_moto.on('value', (function(snapshot) {
+	var motoVal = snapshot.val();
+	if(motoVal){
+		document.getElementById('bookMoto').innerHTML = "Sunday's Book Reading:&nbsp; "+motoVal;
+	}
+	if(!motoVal){
+		document.getElementById('bookMoto').innerHTML = "No event scheduled";
+	}
+}));
+var book_fae = database.ref('stwl/book_fae');
+book_fae.on('value', (function(snapshot) {
+	var faeVal = snapshot.val();
+	if(faeVal){
+		document.getElementById('bookFae').innerHTML = "Sunday's Book Reading:&nbsp; "+faeVal;
+	}
+	if(!faeVal){
+		document.getElementById('bookFae').innerHTML = "No event scheduled";
 	}
 }));
 //Book*/

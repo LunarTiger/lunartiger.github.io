@@ -5,7 +5,7 @@
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">rev_lunar</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
-			<p>Calckey:&nbsp; <a href="https://hell.social/@rev_lunar" target="_blank" id="Pcalckey" data-parent="openme">@lunar@hell.social</a></p>
+			<p>Calckey:&nbsp; <a href="https://hell.social/@rev_lunar" target="_blank" id="Pcalckey" data-parent="openme">@rev_lunar@hell.social</a></p>
 			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="Pspacehey" data-parent="openme">rev_lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
 		</div>
