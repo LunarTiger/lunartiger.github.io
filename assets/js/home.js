@@ -3,7 +3,7 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-/* Story Time Event Books */
+/* Story Time Event Books *
 var book_sat = database.ref('stwl/book_saturday');
 book_sat.on('value', (function(snapshot) {
 	var satVal = snapshot.val();
