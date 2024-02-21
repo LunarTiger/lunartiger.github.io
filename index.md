@@ -10,7 +10,7 @@
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
 	</div>
 	<!---->
-	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://story-thyme.glitch.me">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--><p><iframe src="https://calendar.google.com/calendar/embed?height=569&wkst=2&ctz=UTC&bgcolor=%2300be00&mode=AGENDA&showPrint=0&showTitle=0&src=NjAzNDU1OGU0YzczZGVjNWFkYTk3YTUxMzFlMDBiYmJmYTdkMTk0ZWM4ZTM3NTZlZmU2MTE0YmRhOWFkMmM4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF" style="border-width:0" width="420" height="569" frameborder="0" scrolling="no"></p></iframe></div>
+	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://story-thyme.glitch.me">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--><p><iframe src="https://calendar.google.com/calendar/embed?height=569&wkst=2&ctz=UTC&bgcolor=%2300be00&mode=AGENDA&showPrint=0&showTitle=0&src=NjAzNDU1OGU0YzczZGVjNWFkYTk3YTUxMzFlMDBiYmJmYTdkMTk0ZWM4ZTM3NTZlZmU2MTE0YmRhOWFkMmM4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF" style="border-width:0" width="420" height="569" frameborder="0" scrolling="no"></iframe></p></div>
 	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 	<hr style="height:4px; visibility:hidden;">
 	<!--
