@@ -1,14 +1,14 @@
-var coll = document.getElementsByClassName("collapsible");
-var default_open = document.getElementById('openme');
+const coll = document.getElementsByClassName("collapsible");
+const default_open = document.getElementById('openme');
 var i;
 if(document.getElementById("payme") && document.getElementById("payment") && coll) {
-	coll.push(document.getElementById("payment"));
+	coll.push({document.getElementById("payment")});
 }
 if (coll) {
 	for (i = 0; i < coll.length; i++) {
 		coll[i].addEventListener("click", function() {
 			this.classList.toggle("active");
-			var content = document.getElementById(this.dataset.child);
+			const content = document.getElementById(this.dataset.child);
 			if (content.style.maxHeight) {content.style.maxHeight = null;}
 			else {content.style.maxHeight = content.scrollHeight + "px";} 
 		});
