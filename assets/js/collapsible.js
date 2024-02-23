@@ -1,6 +1,9 @@
 var coll = document.getElementsByClassName("collapsible");
 var default_open = document.getElementById('openme');
 var i;
+if(document.getElementById("payme") && document.getElementById("payment") && coll) {
+	coll = coll + document.getElementById("payment");
+}
 if (coll) {
 	for (i = 0; i < coll.length; i++) {
 		coll[i].addEventListener("click", function() {
