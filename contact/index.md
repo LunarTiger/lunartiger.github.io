@@ -68,11 +68,11 @@
 		<div id="payme-child" class="innertext" data-parent="payme">
 			<p>Cash App:&nbsp; <a href="https://cash.app/$revlunar" target="_blank" id="cashapp" data-parent="payme">$revlunar</a></p>
 			<p>Ko-fi:&nbsp; <a href="https://ko-fi.com/rev_lunar" target="_blank" id="kofi" data-parent="payme">rev_lunar</a></p>
+			<p>Patreon:&nbsp; <a href="https://patreon.com/rev_lunar" target="_blank" id="patreon" data-parent="payme">Rev. Lunar</a></p>
 			<p>PayPal:&nbsp; <a href="https://www.paypal.me/lunartiger" target="_blank" id="paypal" data-parent="payme">lunartiger</a></p>
 			<p>Revolut:&nbsp; <a href="https://pay.revolut.com/profile/revlunar" target="_blank" id="revolut" data-parent="payme">revlunar</a></p>
 			<p>Venmo:&nbsp; <a href="https://account.venmo.com/u/rev_lunar" target="_blank" id="venmo" data-parent="payme">@rev_lunar</a></p>
 			<!--
-				<p>Patreon:&nbsp; <a href="https://www.patreon.com/lunartiger" target="_blank" id="patreon" data-parent="payme">Rev. Lunar</a></p>
 				<p>Monero Wallet:&nbsp; <span style="color:#0ac139; word-wrap:break-word;" id="monero" data-parent="payme"></span></p>
 			-->
 		</div>
