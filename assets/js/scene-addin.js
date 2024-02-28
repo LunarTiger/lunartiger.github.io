@@ -4,7 +4,7 @@
   ["o ale e jan Setan a"]
 ];
 let contact_info = [
-  ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@hell.social", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
+  ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@mas.to", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
   ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
   ["Discord: rev_lunar" ,"Revolt: Lunatics", "Snapchat: rev_lunar"], // messaging
   ["Mastodon: lunar@mas.to", "Pixelfed: lunar@gram.social", "Calckey: rev_lunar@hell.social"], // fediverse
