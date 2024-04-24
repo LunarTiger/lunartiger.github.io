@@ -1,4 +1,4 @@
-addEventListener("DOMContentLoaded", async() => {if(!window.isBanter){
+//addEventListener("DOMContentLoaded", async() => {if(!window.isBanter){
 var config = {
 	databaseURL: "https://lunar-home.firebaseio.com/",
 };
@@ -134,4 +134,4 @@ message.on('value', (function(snapshot) {
 		document.getElementById('messageembed').innerHTML = "";
 	}
 }));
-}});
+//}});
