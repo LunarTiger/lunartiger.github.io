@@ -1,4 +1,4 @@
-(function(){
+(=>(){
 	if(window.location.hash){
 		const goto = window.location.hash.substr(1).toLowerCase();
 		switch(goto){
