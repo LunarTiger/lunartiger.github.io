@@ -29,14 +29,14 @@
 			<p><a id="discord" href="/Discord" data-parent="deprecated">Discord Add-Ons</a></p>
 			<p><a id="file-server" href="/fs-up" data-parent="deprecated">File Server</a></p>
 			<p><a id="hypatia" href="/hypatia" data-parent="deprecated">Hypatia Hints</a></p>
-			<p><a id="worms" href="/worms" data-parent="deprecated">Worms Live Stream</a></p>
+			<!--<p><a id="worms" href="/worms" data-parent="deprecated">Worms Live Stream</a></p>
 			<p><a id="whereis" href="/whereis" data-parent="deprecated">Where is Lunar?</a></p>
 			<!--<iframe id="wormsembed" allow="autoplay; encrypted-media" style="max-width:100%;height:320px;width:570px;border: 0px" allowfullscreen  data-parent="deprecated"></iframe>-->
 			<button class="fakecollapsible" id="altvr" data-parent="deprecated" data-child="altvr">Altspace</button>
 				<div id="altvr-child" class="fakeinnertext center" data-parent="altvr">
-					<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="deprecated">Lunarverse</a></p>
+					<!--<p><a id="lunarverse" href="https://account.altvr.com/worlds/954689156213113037" data-parent="deprecated">Lunarverse</a></p>
 					<p><a id="spacearchive" href="https://account.altvr.com/worlds/1349925732620436463" data-parent="deprecated">Spaces Archive</a></p>
-					<p><a id="tphub" href="/althub" data-parent="deprecated">Altspace Teleport Hub</a></p>
+					<p><a id="tphub" href="/althub" data-parent="deprecated">Altspace Teleport Hub</a></p>-->
 					<p><a id="altvr-scripts" href="/AltspaceVR" data-parent="deprecated">Altspace Scripts - Old API</a></p>
 				</div>
 		</div>
