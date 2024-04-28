@@ -113,6 +113,12 @@ h6 {
     color: #00ff00;
 }
 
+details {
+    cursor: url("/assets/trans_cursor.cur"), pointer;
+    font-family:ComicSans;
+    margin-bottom:1em;
+}
+
 hr { 
     border-top: 1px dashed #006900;
     border-bottom: 0;
