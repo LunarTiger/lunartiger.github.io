@@ -138,11 +138,17 @@ hr {
 }
 
 table {
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    border: none;
-    max-width: 99%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:1em;
+  border: none;
+  max-width: 99%;
+}
+
+table, th, td {
+  border: 1px dashed #006900;
+  border-collapse: collapse;
 }
 
 table.navbar {

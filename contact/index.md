@@ -27,6 +27,7 @@
 				<tr><td>cashapp</td><td><a href="https://cash.app/$revlunar" target="_blank">$revlunar</a></td></tr>
 			</tbody>
 		</table>
+		<h2 style="color:#b00;">the buttons below won't work with scripts disabled</h2>
 	</noscript>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>

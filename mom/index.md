@@ -9,6 +9,7 @@
 	</div>
 	<div id="img" class="holder center">
 		<h3 style="padding-top: 1em;">pictures</h3>
+		<noscript><h2 style="color:#b00;">the pictures won't load with scripts disabled</h2></noscript>
 	</div>
 	<div class="holder center">
 		<h3 style="padding-top: 1em;">special thanks to the following people</h3>

@@ -4,6 +4,7 @@
 	<p><a id="banter-spaces" href="/banter">Banter Spaces</a></p>
 	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 	<hr style="height:1px; visibility:hidden;" />
+	<noscript><h2 style="color:#b00;">the buttons below won't work with scripts disabled</h2></noscript>
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
 			<p><a id="babyshark" href="/babyshark" target="_blank" data-parent="baby-shark">Baby Shark</a></p>
