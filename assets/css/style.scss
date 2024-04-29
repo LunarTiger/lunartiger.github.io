@@ -119,6 +119,11 @@ details {
     margin-bottom:1em;
 }
 
+summary {
+    cursor: url("/assets/pride_cursor.cur"), pointer;
+    font-family:ComicSans;
+}
+
 hr { 
     border-top: 1px dashed #006900;
     border-bottom: 0;
