@@ -17,8 +17,12 @@
 				<tr><td>favourite colour</td><td><span style="color:#006900;">#006900</span></td></tr>
 			</tbody>
 		</table>
+		<style type="text/css">
+			.jsstuff {display:none;}
+		</style>
 		<h2 style="color:#b00;">the buttons below won't work with scripts disabled</h2>
 	</noscript>
+	<div class="jsstuff">
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
 			<p>Name:&nbsp; Ryan Fowler-Hughes</p>
@@ -64,6 +68,7 @@
 			<p>32% Boy/Girl</p>
 			<p>24% Ageplayer</p>
 		</div>
+	</div><!-- this closes jsstuff -->
 	<button class="fakecollapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
 		<div id="pet-child" class="fakeinnertext" data-parent="pet">
 			<hr style="visibility:hidden;"/>
