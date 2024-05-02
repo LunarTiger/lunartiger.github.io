@@ -1,9 +1,4 @@
 <section><div class="encase">
-	<noscript>
-		<style type="text/css">
-			.jsstuff {display:none;}
-		</style>
-	</noscript>
 	<h2 id="projects">My Projects</h2>
 	<hr style="height:1px; visibility:hidden;" />
 	<p><a id="banter-spaces" href="/banter">Banter Spaces</a></p>

@@ -1,9 +1,6 @@
 <section><div class="encase">
 	<h2 id="contact">Contact Me</h2>
 	<noscript>
-		<style type="text/css">
-			.jsstuff {display:none;}
-		</style>
 		<table cellspacing="3" cellpadding="3">
 			<tbody>
 				<tr><td colspan="2">contact</td></tr>

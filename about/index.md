@@ -6,9 +6,6 @@
 	<img style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
 	<hr style="height:1px; visibility:hidden;" />
 	<noscript>
-		<style type="text/css">
-			.jsstuff {display:none;}
-		</style>
 		<table cellspacing="3" cellpadding="3">
 			<tbody>
 				<tr><td colspan="2">stats</td></tr>

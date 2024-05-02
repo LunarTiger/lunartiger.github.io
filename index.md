@@ -12,7 +12,7 @@
 	<!---->
 	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://sidequestvr.github.io/SideQuest.Banter.Spaces/story-thyme/">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--></div>
 	<iframe id="musicembed" allow="encrypted-media" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
-	<hr style="height:4px; visibility:hidden;">
+	<hr style="height:4px; visibility:hidden;" class="jsstuff">
 	<!--
 	<div id="projects" class="holder center">
 		<nav>
@@ -36,7 +36,7 @@
 			</ul>
 		</nav>
 	</div>
-	<div id="messageembed" class="holder center"></div>
+	<div id="messageembed" class="holder center jsstuff"></div>
 	<!--
 		<div id="lunar-location" class="holder center"></div>
 		<iframe id="tootembed" src="" class="mastodon-embed" style="max-width: 0; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>

@@ -103,12 +103,17 @@
       <header>
         <img src="/assets/img/myicon.svg" alt="icon" height="256" width="256">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <noscript><h2 style="color:#b00;">you have javascript disabled, some things may be hidden</h2></noscript>
+        <noscript>
+            <style type="text/css">
+                .jsstuff {display:none;}
+            </style>
+            <h2 style="color:#b00;">you have javascript disabled, some things may be hidden</h2>
+        </noscript>
         <hr />
         <nav>
           <a href="{{ site.github.url }}"><button>Home</button></a>
           <a href="{{ site.github.url }}/contact"><button>Contact</button></a>
-          <a href="{{ site.github.url }}/contact/#payme"><button id="payment" data-child="payme-child">Pay</button></a>
+          <a class="jsstuff" href="{{ site.github.url }}/contact/#payme"><button id="payment" data-child="payme-child">Pay</button></a>
           <a href="{{ site.github.url }}/projects"><button>Projects</button></a>
           <a href="{{ site.github.url }}/about"><button>About</button></a>
           <a href="https://lunar.bant.ing"><button>tiny homepage</button></a>
