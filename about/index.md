@@ -6,6 +6,9 @@
 	<img style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
 	<hr style="height:1px; visibility:hidden;" />
 	<noscript>
+		<style type="text/css">
+			.jsstuff {display:none;}
+		</style>
 		<table cellspacing="3" cellpadding="3">
 			<tbody>
 				<tr><td colspan="2">stats</td></tr>
@@ -17,10 +20,6 @@
 				<tr><td>favourite colour</td><td><span style="color:#006900;">#006900</span></td></tr>
 			</tbody>
 		</table>
-		<style type="text/css">
-			.jsstuff {display:none;}
-		</style>
-		<h2 style="color:#b00;">the buttons below won't work with scripts disabled</h2>
 	</noscript>
 	<div class="jsstuff">
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>

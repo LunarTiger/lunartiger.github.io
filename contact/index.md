@@ -1,6 +1,9 @@
 <section><div class="encase">
 	<h2 id="contact">Contact Me</h2>
 	<noscript>
+		<style type="text/css">
+			.jsstuff {display:none;}
+		</style>
 		<table cellspacing="3" cellpadding="3">
 			<tbody>
 				<tr><td colspan="2">contact</td></tr>
@@ -27,8 +30,8 @@
 				<tr><td>cashapp</td><td><a href="https://cash.app/$revlunar" target="_blank">$revlunar</a></td></tr>
 			</tbody>
 		</table>
-		<h2 style="color:#b00;">the buttons below won't work with scripts disabled</h2>
 	</noscript>
+	<div class="jsstuff">
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">
@@ -117,5 +120,6 @@
 				<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 			-->
 		</div>
+	</div><!-- this closes jsstuff -->
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>
