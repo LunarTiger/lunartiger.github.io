@@ -25,6 +25,7 @@
 			<li>J. S.</li>
 			<li>Luminosity</li>
 			<li>Cat God</li>
+			<li>Kelly Moyers</li>
 		</ul>
 	</div>
 </section>
