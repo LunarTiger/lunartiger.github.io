@@ -1,34 +1,5 @@
 <section><div class="encase">
 	<h2 id="contact">Contact Me</h2>
-	<noscript>
-		<table cellspacing="3" cellpadding="3">
-			<tbody>
-				<tr><td colspan="2">contact</td></tr>
-				<tr><td>discord</td><td><a href="https://discordapp.com/users/206291426932293634" target="_blank">rev_lunar</a></td></tr>
-				<tr><td>matrix</td><td><a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank">@rev_lunar:matrix.org</a></td></tr>
-				<tr><td>fediverse</td><td><a href="https://mas.to/@lunar" target="_blank"><span class="__cf_email__" data-cfemail="d6baa3b8b7a496bbb7a5f8a2b9">[email&#160;protected]</span></a></td></tr>
-				<tr><td>sidequest</td><td><a href="https://sdq.st/lunar" target="_blank">Rev. Lunar</a></td></tr>
-				<tr><td>twitch</td><td><a href="https://www.twitch.tv/rev_lunar" target="_blank">Rev_Lunar</a></td></tr>
-				<tr><td>spacehey</td><td><a href="https://spacehey.com/rev_lunar" target="_blank">/rev_lunar</a></td></tr>
-				<tr><td>steam</td><td><a href="http://steamcommunity.com/id/rev_lunar" target="_blank">rev_lunar</a></td></tr>
-				<tr><td>vrchat</td><td><a href="https://vrchat.com/home/user/usr_b215585f-cb89-4f2d-872c-24bf71576213" target="_blank">Rev. Lunar</a></td></tr>
-				<tr><td>telegram</td><td><a href="https://t.me/Rev_Lunar" target="_blank">@Rev_Lunar</a></td></tr>
-				<tr><td>youtube</td><td><a href="https://www.youtube.com/@rev_lunar" target="_blank">@rev_lunar</a></td></tr>
-				<tr><td>github</td><td><a href="https://github.com/LunarTiger" target="_blank">LunarTiger</a></td></tr>
-				<tr><td>phone</td><td><a href="tel:+15406926899">1-540-692-6899</a></td></tr>
-			</tbody>
-		</table>
-		<table cellspacing="3" cellpadding="3">
-			<tbody>
-				<tr><td colspan="2">pay me</td></tr>
-				<tr><td>revolut</td><td><a href="https://pay.revolut.com/profile/revlunar" target="_blank">revlunar</a></td></tr>
-				<tr><td>paypal</td><td><a href="https://www.paypal.me/lunartiger" target="_blank">lunartiger</a></td></tr>
-				<tr><td>venmo</td><td><a href="https://account.venmo.com/u/rev_lunar" target="_blank">@rev_lunar</a></td></tr>
-				<tr><td>cashapp</td><td><a href="https://cash.app/$revlunar" target="_blank">$revlunar</a></td></tr>
-			</tbody>
-		</table>
-	</noscript>
-	<div class="jsstuff">
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">
@@ -117,6 +88,5 @@
 				<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 			-->
 		</div>
-	</div><!-- this closes jsstuff -->
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>

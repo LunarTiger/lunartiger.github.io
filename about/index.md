@@ -5,20 +5,6 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<img style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
 	<hr style="height:1px; visibility:hidden;" />
-	<noscript>
-		<table cellspacing="3" cellpadding="3">
-			<tbody>
-				<tr><td colspan="2">stats</td></tr>
-				<tr><td>name</td><td>Ryan Fowler-Hughes</td></tr>
-				<tr><td>pronouns</td><td>it/its/any</td></tr>
-				<tr><td>birthday</td><td>1992-07-02</td></tr>
-				<tr><td>sexuality</td><td>queer</td></tr>
-				<tr><td>gender</td><td>agender</td></tr>
-				<tr><td>favourite colour</td><td><span style="color:#006900;">#006900</span></td></tr>
-			</tbody>
-		</table>
-	</noscript>
-	<div class="jsstuff">
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
 			<p>Name:&nbsp; Ryan Fowler-Hughes</p>
@@ -34,6 +20,7 @@
 			<p>Shoe Size:&nbsp; 8, EUR 40.5, MEX 26</p>
 			<!--<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>-->
 		</div>
+	<div class="jsstuff">
 	<button class="collapsible" id="bdsmtest" data-parent="bdsmtest" data-child="bdsmtest-child">BDSM Test Results</button>
 		<div id="bdsmtest-child" class="innertext center" data-parent="bdsmtest">
 			<hr style="height:1px; visibility:hidden;">
