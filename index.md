@@ -15,10 +15,10 @@
 	<hr style="height:4px; visibility:hidden;" class="jsstuff">
 	<div id="links_or_something_idk" class="holder center">
 		<nav>
-			<ul class="navbar">
-				<li class="navbar"><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
-				<li class="navbar"><a href="https://lunartiger.github.io/banter" id="banter-spaces">My Banter Spaces</a></li>
-				<li class="navbar"><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></li>
+			<ul>
+				<li><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
+				<li><a href="https://lunartiger.github.io/banter" id="banter-spaces">My Banter Spaces</a></li>
+				<li><a href="https://linktr.ee/transScience" id="transScience" target="_blank">Trans Science</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -108,16 +108,18 @@
                 .innertext {max-height:initial;}
                 .jsstuff {display:none;}
             </style>
-            <h2 style="color:#b00;">you have javascript disabled, some things may be hidden</h2>
+            <h3 style="color:#b00;">you have javascript disabled, some things may be hidden</h3>
         </noscript>
         <hr />
         <nav>
-          <a href="{{ site.github.url }}"><button>Home</button></a>
-          <a href="{{ site.github.url }}/contact"><button>Contact</button></a>
-          <a href="{{ site.github.url }}/contact/#payme"><button id="payment" data-child="payme-child">Pay</button></a>
-          <a href="{{ site.github.url }}/projects"><button>Projects</button></a>
-          <a href="{{ site.github.url }}/about"><button>About</button></a>
-          <a href="https://lunar.bant.ing"><button>tiny homepage</button></a>
+          <ul style="font-family: ComicSans;">
+            <li> <a href="{{ site.github.url }}">Home</a> </li>
+            <li> <a href="{{ site.github.url }}/contact"><button>Contact</a> </li>
+            <li style="display:none;"> <a href="{{ site.github.url }}/contact/#payme">Pay</a> </li>
+            <li> <a href="{{ site.github.url }}/projects">Projects</a> </li>
+            <li> <a href="{{ site.github.url }}/about">About</a> </li>
+            <li> <a href="https://lunar.bant.ing">tiny homepage</a> </li>
+          </ul>
         </nav>
         <hr />
         <form method="get" action="https://lunartiger.github.io/assets/Rev_Ryan_Fowler_Hughes.vcf">
