@@ -177,6 +177,24 @@ button {
     border-radius: 10px;
 }
 
+form button {
+    font-family: ComicSans;
+    cursor: crosshair;
+    background-color: #000000;
+    color: #00FF00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    font-family: ComicSans;
+    cursor: crosshair;
+    background-color: #006900;
+    color: #00FF00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 summary {
     font-family: ComicSans;
     color: #0f0;
