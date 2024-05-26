@@ -177,7 +177,7 @@ button {
     border-radius: 10px;
 }
 
-form button {
+form button.person {
     font-family: ComicSans;
     cursor: url("/assets/cursors/gay_person.cur"), crosshair;
     background-color: #000000;
@@ -186,7 +186,7 @@ form button {
     border-radius: 10px;
 }
 
-form button:hover {
+form button.person:hover {
     font-family: ComicSans;
     cursor: url("/assets/cursors/gay_person.cur"), crosshair;
     background-color: #006969;
