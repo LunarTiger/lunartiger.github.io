@@ -10,7 +10,7 @@ addEventListener("DOMContentLoaded", async() => {
       };
       if(window.location.hostname == 'lunar.bant.ing'){quotesEl.innerHTML += "<hr />";};
     }catch{
-      quotesEl.innerHTML += "<mark>Loading failed :'(</mark>";
+      quotesEl.style = "display:none;";
     };
   };
 });
