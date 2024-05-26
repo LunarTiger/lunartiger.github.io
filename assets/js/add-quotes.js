@@ -5,6 +5,7 @@ addEventListener("DOMContentLoaded", async() => {
       const quotes = await fetch(quotesURL);
       const quotesJson = await quotes.json();
       for(let i = 0; i < quotesJson.length; i++){
+        if(window.location.hostname == 'lunar.bant.ing'){quotesJson[i] = quotesJson[i].toLowerCase()};
         quotesEl.innerHTML += "<hr />"+quotesJson[i];
       };
     }catch{
