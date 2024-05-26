@@ -14,11 +14,11 @@
 @import "{{ site.theme }}";
 
 html {
-    cursor: url("/assets/pride_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/pride_cursor.cur"), default;
 }
 
 body {
-    cursor: url("/assets/pride_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/pride_cursor.cur"), default;
     font-family: ComicSans;
     text-align:center;
     color: #b3ef56;
@@ -51,34 +51,34 @@ footer{
 
 /* unvisited link */
 a:link {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
 
 a {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     color: #0ac139;
     text-decoration: underline;
 }
@@ -119,7 +119,7 @@ details {
 }
 
 summary {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), crosshair;
     font-family:ComicSans;
 }
 
@@ -170,7 +170,7 @@ ul {
 
 button {
     font-family: Lexend;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), crosshair;
     background-color: #000000;
     color: #00FF00;
     padding: 10px;
@@ -179,7 +179,7 @@ button {
 
 form button {
     font-family: ComicSans;
-    cursor: crosshair;
+    cursor: url("/assets/cursors/gay_person.cur"), crosshair;
     background-color: #000000;
     color: #00FF00;
     padding: 10px;
@@ -188,7 +188,7 @@ form button {
 
 form button:hover {
     font-family: ComicSans;
-    cursor: crosshair;
+    cursor: url("/assets/cursors/gay_person.cur"), crosshair;
     background-color: #006969;
     color: #00FF00;
     padding: 10px;
@@ -235,7 +235,7 @@ nav ul li:last-child {
 
 nav button {
     font-family: ComicSans;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     background-color: #000000;
     color: #00FF00;
     padding: 10px;
@@ -244,7 +244,7 @@ nav button {
 
 nav button:hover {
     font-family: ComicSans;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     background-color: #006900;
     color: #00FF00;
     padding: 10px;
@@ -253,7 +253,7 @@ nav button:hover {
 
 nav ul li a {
     font-family: Lexend;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     display: block;
     color: #00be00;
     text-align: center;
@@ -264,7 +264,7 @@ nav ul li a {
 /* unvisited link */
 nav ul li a:link {
     font-family: Lexend;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     display: block;
     color: #00be00;
     text-align: center;
@@ -275,7 +275,7 @@ nav ul li a:link {
 /* visited link */
 nav ul li a:visited {
     font-family: Lexend;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     display: block;
     color: #00be00;
     text-align: center;
@@ -286,7 +286,7 @@ nav ul li a:visited {
 /* Change the link color on hover */
 nav ul li a:hover {
     font-family: Lexend;
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), pointer;
     background-color: #003300;
     text-decoration: none;
 }
@@ -321,7 +321,7 @@ nav ul li a:hover {
 /*********** collapsible layout ***********/
 /**Fake**/
 .fakecollapsible {
-    cursor: url("/assets/pride_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/pride_cursor.cur"), default;
     background-color: #009000;
     color: white;
     cursor: default;
@@ -335,12 +335,12 @@ nav ul li a:hover {
 }
 
 .fakecollapsible:hover {
-    cursor: url("/assets/pride_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/pride_cursor.cur"), default;
     background-color: #009000;
 }
 
 .fakecollapsible:after {
-    cursor: url("/assets/pride_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/pride_cursor.cur"), default;
     content: '\2212';
     color: white;
     font-weight: bold;
@@ -360,10 +360,9 @@ nav ul li a:hover {
 }
 /****/
 .collapsible {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), crosshair;
     background-color: #006900;
     color: white;
-    cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
@@ -373,12 +372,12 @@ nav ul li a:hover {
 }
 
 .active, .collapsible:hover {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), crosshair;
     background-color: #009000;
 }
 
 .collapsible:after {
-    cursor: url("/assets/trans_cursor.cur"), pointer;
+    cursor: url("/assets/cursors/trans_cursor.cur"), crosshair;
     content: '\002B';
     color: white;
     font-weight: bold;
