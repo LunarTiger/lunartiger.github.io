@@ -3,7 +3,8 @@
 	<hr style="height:1px; visibility:hidden;" />
 	<p>Communistic Anarchist<br>Professional Developer<br>Atheistic Satanist<br>Chaotic Neutral</p>
 	<hr style="height:1px; visibility:hidden;" />
-	<img style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
+	<img class="jsstuff" style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
+	<noscript><img style="border-radius: 50%;" src="/assets/img/me.jpg" alt="Rev. Ryan" height="275" width="275" /></noscript>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="stat" data-parent="stat" data-child="stat-child">Statistics</button>
 		<div id="stat-child" class="innertext" data-parent="stat">
