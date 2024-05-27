@@ -1,5 +1,5 @@
 addEventListener("DOMContentLoaded", async() => {
-  const quotesEl = document.getElementById('quotesgohere'), quotesURL="https://lunartiger.github.io/quotes.json";
+  const quotesEl = document.getElementById('quotesgohere'), quotesURL="https://lunartiger.github.io/assets/quotes.json";
   if(quotesEl){
     try{
       const quotes = await fetch(quotesURL);
