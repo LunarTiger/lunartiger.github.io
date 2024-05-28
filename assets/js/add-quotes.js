@@ -4,9 +4,6 @@ addEventListener("DOMContentLoaded", async() => {
     try{
       const quotes = await fetch(quotesURL);
       const quotesJson = await quotes.json();
-    }catch{
-      const quotesJson = null;
-    }finally{
       if((quotesEl.nodeName == "DETAILS") && quotesJson){ // display the whole list
         for(let i = 0; i < quotesJson.length; i++){
           if(window.location.hostname == 'lunar.bant.ing'){quotesJson[i] = quotesJson[i].toLowerCase()};
@@ -18,6 +15,8 @@ addEventListener("DOMContentLoaded", async() => {
       }else{ // hide the element if it failed to fetch the list
         quotesEl.style = "display:none;";
       };
+    }catch{
+      quotesEl.style = "display:none;";
     };
   };
 });
