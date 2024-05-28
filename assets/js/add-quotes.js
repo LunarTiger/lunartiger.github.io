@@ -5,7 +5,7 @@ addEventListener("DOMContentLoaded", async() => {
     try{
       const quotes = await fetch(quotesURL);
       quotesJson = await quotes.json();
-    };
+    }catch{};
     if((quotesEl.nodeName == "DETAILS") && quotesJson){ // display the whole list
       for(let i = 0; i < quotesJson.length; i++){
         //if(window.location.hostname == 'lunar.bant.ing'){quotesJson[i] = quotesJson[i].toLowerCase()};
