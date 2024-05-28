@@ -1,11 +1,12 @@
 addEventListener("DOMContentLoaded", async() => {
   const quotesEl = document.getElementById('quotesgohere'), quotesURL="https://lunartiger.github.io/assets/quotes.json";
   if(quotesEl){
+    let quotesJson = null;
     try{
       const quotes = await fetch(quotesURL);
-      const quotesJson = await quotes.json();
+      quotesJson = await quotes.json();
     }catch{
-      const quotesJson = null;
+      quotesJson = null;
     };
     if((quotesEl.nodeName == "DETAILS") && quotesJson){ // display the whole list
       for(let i = 0; i < quotesJson.length; i++){
