@@ -112,28 +112,24 @@
             <h3 style="color:#b00;">you have javascript disabled, some things may be hidden</h3>
         </noscript>
         <hr />
-        <nav>
-          <ul>
-            <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}">Home</a> </li>
-            <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/contact">Contact</a> </li>
-            <li style="display:none;"> <a style="font-family: ComicSans;" href="{{ site.github.url }}/contact/#payme">Pay</a> </li>
-            <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/projects">Projects</a> </li>
-            <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/about">About</a> </li>
-            <li> <a style="font-family: ComicSans;" href="https://lunar.bant.ing">tiny homepage</a> </li>
-          </ul>
-        </nav>
+        <div>
+          <nav>
+            <ul>
+              <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}">Home</a> </li>
+              <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/contact">Contact</a> </li>
+              <li style="display:none;"> <a style="font-family: ComicSans;" href="{{ site.github.url }}/contact/#payme">Pay</a> </li>
+              <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/projects">Projects</a> </li>
+              <li> <a style="font-family: ComicSans;" href="{{ site.github.url }}/about">About</a> </li>
+              <li> <a style="font-family: ComicSans;" href="https://lunar.bant.ing">tiny homepage</a> </li>
+            </ul>
+          </nav>
+        </div>
         <hr />
         <form method="get" action="https://lunartiger.github.io/assets/Rev_Ryan_Fowler_Hughes.vcf">
           <button class="person" type="submit">contact card</button>
         </form>
         <hr />
-        <!----
-        <details id="quotesgohere" class="jsstuff" style="font-family:ComicSans;">
-          <summary>Memorable Quotes</summary>
-        </details>
-        !---->
         <div id="quotesgohere" class="holder center jsstuff" style="margin-bottom: 0em;"></div>
-        <!---->
         <hr class="jsstuff" />
       </header>
       {{content}}
