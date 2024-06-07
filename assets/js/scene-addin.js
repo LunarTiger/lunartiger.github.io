@@ -6,7 +6,7 @@
 const contact_info = [
   ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@mas.to", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
   ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
-  ["Discord: rev_lunar" ,"Revolt: Lunatics", "Snapchat: rev_lunar"], // messaging
+  ["Discord: rev_lunar", "Snapchat: rev_lunar"], // messaging
   ["Mastodon: lunar@mas.to", "Pixelfed: lunar@gram.social", "Calckey: rev_lunar@hell.social"], // fediverse
   ["Instagram: rev_lunar", "SpaceHey: /rev_lunar", "TikTok: rev_lunar", "Twitch: Rev_Lunar"], // social
   ["SideQuest: Rev. Lunar", "Steam: rev_lunar", "Uplay: lunartiger1965", "VRChat: Rev. Lunar"], // gaming
