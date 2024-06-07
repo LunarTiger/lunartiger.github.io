@@ -13,7 +13,7 @@
 
 @import "{{ site.theme }}";
 
-{header ul{position:static}@media print, screen and (max-width: 720px)}
+@media print, screen and (max-width: 960px){header ul{position:static}} /* fixes the wonky css that was imported*/
 
 html {
     cursor: url("/assets/cursors/pride_cursor.cur"), default;
