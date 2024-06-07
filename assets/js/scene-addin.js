@@ -112,7 +112,10 @@ addEventListener("DOMContentLoaded", async() => {
         break;
       default:
         orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
-        if(document.getElementById("warning-info").children[0]){document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);}
+        if(document.getElementById("warning-info").children[0]){
+          document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
+          document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
+        }
     }
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
     let quotesJson = null;
