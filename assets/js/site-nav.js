@@ -15,7 +15,7 @@ if(window.isBanter){
         if (site_wait) return;
         site_wait = true;
         const thisEl = this.el
-        thisEl.setAttribute('visible', false);
+        thisEl.setAttribute('color', '#690000');
         
         // are the portals in the scene? if so remove them, otherwise add them
         let old_one = document.getElementById('site-portals');
@@ -61,7 +61,7 @@ if(window.isBanter){
         
         // ignore any future requests for the next 3 seconds
         setTimeout(function () {
-          thisEl.setAttribute('visible', true);
+          thisEl.setAttribute('color', '#002100');
           site_wait = false;
         }, 3000);
       })
