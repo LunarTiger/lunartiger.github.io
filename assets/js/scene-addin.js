@@ -113,6 +113,7 @@ addEventListener("DOMContentLoaded", async() => {
       default:
         orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
         if(document.getElementById("warning-info").children[0]){
+          console.log("setting the thing clickable");
           document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
           document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
         }
