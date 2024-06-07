@@ -1,9 +1,9 @@
-﻿let about_info = [
+﻿const about_info = [
   ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water", "a conciousness trapped in a", " meat prison"],
-  ["jan sewi Wijan", "ona", "kule", "tonsi", "jan pi nasin sewi Setan", "poki telo pi ike lukin","pi monsuta suli", "kon jan li ken ala weka","e tomo pi jan ike","pi ko soweli"],
-  ["o ale e jan Setan a"]
+  //["jan sewi Wijan", "ona", "kule", "tonsi", "jan pi nasin sewi Setan", "poki telo pi ike lukin","pi monsuta suli", "kon jan li ken ala weka","e tomo pi jan ike","pi ko soweli"],
+  //["o ale e jan Setan a"]
 ];
-let contact_info = [
+const contact_info = [
   ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@mas.to", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
   ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
   ["Discord: rev_lunar" ,"Revolt: Lunatics", "Snapchat: rev_lunar"], // messaging
@@ -13,11 +13,11 @@ let contact_info = [
   ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme
   ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
 ];
-let home_info = [
+const home_info = [
   ["welcome to", "my website"]
 ];
-let projects_info = [];
-let font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+const projects_info = [];
+const font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
 
 // function to create a box and text
 async function createTablet(this_array, txt_color, box_color, position, rotation) {
@@ -96,6 +96,11 @@ function makeProjectPortals(button, portal_array, position, rotation) {
 
 addEventListener("DOMContentLoaded", async() => {
   if(window.isBanter){
+    let quotesJson = null;
+    try{
+      const quotes = await fetch('https://lunartiger.github.io/assets/quotes.json');
+      quotesJson = await quotes.json();
+    }catch{};
     let page_location = window.location.pathname;
     if(page_location == "/about") {
       orderTablets("-2 0.055 -10", "0", "about-info", about_info);
@@ -113,7 +118,7 @@ addEventListener("DOMContentLoaded", async() => {
     else {
       orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
     }
-    orderTablets("-10 0 0", "90", "hail-satan", [["Hail Satan!"]])
+    if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]])}
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
   }
 });
