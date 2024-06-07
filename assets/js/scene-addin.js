@@ -114,11 +114,10 @@ addEventListener("DOMContentLoaded", async() => {
         orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
         setTimeout(function(){
           if(document.getElementById("warning-info")){
-            console.log("setting the thing clickable");
             document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
             document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
           };
-        }, 1000);
+        }, 500);
     }
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
     let quotesJson = null;
