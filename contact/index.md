@@ -11,11 +11,11 @@
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 		<div id="secure-child" class="innertext" data-parent="secure">
-			<p>Dust:&nbsp; <span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>
+			<!--<p>Dust:&nbsp; <span style="color:#0ac139;" id="dust" data-parent="secure">lunar</span></p>-->
 			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="matrix" data-parent="secure">@rev_lunar:matrix.org</a></p>
 			<p>Signal:&nbsp; <a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank" id="signal" data-parent="secure">rev_lunar.69</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="telegram" data-parent="secure">@Rev_Lunar</a></p>
-			<p>Wickr:&nbsp; <span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>
+			<!--<p>Wickr:&nbsp; <span style="color:#0ac139;" id="wickr" data-parent="secure">lunartiger</span></p>-->
 			<p>Wire:&nbsp; <span style="color:#0ac139;" id="wire" data-parent="secure">@rev_lunar</span></p>
 		</div>
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
@@ -23,7 +23,7 @@
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">rev_lunar</a></p>
 			<p>Revolt:&nbsp; <a href="https://rvlt.gg/QwvVQrEA" target="_blank" id="revolt" data-parent="messaging">Lunatics</a></p>
 			<p>Snapchat:&nbsp; <a href="https://www.snapchat.com/add/rev_lunar" target="_blank" id="snapchat" data-parent="messaging">rev_lunar</a></p>
-			<p>Marco Polo:&nbsp; <a href="https://marcopolo.me/s/ryan-f-iRgKx" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>
+			<!--<p>Marco Polo:&nbsp; <a href="https://marcopolo.me/s/ryan-f-iRgKx" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>-->
 		</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 		<div id="social-child" class="innertext" data-parent="social">
@@ -34,22 +34,22 @@
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
 					<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>
 				</div>
-			<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>
+			<!--<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>-->
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
 			<p>SpaceHey:&nbsp; <a href="https://spacehey.com/rev_lunar" id="spacehey" data-parent="social">rev_lunar</a></p>
 			<p>TikTok:&nbsp; <a href="https://tiktok.com/@rev_lunar" id="tiktok" data-parent="social">rev_lunar</a></p>
 			<p>Tumblr:&nbsp; <a href="https://tumblr.com/rev-lunar" id="tumblr" data-parent="social">rev-lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
-			<p><del>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></del></p>
-			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>
+			<!--<p><del>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></del></p>
+			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>-->
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 		<div id="gaming-child" class="innertext" data-parent="gaming">
-			<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>
-			<p>New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">7265 6552 659</span></p>
+			<!--<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>
+			<p>New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">7265 6552 659</span></p>-->
 			<p>Oculus:&nbsp; <span style="color:#0ac139;" id="oculus" data-parent="gaming">rev_lunar</span></p>
-			<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
+			<!--<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>-->
 			<p>Rec Room:&nbsp; <span style="color:#0ac139;" id="recroom" data-parent="gaming">@Rev_Lunar</span></p>
 			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Rev. Lunar</a></p>
 			<p>Steam:&nbsp; <a href="http://steamcommunity.com/id/rev_lunar" target="_blank" id="steam" data-parent="gaming">rev_lunar</a></p>
