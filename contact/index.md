@@ -21,7 +21,7 @@
 	<button class="collapsible" id="messaging" data-parent="messaging" data-child="messaging-child">Messaging</button>
 		<div id="messaging-child" class="innertext" data-parent="messaging">
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="discord" data-parent="messaging">rev_lunar</a></p>
-			<p>Revolt:&nbsp; <a href="https://rvlt.gg/QwvVQrEA" target="_blank" id="revolt" data-parent="messaging">Lunatics</a></p>
+			<!--<p>Revolt:&nbsp; <a href="https://rvlt.gg/QwvVQrEA" target="_blank" id="revolt" data-parent="messaging">Lunatics</a></p>-->
 			<p>Snapchat:&nbsp; <a href="https://www.snapchat.com/add/rev_lunar" target="_blank" id="snapchat" data-parent="messaging">rev_lunar</a></p>
 			<!--<p>Marco Polo:&nbsp; <a href="https://marcopolo.me/s/ryan-f-iRgKx" target="_blank" id="marcopolo" data-parent="messaging">Ryan F</a></p>-->
 		</div>
@@ -32,7 +32,7 @@
 				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
 					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">lunar@mas.to</a></p>
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
-					<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>
+					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
 				</div>
 			<!--<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>-->
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
