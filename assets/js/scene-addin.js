@@ -117,7 +117,7 @@ addEventListener("DOMContentLoaded", async() => {
             document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
             document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
           };
-        }, 500);
+        }, 128);
     }
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
     let quotesJson = null;
