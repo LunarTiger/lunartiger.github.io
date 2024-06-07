@@ -96,29 +96,30 @@ function makeProjectPortals(button, portal_array, position, rotation) {
 
 addEventListener("DOMContentLoaded", async() => {
   if(window.isBanter){
+    switch(window.location.pathname){
+      case"/about":
+        orderTablets("-2 0.055 -10", "0", "about-info", about_info);
+        break;
+      case"/contact":
+        orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
+        break;
+      case"/projects":
+        orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
+        projectPortals("18.57 0.3 18.3", "270");
+        break;
+      case"/":
+        orderTablets("0 0.055 -10", "0", "home-info", home_info);
+        break;
+      default:
+        orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
+        if(document.getElementById("warning-info").children[0]){document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);}
+    }
+    orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
     let quotesJson = null;
     try{
       const quotes = await fetch('https://lunartiger.github.io/assets/quotes.json');
       quotesJson = await quotes.json();
     }catch{};
-    let page_location = window.location.pathname;
-    if(page_location == "/about") {
-      orderTablets("-2 0.055 -10", "0", "about-info", about_info);
-    }
-    else if(page_location == "/contact") {
-      orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
-    }
-    else if(page_location == "/projects") {
-      orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
-      projectPortals("18.57 0.3 18.3", "270");
-    }
-    else if(page_location == "/") {
-     orderTablets("0 0.055 -10", "0", "home-info", home_info);
-    }
-    else {
-      orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made"]]);
-    }
-    if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]])}
-    orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", page_location]])
+    if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]]);};
   }
 });
