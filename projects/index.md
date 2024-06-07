@@ -13,7 +13,6 @@
 		</div>
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 		<div id="other-child" class="innertext center" data-parent="other">
-			<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank" data-parent="other">Trans Science</a></p>
 			<p><a id="tome" href="/tome" target="_blank" data-parent="other">My Personal Tome</a></p>
 			<p><a id="wu" href="/wu#navbar" data-parent="other">Write-Ups</a></p>
 			<p><a id="databases" href="/databases" data-parent="other">Databases</a></p>
@@ -23,13 +22,14 @@
 	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Unmaintained</button>
 		<div id="unmaintained-child" class="innertext center" data-parent="unmaintained">
 			<p><a id="lar" href="/lar" data-parent="unmaintained">Lovense API Redirect</a></p>
-			<p><a id="ovrtoggle" href="/ovrtoggle" data-parent="unmaintained">Oculus VR Toggle</a></p>
-			<p><a id="sansar" href="/sansar" data-parent="unmaintained">Sansar Scripts</a></p>
+			<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank" data-parent="unmaintained">Trans Science</a></p>
 		</div>
 	<button class="collapsible" id="deprecated" data-parent="deprecated" data-child="deprecated-child">Deprecated</button>
 		<div id="deprecated-child" class="innertext center" data-parent="deprecated">
 			<p><a id="discord" href="/Discord" data-parent="deprecated">Discord Add-Ons</a></p>
 			<p><a id="file-server" href="/fs-up" data-parent="deprecated">File Server</a></p>
+			<p><a id="ovrtoggle" href="/ovrtoggle" data-parent="deprecated">Oculus VR Toggle</a></p>
+			<p><a id="sansar" href="/sansar" data-parent="deprecated">Sansar Scripts</a></p>
 			<p><a id="hypatia" href="/hypatia" data-parent="deprecated">Hypatia Hints</a></p>
 			<!--<p><a id="worms" href="/worms" data-parent="deprecated">Worms Live Stream</a></p>
 			<p><a id="whereis" href="/whereis" data-parent="deprecated">Where is Lunar?</a></p>
