@@ -13,6 +13,8 @@
 
 @import "{{ site.theme }}";
 
+{header ul{position:static}}@media print, screen and (max-width: 720px)
+
 html {
     cursor: url("/assets/cursors/pride_cursor.cur"), default;
 }
