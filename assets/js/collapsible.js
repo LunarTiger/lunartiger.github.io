@@ -1,4 +1,4 @@
-(function(){
+addEventListener("DOMContentLoaded", () => {
 	const coll = document.getElementsByClassName("collapsible"), default_open = document.getElementById('openme');
 	var i;
 	/*if(document.getElementById("payme") && document.getElementById("payment") && coll) {
@@ -18,4 +18,4 @@
 	if (document.getElementById(window.location.hash.substr(1))) {
 		document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();
 	}else if (default_open) {default_open.click();};
-})();
+});
