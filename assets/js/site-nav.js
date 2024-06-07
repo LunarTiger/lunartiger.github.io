@@ -14,6 +14,8 @@ if(window.isBanter){
         // if throttled, ignore the click
         if (site_wait) return;
         site_wait = true;
+        const thisEl = this.el
+        thisEl.setAttribute('visible', false);
         
         // are the portals in the scene? if so remove them, otherwise add them
         let old_one = document.getElementById('site-portals');
@@ -59,6 +61,7 @@ if(window.isBanter){
         
         // ignore any future requests for the next 3 seconds
         setTimeout(function () {
+          thisEl.setAttribute('visible', true);
           site_wait = false;
         }, 3000);
       })
