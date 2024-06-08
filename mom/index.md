@@ -1,5 +1,5 @@
+<script src="img.js"></script>
 <section>
-	<script src="img.js"></script>
 	<h2 style="color:#0ff;">Shelva Washburn's Memorial Page</h2>
 	<div class="holder center">
 		<img src="/assets/img/shelva.jpg" alt="Shelva, my mom, sitting between two frog statues in front of a background of peace lillys." height="auto" width="100%" style="padding-top: 1em;" />

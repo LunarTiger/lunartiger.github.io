@@ -1,3 +1,6 @@
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
+<script src="/assets/js/home.js"></script>
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<h2>Home</h2>
@@ -23,11 +26,7 @@
 	<div id="messageembed" class="holder center jsstuff"></div>
 	<!--
 		<div id="lunar-location" class="holder center"></div>
-		<iframe id="tootembed" src="" class="mastodon-embed" style="max-width: 0; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
 		<hr style="height:4px; visibility:hidden;">
+		<script src="https://mas.to/embed.js" async="async"></script>
 	<!---->
-	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
-	<script src="/assets/js/home.js"></script>
-	<script src="https://mas.to/embed.js" async="async"></script>
 </section>

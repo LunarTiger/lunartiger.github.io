@@ -1,3 +1,4 @@
+<script src="/assets/js/collapsible.js"></script>
 <section><div class="encase">
 	<h2 id="contact">Contact Me</h2>
 	<hr style="height:1px; visibility:hidden;" />
@@ -89,5 +90,4 @@
 				<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 			-->
 		</div>
-	<script src="/assets/js/collapsible.js"></script>
 </div></section>
