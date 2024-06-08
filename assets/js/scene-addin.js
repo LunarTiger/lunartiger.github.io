@@ -51,8 +51,8 @@
     }catch{};
     if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]]);};
   }
-});
 
+/**** all functions below are in the event listener ****/
 // function to create a box and text
 async function createTablet(this_array, txt_color, box_color, position, rotation) {
   //create box
@@ -127,3 +127,4 @@ function makeProjectPortals(button, portal_array, position, rotation) {
   // return the portal parent
   return existing;
 }
+});//closes the event listener

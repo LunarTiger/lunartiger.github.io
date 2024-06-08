@@ -59,7 +59,7 @@ addEventListener("DOMContentLoaded", () => {if(!!window.isBanter){
         }
         
         // ignore any future requests for the next 3 seconds
-        setTimeout(function () {
+        setTimeout(()=>{
           thisEl.setAttribute('color', '#002100');
           site_wait = false;
         }, 3000);
