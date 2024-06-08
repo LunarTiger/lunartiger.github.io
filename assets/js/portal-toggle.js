@@ -1,4 +1,4 @@
-if(window.isBanter){
+addEventListener("DOMContentLoaded", () => {if(!!window.isBanter){
   [
     {name: 'portal-toggle', url: 'https://lunar-test.glitch.me/spaces.json'},
   ].forEach(d => {
@@ -15,7 +15,7 @@ if(window.isBanter){
       }
     });
   });
-}
+};//close if statement
 
 function doPortals(button, portal_array) {  
   
@@ -36,3 +36,4 @@ function doPortals(button, portal_array) {
   // return the portal parent
   return existing;
 }
+});//close event listener 

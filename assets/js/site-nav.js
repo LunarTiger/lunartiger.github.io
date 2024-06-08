@@ -1,12 +1,11 @@
-let website = [
-  {href:"https://lunartiger.github.io", name:"home"},
-  {href:"https://lunartiger.github.io/contact", name:"contact"},
-  {href:"https://lunartiger.github.io/projects", name:"projects"},
-  {href:"https://lunartiger.github.io/about", name:"about"},
-];
-var site_wait = false;
-
-if(window.isBanter){
+addEventListener("DOMContentLoaded", () => {if(!!window.isBanter){
+  const website = [
+    {href:"https://lunartiger.github.io", name:"home"},
+    {href:"https://lunartiger.github.io/contact", name:"contact"},
+    {href:"https://lunartiger.github.io/projects", name:"projects"},
+    {href:"https://lunartiger.github.io/about", name:"about"},
+  ];
+  var site_wait = false;
   // Setup an aframe component to handle clicking on the box to create and destroy portals
   AFRAME.registerComponent('site-navigation', {
     init: function () {
@@ -67,4 +66,4 @@ if(window.isBanter){
       })
     }
   });
-}
+}});

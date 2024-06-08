@@ -1,23 +1,57 @@
-﻿const about_info = [
-  ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water", "a conciousness trapped in a", " meat prison"],
-  //["jan sewi Wijan", "ona", "kule", "tonsi", "jan pi nasin sewi Setan", "poki telo pi ike lukin","pi monsuta suli", "kon jan li ken ala weka","e tomo pi jan ike","pi ko soweli"],
-  //["o ale e jan Setan a"]
-];
-const contact_info = [
-  ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@mas.to", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
-  ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
-  ["Discord: rev_lunar", "Snapchat: rev_lunar"], // messaging
-  ["Mastodon: lunar@mas.to", "Pixelfed: lunar@gram.social", "Calckey: rev_lunar@hell.social"], // fediverse
-  ["Instagram: rev_lunar", "SpaceHey: /rev_lunar", "TikTok: rev_lunar", "Twitch: Rev_Lunar"], // social
-  ["SideQuest: Rev. Lunar", "Steam: rev_lunar", "Uplay: lunartiger1965", "VRChat: Rev. Lunar"], // gaming
-  ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme
-  ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
-];
-const home_info = [
-  ["welcome to", "my website"]
-];
-const projects_info = [];
-const font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+﻿addEventListener("DOMContentLoaded", async() => {
+  if(window.isBanter){
+    const about_info = [
+      ["Rev. Lunar", "it⁄its⁄any", "queer", "agender", "satanist", "giant‚ ugly bag of mostly water", "a conciousness trapped in a", " meat prison"],
+      //["jan sewi Wijan", "ona", "kule", "tonsi", "jan pi nasin sewi Setan", "poki telo pi ike lukin","pi monsuta suli", "kon jan li ken ala weka","e tomo pi jan ike","pi ko soweli"],
+      //["o ale e jan Setan a"]
+    ];
+    const contact_info = [
+      ["Discord: rev_lunar", "Telegram: @Rev_Lunar", "Fediverse: @lunar@mas.to", "SpaceHey: /rev_lunar", "Phone: 540-692-6899"], // preferred
+      ["Matrix: @rev_lunar:matrix.org", "Signal: 15406926899", "Telegram: @Rev_Lunar", "Wickr: lunartiger", "Wire: @rev_lunar"], // secure
+      ["Discord: rev_lunar", "Snapchat: rev_lunar"], // messaging
+      ["Mastodon: lunar@mas.to", "Pixelfed: lunar@gram.social", "Calckey: rev_lunar@hell.social"], // fediverse
+      ["Instagram: rev_lunar", "SpaceHey: /rev_lunar", "TikTok: rev_lunar", "Twitch: Rev_Lunar"], // social
+      ["SideQuest: Rev. Lunar", "Steam: rev_lunar", "Uplay: lunartiger1965", "VRChat: Rev. Lunar"], // gaming
+      ["Cash App: $revlunar", "PayPal: lunartiger", "Revolut: revlunar", "Venmo: @rev_lunar"], // payme
+      ["Phone: 540-692-6899", "YouTube: @rev_lunar", "SoundCloud: Rev. Lunar", "Spotify:  Rev. Lunar", "GitHub: LunarTiger"] // other
+    ];
+    const home_info = [
+      ["welcome to", "my website"]
+    ];
+    const projects_info = [];
+    const font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+    switch(window.location.pathname){
+      case"/about":
+        orderTablets("-2 0.055 -10", "0", "about-info", about_info);
+        break;
+      case"/contact":
+        orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
+        break;
+      case"/projects":
+        orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
+        projectPortals("18.57 0.3 18.3", "270");
+        break;
+      case"/":
+        orderTablets("0 0.055 -10", "0", "home-info", home_info);
+        break;
+      default:
+        orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
+        setTimeout(function(){
+          if(document.getElementById("warning-info")){
+            document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
+            document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
+          };
+        }, 128);
+    };
+    orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
+    let quotesJson = null;
+    try{
+      const quotes = await fetch('https://lunartiger.github.io/assets/quotes.json');
+      quotesJson = await quotes.json();
+    }catch{};
+    if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]]);};
+  }
+});
 
 // function to create a box and text
 async function createTablet(this_array, txt_color, box_color, position, rotation) {
@@ -93,38 +127,3 @@ function makeProjectPortals(button, portal_array, position, rotation) {
   // return the portal parent
   return existing;
 }
-
-addEventListener("DOMContentLoaded", async() => {
-  if(window.isBanter){
-    switch(window.location.pathname){
-      case"/about":
-        orderTablets("-2 0.055 -10", "0", "about-info", about_info);
-        break;
-      case"/contact":
-        orderTablets("-5 0.055 -10", "0", "contact_info", contact_info);
-        break;
-      case"/projects":
-        orderTablets("0 0.055 -10", "0", "projects-info", projects_info);
-        projectPortals("18.57 0.3 18.3", "270");
-        break;
-      case"/":
-        orderTablets("0 0.055 -10", "0", "home-info", home_info);
-        break;
-      default:
-        orderTablets("0 0.055 -10", "0", "warning-info", [["warning:", "not found or not made", "click to open in browser"]]);
-        setTimeout(function(){
-          if(document.getElementById("warning-info")){
-            document.getElementById("warning-info").children[0].setAttribute('sq-clickurl', 'url:'+window.location.href);
-            document.getElementById("warning-info").children[0].setAttribute('sq-interactable', '');
-          };
-        }, 128);
-    }
-    orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
-    let quotesJson = null;
-    try{
-      const quotes = await fetch('https://lunartiger.github.io/assets/quotes.json');
-      quotesJson = await quotes.json();
-    }catch{};
-    if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]]);};
-  }
-});

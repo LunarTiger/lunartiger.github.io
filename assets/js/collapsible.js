@@ -1,4 +1,4 @@
-addEventListener("DOMContentLoaded", () => {
+addEventListener("DOMContentLoaded", () => {if(!window.isBanter){
 	const coll = document.getElementsByClassName("collapsible"), default_open = document.getElementById('openme');
 	var i;
 	/*if(document.getElementById("payme") && document.getElementById("payment") && coll) {
@@ -16,6 +16,6 @@ addEventListener("DOMContentLoaded", () => {
 		};
 	};
 	if (document.getElementById(window.location.hash.substr(1))) {
-		document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();
+		try{document.getElementById(document.getElementById(window.location.hash.substr(1)).dataset.parent).click();}catch{};
 	}else if (default_open) {default_open.click();};
-});
+}});
