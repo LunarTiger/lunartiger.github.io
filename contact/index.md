@@ -8,7 +8,7 @@
 			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="Pmatrix" data-parent="openme">@rev_lunar:matrix.org</a></p>
 			<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="Pmastodon" data-parent="openme">lunar@mas.to</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
-			<p>Phone:&nbsp; <a href="tel:+15406926899" id="Pphone" data-parent="openme">1-540-692-6899</a></p>
+			<<p>Signal:&nbsp; <a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank" id="Psignal" data-parent="openme">rev_lunar.69</a></p>
 		</div>
 	<button class="collapsible" id="secure" data-parent="secure" data-child="secure-child">Secure Messaging</button>
 		<div id="secure-child" class="innertext" data-parent="secure">
