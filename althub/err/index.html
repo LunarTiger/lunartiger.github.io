@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta property="og:title" content="error loading portals">
+    <meta property="og:description" content="this appears as a portal in Banter if portals can't be put on a button">
+    <meta property="og:image" content="https://lunartiger.github.io/althub/img.jpg">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="https://lunartiger.github.io/favicon.ico">
+    <link href="https://lunartiger.github.io/banter/assets/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://lunartiger.github.io/banter/assets/js/webcontent.js"></script>
+    <script>
+      addEventListener("DOMContentLoaded", () => {
+        if(window.isBanter){
+          window.loadDoneCallback = () => {
+            lockPlayer();
+            openPage("https://lunartiger.github.io/althub/err");
+          }
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div style="display: none;"><a-scene sq-spawnpoint="position: 0 0 0 0;" sq-maxoccupancy="number: 0" sq-disableteleport sq-hidedefaulttextures embedded></a-scene></div>
+    <h1>if you're seeing this, then the user whose button you clicked probably has a badly formatted json file<br><a href="https://hub.bant.ing">return to hub</a></h1>
+    <hr>
+    <details id="banter-info"><summary>space info</summary></details>
+  </body>
+</html>

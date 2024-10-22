@@ -1,0 +1,18 @@
+[
+  {"name": "lunars-portals", "url": "https://lunartiger.github.io/banter/my_spaces.json", "button":"#006900", "text":"#0ff", "txtval":"Rev. Lunar's\nspaces"},
+  {"name": "hbrs-portals", "url": "https://hbr-portals.glitch.me/HBR-portals.json", "button":"#000", "text":"#0f0", "txtval":"HBR's\nspaces"},
+  {"name": "skizots-portals", "url": "https://skiztopia.glitch.me/Jskiz.json", "button":"#df7126", "text":"#432a25", "txtval":"Skizot's\nspaces"},
+  {"name": "bens-portals", "url": "https://benvr.co.uk/banter/spaces.json", "button":"#fff", "text":"#b9a837", "txtval":"Ben's\nspaces"},
+  {"name": "virtualventures-portals", "url": "https://cocktailsndreams.neocities.org/my_spaces.json", "button":"#f60b8b", "text":"#01fe1a", "txtval":"Virtual\nVenture's\nspaces"},
+  {"name": "motos-portals", "url": "https://moto-spaces.glitch.me/moto_spaces.json", "button":"#2f0e52", "text":"#b81868", "txtval":"Moto's\nspaces"},
+  {"name": "lisas-portals", "url": "https://lisas-banter-files.glitch.me/my_spaces.json", "button":"#643b8d", "text":"#ff9afe", "txtval":"Lisa's\nspaces"},
+  {"name": "mjs-portals", "url": "https://mj-file-dump.glitch.me/mj-banter-maps.json", "button":"#99a", "text":"#080808", "txtval":"MJ's\nspaces"},
+  {"name": "moopaloos-portals", "url": "https://moopaloo-spaces.glitch.me/spaces.json", "button":"#000", "text":"#fff", "txtval":"Moopaloo's\nspaces"},
+  {"name": "baems-portals", "url": "https://baem-communityportal.glitch.me/code.json", "button":"#007371", "text":"#FFB44D", "txtval":"Baem's\nspaces"},
+  {"name": "staticthreats-portals", "url": "https://raw.githubusercontent.com/staticthreat/thepit/master/staticthreat.json", "button":"#0047AB", "text":"#D92121", "txtval":"staticthreat's\nspaces"},
+  {"name": "dedzeds-portals", "url": "https://dzhw.glitch.me/world.json", "button":"#880808", "text":"#000", "txtval":"Ded Zed's\nspaces"},
+  {"name": "proxcydes-portals", "url": "https://raw.githubusercontent.com/ProxCyde/Banter/main/urls.json", "button":"#000", "text":"#00fcff", "txtval":"ProxCyde's\nspaces"},
+  {"name": "kbots-portals", "url": "https://kbot-hub.glitch.me/my_spaceskbot.json", "button":"#f81894", "text":"#fff", "txtval":"KBOT's\nspaces"},
+  {"name": "various-portals", "url": "https://lunartiger.github.io/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"},
+  {"name": "quest-portals", "url": "https://lunartiger.github.io/althub/portals_quest.json", "button":"#210000", "text":"#f00", "txtval":"Android\nonly\nspaces"}
+]

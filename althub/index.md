@@ -1,7 +1,7 @@
 <section>
     <script>
         addEventListener("DOMContentLoaded", async() => {
-            const redirectURL = 'sq-community.glitch.me';
+            const redirectURL = 'hub.bant.ing';
             if(window.isBanter){
                 window.loadDoneCallback = async() => {
                     lockPlayer();
