@@ -13,7 +13,7 @@ addEventListener("DOMContentLoaded", async() => {
       };
       if(window.location.hostname == 'lunar.bant.ing'){quotesEl.innerHTML += "<hr />";};
     }else if(quotesJson){ // randomly choose a quote from the list and display it
-      quotesEl.innerHTML = "<p>"+quotesJson[Math.round(Math.random()*(quotesJson.length-1))]+"</p>";
+      quotesEl.innerHTML = "<p style=\"font-size:1em;\">"+quotesJson[Math.round(Math.random()*(quotesJson.length-1))]+"</p>";
     }else{ // hide the element if it failed to fetch the list
       quotesEl.style = "display:none;";
     };
