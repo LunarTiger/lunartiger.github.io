@@ -20,6 +20,8 @@
 			<p>IPD:&nbsp; 7.5cm (approx. 3in)</p>
 			<p>Shoe Size:&nbsp; 8, EUR 40.5, MEX 26</p>
 			<!--<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>-->
+			<p>Employer:&nbsp; SideQuest</p>
+			<p>Role:&nbsp; Quality Assurance Engineer</p>
 		</div>
 	<div class="jsstuff">
 	<button class="collapsible" id="bdsmtest" data-parent="bdsmtest" data-child="bdsmtest-child">BDSM Test Results</button>
