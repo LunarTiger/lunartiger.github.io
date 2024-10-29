@@ -48,3 +48,4 @@
 	<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 	<script src="/assets/js/worms-embed.js"></script>-->
 </div></section>
+<script>(()=>{const a = document.getElementById('navprojects'); if(!!a){a.style.backgroundColor = "#077"};})();</script>

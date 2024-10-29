@@ -30,3 +30,4 @@
 		<script src="https://mas.to/embed.js" async="async"></script>
 	<!---->
 </section>
+<script>(()=>{const a = document.getElementById('navhome'); if(!!a){a.style.backgroundColor = "#077"};})();</script>

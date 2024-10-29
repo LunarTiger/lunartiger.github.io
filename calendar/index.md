@@ -14,3 +14,4 @@
     function setAttributes(el, attrs){Object.keys(attrs).forEach(key => el.setAttribute(key, attrs[key]));}
   })
 </script>
+<script>(()=>{const a = document.getElementById('navcalendar'); if(!!a){a.style.backgroundColor = "#077"};})();</script>

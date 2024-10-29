@@ -63,3 +63,4 @@
 		</div>
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>
+<script>(()=>{const a = document.getElementById('navabout'); if(!!a){a.style.backgroundColor = "#077"};})();</script>
