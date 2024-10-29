@@ -13,7 +13,12 @@ addEventListener("DOMContentLoaded", async() => {
       };
       if(window.location.hostname == 'lunar.bant.ing'){quotesEl.innerHTML += "<hr />";};
     }else if(quotesJson){ // randomly choose a quote from the list and display it
-      quotesEl.innerHTML = "<p style=\"font-size:1em;\">"+quotesJson[Math.round(Math.random()*(quotesJson.length))]+"</p>";
+      const displayQuote = quotesJson[Math.round(Math.random()*(quotesJson.length))];
+      const quote = document.createElement("p");
+      quote.style.fontSize = "1em";
+      if(!!displayQuote){quote.innerHTML = displayQuote;}else{quote.innerHTML = "Hail thyself";}
+      quotesEl.appendChild(quote);
+      //quotesEl.innerHTML = "<p style=\"font-size:1em;\">"+displayQuote+"</p>";
     }else{ // hide the element if it failed to fetch the list
       quotesEl.style = "display:none;";
     };
