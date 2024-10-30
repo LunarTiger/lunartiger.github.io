@@ -1,7 +1,5 @@
 <script src="/assets/js/collapsible.js"></script>
 <section><div class="encase">
-	<h2 id="projects">My Projects</h2>
-	<hr style="height:1px; visibility:hidden;" />
 	<noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2></noscript>
 	<div class="jsstuff">
 	<p><a id="banter-spaces" href="/banter">Banter Spaces</a></p>

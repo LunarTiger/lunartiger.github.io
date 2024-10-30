@@ -1,6 +1,8 @@
 <script src="/assets/js/collapsible.js"></script>
 <section><div class="encase">
-	<h2 id="contact">Contact Me</h2>
+	<form method="get" action="https://lunartiger.github.io/assets/Rev_Ryan_Fowler_Hughes.vcf">
+		<button class="person" type="submit">contact card</button>
+    </form>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="openme" data-parent="openme" data-child="preferred">Preferred Methods</button>
 		<div id="preferred" class="innertext" data-parent="openme">

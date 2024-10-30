@@ -3,7 +3,6 @@
 <script src="/assets/js/home.js"></script>
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
-	<h2>Home</h2>
 	<div id="mom" class="holder center">
 		<p><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></p>
 	</div>
