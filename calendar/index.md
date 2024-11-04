@@ -1,6 +1,16 @@
 <section><div class="encase">
     <noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2><p style="color:#ff6900">[calendar goes here]</p></noscript>
 	<p id="calendar-embed"></p>
+    <div class="holder center">
+		<nav>
+			<ul>
+				<li><a href="https://calendar.google.com/calendar/u/0/r?cid=lunartiger69@gmail.com" target="_blank">My Events</a></li>
+				<li><a href="https://calendar.google.com/calendar/u/0/r?cid=c_e994jnd1n0658bc9uukk4qhs28@group.calendar.google.com" target="_blank">Solstice + Equinox</a></li>
+				<li><a href="https://calendar.google.com/calendar/u/0/r?cid=2c58da0071e1f44b195d2ace1f47d8738594bc4cef301231e348cb037ebb9e73@group.calendar.google.com" target="_blank">Satanic Holidays</a></li>
+                <li><a href="https://calendar.google.com/calendar/u/0/r?cid=ht3jlfaac5lfd6263ulfh4tql8@group.calendar.google.com" target="_blank">Moon Phases</a></li>
+			</ul>
+		</nav>
+	</div>
 </div></section>
 <script>
   addEventListener("DOMContentLoaded", ()=>{
