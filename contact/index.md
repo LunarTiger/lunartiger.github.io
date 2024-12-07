@@ -37,7 +37,7 @@
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
 					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
 				</div>
-			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank">rev-lunar.bsky.social</a></p>
+			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank" id="bluesky" data-parent="social">rev-lunar.bsky.social</a></p>
 			<!--<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>-->
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
