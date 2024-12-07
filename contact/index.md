@@ -33,6 +33,7 @@
 			<hr style="height:1em; visibility:hidden;"/>
 			<button class="fakecollapsible" id="fediverse" data-parent="social" data-child="fediverse">Fediverse</button>
 				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
+					<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank">rev-lunar.bsky.social</a></p>
 					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">lunar@mas.to</a></p>
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
 					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
