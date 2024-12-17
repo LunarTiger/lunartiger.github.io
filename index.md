@@ -18,16 +18,14 @@
 			</ul>
 		</nav>
 	</div>
-	<div id="bluesky" class="holder center" style="padding: 8px 1% 0;">
-		<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-		<bsky-embed
-			username="rev-lunar.bsky.social"
-			mode="dark"
-			limit="5"
-			style="max-width:100%"
-		>
-		</bsky-embed>
-	</div>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+	<bsky-embed
+		username="rev-lunar.bsky.social"
+		mode="dark"
+		limit="5"
+		style="max-width:100%"
+	>
+	</bsky-embed>
 	<!--<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
 		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="98%" height="569" style="max-width:369;" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=true"></iframe>
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
