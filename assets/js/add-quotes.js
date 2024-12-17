@@ -1,5 +1,5 @@
 addEventListener("DOMContentLoaded", async() => {
-  const quotesEl = document.getElementById('quotesgohere'), quotesURL="https://rev.lunar.gay/assets/quotes.json";
+  const quotesEl = document.getElementById('quotesgohere'), quotesURL="https://lunartiger.github.io/assets/quotes.json";
   if(quotesEl){
     let quotesJson = null;
     try{
