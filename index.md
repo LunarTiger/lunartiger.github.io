@@ -23,7 +23,6 @@
 		username="rev-lunar.bsky.social"
 		mode="dark"
 		limit="5"
-		style="max-width:100%"
 	>
 	</bsky-embed>
 	<!--<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
