@@ -13,6 +13,6 @@
   {"name": "dedzed", "url": "https://dzhw.glitch.me/world.json", "button":"#880808", "text":"#000", "txtval":"Ded Zed's\nspaces"},
   {"name": "proxcyde", "url": "https://raw.githubusercontent.com/ProxCyde/Banter/main/urls.json", "button":"#000", "text":"#00fcff", "txtval":"ProxCyde's\nspaces"},
   {"name": "kbot", "url": "https://kbot-hub.glitch.me/my_spaceskbot.json", "button":"#f81894", "text":"#fff", "txtval":"KBOT's\nspaces"},
-  {"name": "various", "url": "https://lunartiger.github.io/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"},
-  {"name": "android-only", "url": "https://lunartiger.github.io/althub/portals_quest.json", "button":"#210000", "text":"#f00", "txtval":"Android\nonly\nspaces"}
+  {"name": "various", "url": "https://rev.lunar.gay/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"},
+  {"name": "android-only", "url": "https://rev.lunar.gay/althub/portals_quest.json", "button":"#210000", "text":"#f00", "txtval":"Android\nonly\nspaces"}
 ]
