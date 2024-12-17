@@ -1,6 +1,6 @@
 <script src="/assets/js/collapsible.js"></script>
 <section><div class="encase">
-	<form method="get" action="https://lunartiger.github.io/assets/Rev_Ryan_Fowler_Hughes.vcf">
+	<form method="get" action="https://rev.lunar.gay/assets/Rev_Ryan_Fowler_Hughes.vcf">
 		<button class="person" type="submit">contact card</button>
     </form>
 	<hr style="height:1px; visibility:hidden;" />
