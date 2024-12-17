@@ -9,7 +9,29 @@
 	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://story-time.bant.ing">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--></div>
 	<iframe id="musicembed" allow="encrypted-media" class="jsstuff" style="max-width:100%;height:0px;width:0px;border: 0px" allowfullscreen="true"></iframe>
 	<hr style="height:4px; visibility:hidden;" class="jsstuff">
-	<div id="links_or_something_idk" class="holder center">
+	<div class="holder center">
+		<nav>
+			<ul>
+				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/contact/snapchat.png" alt="Snapchat icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://www.twitch.tv/rev_lunar" target="_blank"><img src="/assets/img/contact/twitch.png" alt="Twitch icon" style="width:4em; height:4em;"></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="holder center">
+		<nav>
+			<ul>
+				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/pay/cashapp.png" alt="Cashapp icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/pay/kofi.png" alt="KoFi icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/pay/paypal.png" alt="PayPal icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://pay.revolut.com/profile/revlunar" target="_blank"><img src="/assets/img/pay/revolut.png" alt="Revolut icon" style="width:4em; height:4em;"></a></li>
+				<li><a href="https://account.venmo.com/u/rev_lunar" target="_blank"><img src="/assets/img/pay/venmo.png" alt="Venmo icon" style="width:4em; height:4em;"></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="holder center">
 		<nav>
 			<ul>
 				<li><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
