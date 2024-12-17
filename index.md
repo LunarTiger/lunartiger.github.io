@@ -21,10 +21,10 @@
 	<div class="holder center">
 		<nav>
 			<ul>
-				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/pay/cashapp.png" alt="Cashapp icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/pay/kofi.png" alt="KoFi icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/pay/paypal.png" alt="PayPal icon" style="width:3em; height:3em;"></a></li>
 				<li><a href="https://pay.revolut.com/profile/revlunar" target="_blank"><img src="/assets/img/pay/revolut.png" alt="Revolut icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/pay/cashapp.png" alt="Cashapp icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/pay/paypal.png" alt="PayPal icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/pay/kofi.png" alt="KoFi icon" style="width:3em; height:3em;"></a></li>
 				<li><a href="https://account.venmo.com/u/rev_lunar" target="_blank"><img src="/assets/img/pay/venmo.png" alt="Venmo icon" style="width:3em; height:3em;"></a></li>
 			</ul>
 		</nav>
