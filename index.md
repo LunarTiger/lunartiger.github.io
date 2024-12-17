@@ -23,7 +23,8 @@
 		<bsky-embed
 			username="rev-lunar.bsky.social"
 			mode="dark"
-			limit="10"
+			limit="5"
+			style="max-width:100%"
 		>
 		</bsky-embed>
 	</div>
