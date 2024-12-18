@@ -6,7 +6,7 @@
 	<div id="mom" class="holder center">
 		<h3 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
 	</div>
-	<div class="holder center">
+	<div class="holder center" style="width:fit-content">
 		<nav>
 			<ul>
 				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:2.5em; height:2.5em;"></a></li>
@@ -18,7 +18,7 @@
 			</ul>
 		</nav>
 	</div>
-	<div class="holder center">
+	<div class="holder center" style="width:fit-content">
 		<nav>
 			<ul>
 				<li><a href="https://pay.revolut.com/profile/revlunar" target="_blank"><img src="/assets/img/pay/revolut.png" alt="Revolut icon" style="width:2.5em; height:2.5em;"></a></li>
