@@ -35,7 +35,7 @@
 		<nav>
 			<ul>
 				<li><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
-				<li><a href="https://lunartiger.github.io/banter" id="banter-spaces">My Banter Spaces</a></li>
+				<li><a href="https://rev.lunar.gay/banter" id="banter-spaces">My Banter Spaces</a></li>
 				<li><a href="https://lunar.bant.ing">tiny homepage</a></li>
 			</ul>
 		</nav>
