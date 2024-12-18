@@ -4,13 +4,13 @@
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<div id="mom" class="holder center">
-		<p><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></p>
+		<h3><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
 	</div>
 	<div class="holder center">
 		<nav>
 			<ul>
 				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://mas.to/@lunar" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:3em; height:3em;"></a></li>
 				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:3em; height:3em;"></a></li>
 				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:3em; height:3em;"></a></li>
 				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/contact/snapchat.png" alt="Snapchat icon" style="width:3em; height:3em;"></a></li>
@@ -47,6 +47,7 @@
 		limit="5"
 	>
 	</bsky-embed>
+	<hr style="height:4px; visibility:hidden;" class="jsstuff">
 	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://story-time.bant.ing">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--></div>
 	<!--<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
 		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="98%" height="569" style="max-width:369;" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=true"></iframe>
