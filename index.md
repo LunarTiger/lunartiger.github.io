@@ -4,28 +4,28 @@
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<div id="mom" class="holder center">
-		<h2 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h2>
+		<h3 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
 	</div>
 	<div class="holder center">
 		<nav>
 			<ul>
-				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/contact/snapchat.png" alt="Snapchat icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://www.twitch.tv/rev_lunar" target="_blank"><img src="/assets/img/contact/twitch.png" alt="Twitch icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/contact/snapchat.png" alt="Snapchat icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://www.twitch.tv/rev_lunar" target="_blank"><img src="/assets/img/contact/twitch.png" alt="Twitch icon" style="width:2em; height:2em;"></a></li>
 			</ul>
 		</nav>
 	</div>
 	<div class="holder center">
 		<nav>
 			<ul>
-				<li><a href="https://pay.revolut.com/profile/revlunar" target="_blank"><img src="/assets/img/pay/revolut.png" alt="Revolut icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/pay/cashapp.png" alt="Cashapp icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/pay/paypal.png" alt="PayPal icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/pay/kofi.png" alt="KoFi icon" style="width:3em; height:3em;"></a></li>
-				<li><a href="https://account.venmo.com/u/rev_lunar" target="_blank"><img src="/assets/img/pay/venmo.png" alt="Venmo icon" style="width:3em; height:3em;"></a></li>
+				<li><a href="https://pay.revolut.com/profile/revlunar" target="_blank"><img src="/assets/img/pay/revolut.png" alt="Revolut icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/pay/cashapp.png" alt="Cashapp icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/pay/paypal.png" alt="PayPal icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/pay/kofi.png" alt="KoFi icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://account.venmo.com/u/rev_lunar" target="_blank"><img src="/assets/img/pay/venmo.png" alt="Venmo icon" style="width:2em; height:2em;"></a></li>
 			</ul>
 		</nav>
 	</div>
