@@ -4,7 +4,7 @@
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
 	<div id="mom" class="holder center">
-		<h3><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
+		<h2 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h2>
 	</div>
 	<div class="holder center">
 		<nav>
