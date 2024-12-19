@@ -36,10 +36,13 @@
 			<ul>
 				<li><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
 				<li><a href="https://rev.lunar.gay/banter" id="banter-spaces">My Banter Spaces</a></li>
+				<li><a href="https://story-time.bant.ing">Story Time</a></li>
 				<li><a href="https://lunar.bant.ing">tiny homepage</a></li>
 			</ul>
 		</nav>
 	</div>
+	<hr class="jsstuff">
+	<h3 style="padding-top: 1em;" class="jsstuff"><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:1em; height:1em;"></a> Bluesky</h3>
 	<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
 	<bsky-embed
 		username="rev-lunar.bsky.social"
@@ -47,8 +50,7 @@
 		limit="5"
 	>
 	</bsky-embed>
-	<hr style="height:4px; visibility:hidden;" class="jsstuff">
-	<div id="story-time" class="holder center"><h2 style="padding-top: 1em;"><a href="https://story-time.bant.ing">Story Time</a></h2><!--<p id="bookSat"></p><p id="bookSun"></p>--></div>
+	<hr style="height:4px;" class="jsstuff">
 	<!--<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
 		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="98%" height="569" style="max-width:369;" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=true"></iframe>
 		<p style="font-size:10px;"><a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon-link" data-parent="social">open full timeline</a></p>
