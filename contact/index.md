@@ -8,7 +8,7 @@
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">rev_lunar</a></p>
 			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="Pmatrix" data-parent="openme">@rev_lunar:matrix.org</a></p>
-			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank" id="Pbluesky" data-parent="openme">rev-lunar.bsky.social</a></p>
+			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="Pbluesky" data-parent="openme">rev-lunar.bsky.social</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
 			<p>Signal:&nbsp; <a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank" id="Psignal" data-parent="openme">rev_lunar.69</a></p>
 		</div>
@@ -37,7 +37,7 @@
 					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
 					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
 				</div>
-			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank" id="bluesky" data-parent="social">rev-lunar.bsky.social</a></p>
+			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="bluesky" data-parent="social">rev-lunar.bsky.social</a></p>
 			<!--<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>-->
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>

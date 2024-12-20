@@ -9,7 +9,7 @@
 	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto; padding:0;">
 		<nav>
 			<ul>
-				<li><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://bsky.app/profile/rev.lunar.gay" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:2em; height:2em;"></a></li>
@@ -42,10 +42,10 @@
 		</nav>
 	</div>
 	<hr class="jsstuff">
-	<h3 style="padding-top: 1em;" class="jsstuff"><a href="https://bsky.app/profile/rev-lunar.bsky.social" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:1em; height:1em;"></a> Bluesky</h3>
+	<h3 style="padding-top: 1em;" class="jsstuff"><a href="https://bsky.app/profile/rev.lunar.gay" target="_blank"><img src="/assets/img/contact/bluesky.png" alt="Bluesky icon" style="width:1em; height:1em;"></a> Bluesky</h3>
 	<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
 	<bsky-embed
-		username="rev-lunar.bsky.social"
+		username="rev.lunar.gay"
 		mode="dark"
 		limit="5"
 	>
