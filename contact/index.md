@@ -8,7 +8,7 @@
 		<div id="preferred" class="innertext" data-parent="openme">
 			<p>Discord:&nbsp; <a href="https://discordapp.com/users/206291426932293634" target="_blank" id="Pdiscord" data-parent="openme">rev_lunar</a></p>
 			<p>Matrix:&nbsp; <a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank" id="Pmatrix" data-parent="openme">@rev_lunar:matrix.org</a></p>
-			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="Pbluesky" data-parent="openme">rev.lunar.gay</a></p>
+			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="Pbluesky" data-parent="openme">@rev.lunar.gay</a></p>
 			<p>Telegram:&nbsp; <a href="https://t.me/Rev_Lunar" target="_blank" id="Ptelegram" data-parent="openme">@Rev_Lunar</a></p>
 			<p>Signal:&nbsp; <a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank" id="Psignal" data-parent="openme">rev_lunar.69</a></p>
 		</div>
@@ -30,14 +30,7 @@
 		</div>
 	<button class="collapsible" id="social" data-parent="social" data-child="social-child">Social</button>
 		<div id="social-child" class="innertext" data-parent="social">
-			<hr style="height:1em; visibility:hidden;"/>
-			<button class="fakecollapsible" id="fediverse" data-parent="social" data-child="fediverse">Fediverse</button>
-				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
-					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">lunar@mas.to</a></p>
-					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
-					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
-				</div>
-			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="bluesky" data-parent="social">rev.lunar.gay</a></p>
+			<p>Bluesky:&nbsp; <a href="https://bsky.app/profile/rev.lunar.gay" target="_blank" id="bluesky" data-parent="social">@rev.lunar.gay</a></p>
 			<!--<p>Clapper:&nbsp; <a href="https://newsclapper.com/rev_lunar" id="clapper" data-parent="social">rev_lunar</a></p>-->
 			<p>Instagram:&nbsp; <a href="https://www.instagram.com/rev_lunar/" target="_blank" id="instagram" data-parent="social">rev_lunar</a></p>
 			<p>Reddit:&nbsp; <a href="https://www.reddit.com/user/LunarTiger69" target="_blank" id="reddit" data-parent="social">LunarTiger69</a></p>
@@ -47,6 +40,13 @@
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
 			<!--<p><del>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></del></p>
 			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>-->
+			<hr style="height:1em; visibility:hidden;"/>
+			<button class="fakecollapsible" id="fediverse" data-parent="social" data-child="fediverse">Fediverse</button>
+				<div id="fediverse-child" class="fakeinnertext" data-parent="fediverse">
+					<p>Mastodon:&nbsp; <a rel="me" href="https://mas.to/@lunar" target="_blank" id="mastodon" data-parent="social">lunar@mas.to</a></p>
+					<p>Pixelfed:&nbsp; <a rel="me" href="https://gram.social/lunar" target="_blank" id="pixelfed" data-parent="social">lunar@gram.social</a></p>
+					<!--<p>Calckey:&nbsp; <a rel="me" href="https://hell.social/@rev_lunar" target="_blank" id="calckey" data-parent="social">rev_lunar@hell.social</a></p>-->
+				</div>
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 		<div id="gaming-child" class="innertext" data-parent="gaming">
