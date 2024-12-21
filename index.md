@@ -13,6 +13,7 @@
 				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/contact/mastodon.png" alt="Mastodon icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/contact/discord.png" alt="Discord icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/contact/telegram.png" alt="Telegram icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank"><img src="/assets/img/contact/signal.png" alt="Signal icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/contact/snapchat.png" alt="Snapchat icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.twitch.tv/rev_lunar" target="_blank"><img src="/assets/img/contact/twitch.png" alt="Twitch icon" style="width:2em; height:2em;"></a></li>
 			</ul>
