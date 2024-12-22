@@ -84,12 +84,13 @@
 	<button class="collapsible" id="other" data-parent="other" data-child="other-child">Other</button>
 		<div id="other-child" class="innertext" data-parent="other">
 			<p><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="wishlist" data-parent="other">Amazon Wishlist</a></p>
-			<p>OnlyFans:&nbsp; <a href="https://onlyfans.com/rev_lunar" target="_blank" id="onlyfans" data-parent="other">@rev_lunar</a></p>
 			<p>Phone:&nbsp; <a href="tel:+15406926899" id="phone" data-parent="other">1-540-692-6899</a></p>
 			<p>YouTube:&nbsp; <a href="https://www.youtube.com/@rev_lunar" target="_blank" id="youtube" data-parent="other">@rev_lunar</a></p>
 			<p>SoundCloud:&nbsp; <a href="https://soundcloud.com/rev_lunar" target="_blank" id="soundcloud" data-parent="other">Rev. Lunar</a></p>
 			<p>Spotify:&nbsp; <a href="spotify:user:tet6uf8yxoga59316ykeisk45" id="spotify" data-parent="other">Rev. Lunar</a></p>
 			<p>GitHub:&nbsp; <a href="https://github.com/LunarTiger" target="_blank" id="github" data-parent="other">LunarTiger</a></p>
+			<p>OnlyFans:&nbsp; <a href="https://onlyfans.com/rev_lunar" target="_blank" id="onlyfans" data-parent="other">@rev_lunar</a></p>
+			<p>FetLife:&nbsp; <a href="https://fetlife.com/users/20659127" target="_blank" id="fetlife" data-parent="other">Rev_Lunar</a></p>
 			<!--
 				<p>E-mail:&nbsp; <a href="mailto:lunar@benvr.co.uk" target="_top" id="email" data-parent="other">lunar@benvr.co.uk</a></p>
 			-->
