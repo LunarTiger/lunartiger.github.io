@@ -51,12 +51,7 @@
 	<hr class="jsstuff">
 	<h3 style="padding-top: 1em;" class="jsstuff"><a href="https://bsky.app/profile/rev.lunar.gay" target="_blank"><img src="/assets/img/app/bluesky.png" alt="Bluesky icon" style="width:1em; height:1em;"></a> Bluesky</h3>
 	<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-	<bsky-embed
-		username="rev.lunar.gay"
-		mode="dark"
-		limit="5"
-	>
-	</bsky-embed>
+	<bsky-embed username="rev.lunar.gay" mode="dark" limit="5" style="text-align:left;"></bsky-embed>
 	<hr style="height:4px;" class="jsstuff">
 	<!--<div id="mastodon" class="holder center" style="padding: 8px 1% 0;">
 		<iframe id="mastodon-feed" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="98%" height="569" style="max-width:369;" src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmas.to%2Fusers%2Flunar&theme=dark&size=77&header=false&replies=false&boosts=true"></iframe>
