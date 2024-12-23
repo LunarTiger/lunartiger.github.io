@@ -19,7 +19,7 @@
       ["welcome to", "my website"]
     ];
     const projects_info = [];
-    const font_face = "https://lunartiger.github.io/assets/fonts/comic_sans/comic.ttf"
+    const font_face = "https://rev.lunar.gay/assets/fonts/comic_sans/comic.ttf"
     switch(window.location.pathname){
       case"/about":
         orderTablets("-2 0.055 -10", "0", "about-info", about_info);
@@ -46,7 +46,7 @@
     orderTablets("0 0.055 10", "180", "window-pathname", [["window.location.pathname", window.location.pathname]]);
     let quotesJson = null;
     try{
-      const quotes = await fetch('https://lunartiger.github.io/assets/quotes.json');
+      const quotes = await fetch('https://rev.lunar.gay/assets/quotes.json');
       quotesJson = await quotes.json();
     }catch{};
     if(!!quotesJson){orderTablets("-10 0 0", "90", "quote-tablet", [[quotesJson[Math.round(Math.random()*(quotesJson.length-1))]]]);};
@@ -100,9 +100,9 @@ async function orderTablets(position, rotation, group_id, this_info) {
 }
 
 async function projectPortals(position, rotation) {
-  //const portals = await fetch('https://lunartiger.github.io/banter/my_spaces.json');
+  //const portals = await fetch('https://rev.lunar.gay/banter/my_spaces.json');
   //const portalJson = await portals.json();
-  const portalJson = ["https://lunartiger.github.io/banter"];
+  const portalJson = ["https://rev.lunar.gay/banter"];
   const portalParent = makeProjectPortals('project-portals', portalJson, position, rotation);
   portalParent.setAttribute('visible', true);
 }

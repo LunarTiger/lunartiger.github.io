@@ -10,10 +10,10 @@ state.on('value', (function(snapshot) {
 	id.on('value', (function(snapshot) {
 		var idVal = snapshot.val();
 		if(!stateVal){
-			document.getElementById('wormsembed').src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+			document.getElementById('wormsembed').src = "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ";
 		}
 		else{
-			document.getElementById('wormsembed').src = "https://www.youtube.com/embed/"+idVal;
+			document.getElementById('wormsembed').src = "https://www.youtube-nocookie.com/embed/"+idVal;
 		}
 	}));
 }));
