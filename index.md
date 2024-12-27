@@ -3,9 +3,6 @@
 <script src="/assets/js/home.js"></script>
 <section>
 	<script src="/assets/js/hash-redirect.js"></script>
-	<div id="mom" class="holder center">
-		<h3 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
-	</div>
 	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto; padding:0;">
 		<nav>
 			<ul>
@@ -20,6 +17,7 @@
 			<ul>
 				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/app/discord.png" alt="Discord icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank"><img src="/assets/img/app/signal.png" alt="Signal icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank"><img src="/assets/img/app/matrix.png" alt="Matrix icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/app/telegram.png" alt="Telegram icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/app/snapchat.png" alt="Snapchat icon" style="width:2em; height:2em;"></a></li>
 			</ul>
@@ -45,9 +43,11 @@
 				<li><a href="https://www.amazon.com/hz/wishlist/ls/3BFK7H90M9CFT" id="amazon-wishlist" target="_blank">Amazon Wishlist</a></li>
 				<li><a href="https://rev.lunar.gay/banter" id="banter-spaces">My Banter Spaces</a></li>
 				<li><a href="https://story-time.bant.ing">Story Time</a></li>
-				<li><a href="https://lunar.bant.ing">tiny homepage</a></li>
 			</ul>
 		</nav>
+	</div>
+	<div id="mom" class="holder center">
+		<h3 style="padding-top: 1em;"><a href="/mom" style="color:#0ff;">Shelva Washburn's Memorial Page</a></h3>
 	</div>
 	<hr>
 	<h3 style="padding-top: 1em;"><a href="https://bsky.app/profile/rev.lunar.gay" target="_blank"><img src="/assets/img/app/bluesky.png" alt="Bluesky icon" style="width:1em; height:1em;"></a> Bluesky</h3>
