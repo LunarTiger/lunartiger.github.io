@@ -1,8 +1,8 @@
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script src="/assets/js/home.js"></script>
+<script src="/assets/js/hash-redirect.js"></script>
 <section>
-	<script src="/assets/js/hash-redirect.js"></script>
 	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto; padding:0;">
 		<nav>
 			<ul>
@@ -16,8 +16,8 @@
 		<nav>
 			<ul>
 				<li><a href="https://discordapp.com/users/206291426932293634" target="_blank"><img src="/assets/img/app/discord.png" alt="Discord icon" style="width:2em; height:2em;"></a></li>
-				<li><a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank"><img src="/assets/img/app/signal.png" alt="Signal icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://matrix.to/#/@rev_lunar:matrix.org" target="_blank"><img src="/assets/img/app/matrix.png" alt="Matrix icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://signal.me/#eu/5wVHt-6sC3it1B4v4usgevbr8WQkYQEEG6h4ZkBmX45Qqwr4fTFJubT4UMPv2M3z" target="_blank"><img src="/assets/img/app/signal.png" alt="Signal icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://t.me/Rev_Lunar" target="_blank"><img src="/assets/img/app/telegram.png" alt="Telegram icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.snapchat.com/add/rev_lunar" target="_blank"><img src="/assets/img/app/snapchat.png" alt="Snapchat icon" style="width:2em; height:2em;"></a></li>
 			</ul>
