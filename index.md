@@ -8,6 +8,7 @@
 			<ul>
 				<li><a href="https://bsky.app/profile/rev.lunar.gay" target="_blank"><img src="/assets/img/app/bluesky.png" alt="Bluesky icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://mas.to/@lunar" rel="me" target="_blank"><img src="/assets/img/app/mastodon.png" alt="Mastodon icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://www.xiaohongshu.com/user/profile/6786c8a9000000000803d33d?xsec_token=YBU4DoMSwaisuAVPhnAaARuMP3Dndjre1sHds6eEeUSQ0=" target="_blank"><img src="/assets/img/app/xiaohongshu.png" alt="Xiaohongshu icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.twitch.tv/rev_lunar" target="_blank"><img src="/assets/img/app/twitch.png" alt="Twitch icon" style="width:2em; height:2em;"></a></li>
 			</ul>
 		</nav>
