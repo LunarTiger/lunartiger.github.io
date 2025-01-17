@@ -1,4 +1,4 @@
-<script src="/assets/js/collapsible.js"></script>
+﻿<script src="/assets/js/collapsible.js"></script>
 <section><div class="encase">
 	<form method="get" action="https://rev.lunar.gay/assets/Rev_Ryan_Fowler_Hughes.vcf">
 		<button class="person" type="submit">contact card</button>
@@ -38,7 +38,7 @@
 			<p>TikTok:&nbsp; <a href="https://tiktok.com/@rev_lunar" id="tiktok" data-parent="social">rev_lunar</a></p>
 			<p>Tumblr:&nbsp; <a href="https://tumblr.com/rev-lunar" id="tumblr" data-parent="social">rev-lunar</a></p>
 			<p>Twitch:&nbsp; <a href="https://www.twitch.tv/rev_lunar" target="_blank" id="twitch" data-parent="social">Rev_Lunar</a></p>
-			<li>Xiaohongshu:&nbsp; <a href="https://www.xiaohongshu.com/user/profile/6786c8a9000000000803d33d?xsec_token=YBU4DoMSwaisuAVPhnAaARuMP3Dndjre1sHds6eEeUSQ0=" target="_blank">rev_lunar</a></li>
+			<li>小红书:&nbsp; <a href="https://www.xiaohongshu.com/user/profile/6786c8a9000000000803d33d?xsec_token=YBU4DoMSwaisuAVPhnAaARuMP3Dndjre1sHds6eEeUSQ0=" target="_blank">rev_lunar</a></li>
 			<!--<p><del>Twitter:&nbsp; <a href="https://twitter.com/rev_lunar" target="_blank" id="twitter" data-parent="social">@rev_lunar</a></del></p>
 			<p>VSCO:&nbsp; <a href="https://vsco.co/rev-lunar" target="_blank" id="vsco" data-parent="social">rev-lunar</a></p>-->
 			<hr style="height:1em; visibility:hidden;"/>
