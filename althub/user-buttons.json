@@ -10,7 +10,6 @@
   {"name": "moopaloo", "url": "https://moopaloo-spaces.glitch.me/spaces.json", "button":"#000", "text":"#fff", "txtval":"Moopaloo's\nspaces"},
   {"name": "baem", "url": "https://baem-communityportal.glitch.me/code.json", "button":"#007371", "text":"#FFB44D", "txtval":"Baem's\nspaces"},
   {"name": "staticthreat", "url": "https://raw.githubusercontent.com/staticthreat/thepit/master/staticthreat.json", "button":"#0047AB", "text":"#D92121", "txtval":"staticthreat's\nspaces"},
-  {"name": "dedzed", "url": "https://dzhw.glitch.me/world.json", "button":"#880808", "text":"#000", "txtval":"Ded Zed's\nspaces"},
   {"name": "proxcyde", "url": "https://raw.githubusercontent.com/ProxCyde/Banter/main/urls.json", "button":"#000", "text":"#00fcff", "txtval":"ProxCyde's\nspaces"},
   {"name": "kbot", "url": "https://kbot-hub.glitch.me/my_spaceskbot.json", "button":"#f81894", "text":"#fff", "txtval":"KBOT's\nspaces"},
   {"name": "various", "url": "https://rev.lunar.gay/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"},
