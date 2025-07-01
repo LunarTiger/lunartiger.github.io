@@ -27,7 +27,7 @@
 	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto; padding:0;">
 		<nav>
 			<ul>
-				<li><a href="https://revolut.me/revlunar" target="_blank"><img src="/assets/img/app/revolut.png" alt="Revolut icon" style="width:2em; height:2em;"></a></li>
+				<li><a href="https://revolut.me/rev_lunar" target="_blank"><img src="/assets/img/app/revolut.png" alt="Revolut icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://cash.app/$revlunar" target="_blank"><img src="/assets/img/app/cashapp.png" alt="Cashapp icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://www.paypal.me/lunartiger" target="_blank"><img src="/assets/img/app/paypal.png" alt="PayPal icon" style="width:2em; height:2em;"></a></li>
 				<li><a href="https://ko-fi.com/rev_lunar" target="_blank"><img src="/assets/img/app/kofi.png" alt="KoFi icon" style="width:2em; height:2em;"></a></li>
