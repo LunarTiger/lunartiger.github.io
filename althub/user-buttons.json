@@ -4,6 +4,5 @@
   {"name": "virtualventure", "url": "https://cocktailsndreams.neocities.org/my_spaces.json", "button":"#f60b8b", "text":"#01fe1a", "txtval":"Virtual\nVenture's\nspaces"},
   {"name": "staticthreat", "url": "https://raw.githubusercontent.com/staticthreat/thepit/master/staticthreat.json", "button":"#0047AB", "text":"#D92121", "txtval":"staticthreat's\nspaces"},
   {"name": "proxcyde", "url": "https://raw.githubusercontent.com/ProxCyde/Banter/main/urls.json", "button":"#000", "text":"#00fcff", "txtval":"ProxCyde's\nspaces"},
-  {"name": "various", "url": "https://rev.lunar.gay/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"},
-  {"name": "android-only", "url": "https://rev.lunar.gay/althub/portals_quest.json", "button":"#210000", "text":"#f00", "txtval":"Android\nonly\nspaces"}
+  {"name": "various", "url": "https://rev.lunar.gay/althub/portals_various.json", "button":"#002100", "text":"#0ff", "txtval":"Various\nspaces"}
 ]
