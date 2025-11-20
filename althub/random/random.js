@@ -16,7 +16,7 @@ addEventListener("DOMContentLoaded", async() => {
 
 async function randomSpace() {
   let hub = 'banter://hub.bant.ing';
-  const raw_users = await fetch('https://lunartiger.github.io/althub/user-buttons.json');
+  const raw_users = await fetch('https://rev.lunar.gay/althub/user-buttons.json');
   if(!raw_users){return hub;}
   const users = await raw_users.json();
   if(!users){return hub;}
