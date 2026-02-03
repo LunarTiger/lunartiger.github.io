@@ -11,7 +11,7 @@
 			</ul>
 		</nav>
 	</div>
-	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto; padding:0;">
+	<div class="holder center" style="width:fit-content; margin-right:auto; margin-left:auto;">
 		<p>Chime:&nbsp; <span style="color:#0ac139;" id="chime" data-parent="payme">$rev-lunar</span></p>
 	</div>
 	<div class="encase"></div>
