@@ -25,7 +25,7 @@
 					<li><a href="/assets/fonts/comic_sans/comici.ttf" target="_blank">comici.ttf</a> - italic</li>
 					<li><a href="/assets/fonts/comic_sans/comicz.ttf" target="_blank">comicz.ttf</a></li>
 				</ul>
-			<h4 id="lexend">lexend<h4>
+			<h4 id="lexend">lexend</h4>
 				<ul>
 					<li><a href="/assets/fonts/lexend/Lexend.ttf" target="_blank">Lexend.ttf</a></li>
 					<li><a href="/assets/fonts/lexend/LexendDeca-Regular.ttf" target="_blank">LexendDeca-Regular.ttf</a></li>
