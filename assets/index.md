@@ -31,13 +31,13 @@
 					<li><a href="/assets/fonts/lexend/LexendDeca-Regular.ttf" target="_blank">LexendDeca-Regular.ttf</a></li>
 					<li><a href="/assets/fonts/lexend/OFL.txt" target="_blank">OFL.txt</a></li>
 				</ul>
-		<!--<h3 id="img">img<h3>
-			<h4 id="app">app<h4>
+		<!--<h3 id="img">img</h3>
+			<h4 id="app">app</h4>
 			<ul>
 				<li><a href="/assets/fonts/lexend/Lexend.ttf" target="_blank">Lexend.ttf</a></li>
 			</ul>
 		<!---->
-		<h3 id="js">js<h3>
+		<h3 id="js">js</h3>
 			<ul>
 				<li><a href="/assets/js/add-quotes.js" target="_blank">add-quotes.js</a></li>
 				<li><a href="/assets/js/collapsible.js" target="_blank">collapsible.js</a></li>
