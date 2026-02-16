@@ -1,6 +1,7 @@
 <section><div class="encase">
     <noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2></noscript>
-    <div class="holder">
+    <button class="fakecollapsible" id="assets" data-parent="assets" data-child="assets-child">assets</button>
+	<div id="assets-child" class="fakeinnertext" data-parent="assets">
 		<ul>
 			<li><a href="/assets/quotes.json" target="_blank">quotes.json</a></li>
 			<li><a href="/assets/resume.pdf" target="_blank">resume.pdf</a></li>
@@ -18,7 +19,7 @@
 				<li><a href="/assets/cursors/trans_cursor.cur" target="_blank">trans_cursor.cur</a></li>
 			</ul>
 		<h3 id="fonts">fonts</h3>
-			<h4 id="comic_sans">comic sans</h4>
+			<h4 id="comic_sans">comic_sans</h4>
 				<ul>
 					<li><a href="/assets/fonts/comic_sans/comic.ttf" target="_blank">comic.ttf</a></li>
 					<li><a href="/assets/fonts/comic_sans/comicbd.ttf" target="_blank">comicbd.ttf</a> - bold</li>
