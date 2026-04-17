@@ -2,8 +2,6 @@
 <section><div class="encase">
 	<noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2></noscript>
 	<div class="jsstuff">
-	<p><a id="banter-spaces" href="/banter">Banter Spaces</a></p>
-	<p><a id="stwl" href="/stwl">Story Time with Lunar</a></p>
 	<hr style="height:1px; visibility:hidden;" />
 	<button class="collapsible" id="baby-shark" data-parent="baby-shark" data-child="baby-shark-child">Baby Shark</button>
 		<div id="baby-shark-child" class="innertext center" data-parent="baby-shark">
@@ -20,6 +18,8 @@
 		</div>
 	<button class="collapsible" id="unmaintained" data-parent="unmaintained" data-child="unmaintained-child">Unmaintained</button>
 		<div id="unmaintained-child" class="innertext center" data-parent="unmaintained">
+			<p><a id="banter-spaces" href="/banter" data-parent="unmaintained">Banter Spaces</a></p>
+			<p><a id="stwl" href="/stwl" data-parent="unmaintained">Story Time with Lunar</a></p>
 			<p><a id="lar" href="/lar" data-parent="unmaintained">Lovense API Redirect</a></p>
 			<p><a id="transscience" href="https://linktr.ee/transScience" target="_blank" data-parent="unmaintained">Trans Science</a></p>
 		</div>

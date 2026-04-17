@@ -1,5 +1,5 @@
 <section><div class="encase">
-	<p>Communistic Anarchist<br>Professional Developer<br>Atheistic Satanist<br>Chaotic Good</p>
+	<p>Communistic Anarchist<br>Hobbyist Developer<br>Atheistic Satanist<br>Chaotic Good</p>
 	<hr style="height:1px; visibility:hidden;" />
 	<img class="jsstuff" style="border-radius: 50%;" src="/assets/img/me.gif" alt="Rev. Ryan" onmouseover="this.src='/assets/img/me.jpg';" onmouseout="this.src='/assets/img/me.gif';" height="275" width="275" />
 	<noscript><img style="border-radius: 50%;" src="/assets/img/me.jpg" alt="Rev. Ryan" height="275" width="275" /></noscript>
@@ -18,8 +18,8 @@
 			<p>IPD:&nbsp; 7.5cm (approx. 3in)</p>
 			<p>Shoe Size:&nbsp; 8, EUR 40.5, MEX 26</p>
 			<!--<p>Penis Size:&nbsp;&nbsp;8.5in (approx. 21.5 cm)</p>-->
-			<p>Employer:&nbsp; SideQuest</p>
-			<p>Role:&nbsp; Quality Assurance Engineer</p>
+			<p>Employer:&nbsp; Papa Johns</p>
+			<p>Role:&nbsp; Driver</p>
 		</div>
 	<div class="jsstuff">
 	<button class="collapsible" id="bdsmtest" data-parent="bdsmtest" data-child="bdsmtest-child">BDSM Test Results</button>
@@ -53,12 +53,12 @@
 			<p>24% Ageplayer</p>
 		</div>
 	</div><!-- this closes jsstuff -->
-	<button class="fakecollapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
+	<!--<button class="fakecollapsible" id="pet" data-parent="pet" data-child="pet-child">Pets</button>
 		<div id="pet-child" class="fakeinnertext" data-parent="pet">
 			<hr style="visibility:hidden;"/>
 			<p>Dog's Name:&nbsp; Max</p>
 			<p>Cats' Names:&nbsp; Bob & Precious</p>
-		</div>
+		</div> <!---->
 	<script src="/assets/js/collapsible.js"></script>
 </div></section>
 <script>(()=>{const a = document.getElementById('navabout'); if(!!a){a.style.backgroundColor = "#077"};})();</script>
