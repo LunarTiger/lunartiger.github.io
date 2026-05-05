@@ -236,6 +236,17 @@ div.foot {
     margin: 0 auto;
 }
 
+.dark-calendar-wrapper {
+  padding: 0px;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+.dark-calendar-wrapper iframe {
+  /* Inverts the colors and adjusts brightness to create a dark mode */
+  filter: invert(90%) hue-rotate(180deg) brightness(95%);
+}
+
 section {
     border: none;
 }
