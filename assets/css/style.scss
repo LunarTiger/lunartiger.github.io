@@ -208,6 +208,28 @@ div.container {
     margin: 0 auto;
 }
 
+div.clock {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+}
+
+div.leftside {
+        margin-right: 0;
+        display: inline-block;
+        border: 1px dashed #006900;
+}
+
+div.rightside {
+        margin-left:0;
+        display: inline-block;
+        border: 1px dashed #006900;
+}
+
 div.foot {
     max-width: 95%;
     max-height: 100%;
