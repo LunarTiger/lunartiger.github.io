@@ -1,4 +1,4 @@
-<section><div class="encase">
+<section><!--<div class="encase">-->
     <noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2></noscript>
     <!--<p style="color:#be0000">i work Monday-Thursday 13:00-21:30 UTC</p>-->
     <noscript><p style="color:#ff6900">[calendar goes here]</p></noscript>
@@ -37,7 +37,7 @@
 			</ul>
 		</nav>
 	</div>
-</div></section>
+<!--</div>--></section>
 <script>
   addEventListener("DOMContentLoaded", ()=>{
     if(!window.isBanter){
