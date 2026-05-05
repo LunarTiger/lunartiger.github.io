@@ -2,6 +2,30 @@
     <noscript><h2 style="color:#b00;">it's like 2012, just turn on javascript already</h2></noscript>
     <!--<p style="color:#be0000">i work Monday-Thursday 13:00-21:30 UTC</p>-->
     <noscript><p style="color:#ff6900">[calendar goes here]</p></noscript>
+<!-- clocks start here -->
+<div class="clock center">
+        <div class="clock leftside center" style="float">
+                <p>UTC</p>
+                <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n1440/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
+        </div>
+        <div class="clock leftside center">
+                <p>Eastern, US</p>
+                <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n179/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
+        </div>
+        <div class="clock rightside center">
+                <p>Pacific, US</p>
+                <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n137/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
+        </div>
+        <br>
+        <div class="clock leftside center">
+                <p>UK</p>
+                <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n136/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
+        </div>
+        <div class="clock rightside center">
+                <p>Germany</p>
+                <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n37/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
+        </div>
+</div><!-- clocks end here -->
 	<p id="calendar-embed"></p>
     <div class="holder center">
 		<nav>
