@@ -27,7 +27,9 @@
                 <iframe src="https://freesecure.timeanddate.com/clock/i6hjhu2u/n37/fn12/fs18/fc00be00/tc000/pct/ftb/bas2/bac006900/pa4/tt0/tw0/tm1/td2/th1/ts1/ta1/tb4" frameborder="0" width="147" height="48" allowTransparency="true"></iframe>
         </div>
 </div><!-- clocks end here -->
-	<p id="calendar-embed"></p>
+ <div class="dark-calendar-wrapper">
+	 <p id="calendar-embed"></p>
+ </div>
     <div class="holder center">
 		<nav>
 			<ul>
