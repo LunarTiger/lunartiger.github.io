@@ -50,10 +50,10 @@
 		</div>
 	<button class="collapsible" id="gaming" data-parent="gaming" data-child="gaming-child">Gaming</button>
 		<div id="gaming-child" class="innertext" data-parent="gaming">
-			<!--<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>
-			<p>New Leaf:&nbsp; <span style="color:#0ac139;" id="newleaf" data-parent="gaming">7265 6552 659</span></p>-->
+			<!--<p>IMVU:&nbsp; <a href="https://www.imvu.com/next/av/LunarTiger69/" target="_blank" id="imvu" data-parent="gaming">LunarTiger69</a></p>-->
+			<p>Nintendo Friend Code:&nbsp; <span style="color:#0ac139;" id="nintendo" data-parent="gaming">SW-4792-7093-7222</span></p>
 			<p>Oculus:&nbsp; <a href="https://horizon.meta.com/profile/rev_lunar/" id="oculus" data-parent="gaming">rev_lunar</a></p>
-			<!--<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>-->
+			<p>Pokemon Go:&nbsp; <span style="color:#0ac139;" id="pokemon" data-parent="gaming">8150 4169 4724</span></p>
 			<p>Rec Room:&nbsp; <span style="color:#0ac139;" id="recroom" data-parent="gaming">@Rev_Lunar</span></p>
 			<p>Second Life:&nbsp; <a href="https://my.secondlife.com/lunar.leifstrom" target="_blank" id="secondlife" data-parent="gaming">Lunar Leifstrom</a></p>
 			<p>SideQuest:&nbsp; <a href="https://sdq.st/lunar" target="_blank" id="sidequest" data-parent="gaming">Rev. Lunar</a></p>
