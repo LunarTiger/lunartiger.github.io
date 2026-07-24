@@ -208,10 +208,43 @@ div.container {
     margin: 0 auto;
 }
 
+div.clock {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+}
+
+div.leftside {
+        margin-right: 0;
+        display: inline-block;
+        border: 1px dashed #006900;
+}
+
+div.rightside {
+        margin-left:0;
+        display: inline-block;
+        border: 1px dashed #006900;
+}
+
 div.foot {
     max-width: 95%;
     max-height: 100%;
     margin: 0 auto;
+}
+
+.dark-calendar-wrapper {
+  padding: 0px;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+.dark-calendar-wrapper iframe {
+  /* Inverts the colors and adjusts brightness to create a dark mode */
+  filter: invert(90%) hue-rotate(180deg) brightness(95%);
 }
 
 section {
